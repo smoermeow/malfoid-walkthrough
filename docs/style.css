@@ -219,3 +219,23 @@ footer .brand { margin-top: 4px; }
   section { break-inside: avoid; }
   footer { display: block; color: black; }
 }
+
+/* Archive result-and-prompt layout. */
+.archive-layout { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 28px; align-items: start; margin-top: 20px; }
+.archive-result, .archive-prompt { min-width: 0; }
+.archive-output { margin: 0 0 20px; }
+.archive-output .image-link { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); }
+.archive-output img { width: auto; max-width: 100%; height: auto; max-height: 520px; object-fit: contain; margin-inline: auto; }
+.archive-output video { width: 100%; object-fit: contain; }
+.archive-output figcaption { color: var(--muted); font-size: 13px; margin-top: 10px; }
+.archive-prompt > details.prompt { border-top: 0; padding-top: 0; }
+.archive-prompt > details.prompt > summary { padding-top: 0; }
+.archive-prompt pre { margin-top: 8px; }
+.archive-inputs .ref-thumbs video { width: 120px; }
+.archive-no-output { color: var(--muted); font-size: 14px; }
+.archive-layout-text { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+.archive-layout-text .archive-inputs { max-width: 700px; }
+@media (max-width: 760px) {
+  .archive-layout { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .archive-output img { max-height: 460px; }
+}

@@ -3,5 +3,16 @@ const onReady=()=>{
  document.querySelectorAll('pre').forEach(pre=>{const b=document.createElement('button');b.className='copy-button';b.type='button';b.textContent='Copy text';b.addEventListener('click',async()=>{const t=pre.querySelector('code')?.textContent||pre.textContent;try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(t)}else{const a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.append(a);a.select();if(!document.execCommand('copy'))throw Error('clipboard');a.remove()}b.textContent='Copied';setTimeout(()=>b.textContent='Copy text',1500)}catch{b.textContent='Use the exact-text download'}});pre.before(b)});
  document.querySelectorAll('[data-filter-root]').forEach(root=>{const q=root.querySelector('[data-search]'),select=root.querySelector('[data-select]'),items=[...root.querySelectorAll('[data-filter-item]')],count=root.querySelector('[data-count]');function filter(){const text=(q?.value||'').trim().toLowerCase(),kind=select?.value||'all';let n=0;items.forEach(item=>{const ok=(!text||item.textContent.toLowerCase().includes(text))&&(kind==='all'||item.dataset.category===kind||item.dataset.featured===kind);item.hidden=!ok;if(ok)n++});if(count)count.textContent=n+' of '+items.length+' entries'}q?.addEventListener('input',filter);select?.addEventListener('change',filter);filter()});
  function revealHash(){const id=decodeURIComponent(location.hash.slice(1)),target=document.getElementById(id);if(target?.hidden){const root=target.closest('[data-filter-root]'),s=root?.querySelector('[data-select]'),q=root?.querySelector('[data-search]');if(q)q.value='';if(s){s.value='all';s.dispatchEvent(new Event('change'))}}if(target){let parent=target.parentElement;while(parent){if(parent.tagName==='DETAILS')parent.open=true;parent=parent.parentElement}if(target.tagName==='DETAILS')target.open=true}}revealHash();window.addEventListener('hashchange',revealHash);
+
+ // Load archive video metadata only when its result is near the viewport.
+ const archiveVideos = document.querySelectorAll('.archive-result video[preload="none"]');
+ if ('IntersectionObserver' in window) {
+  const archiveObserver = new IntersectionObserver(entries => {
+   entries.forEach(entry => {
+    if (entry.isIntersecting) { entry.target.preload = 'metadata'; entry.target.load(); archiveObserver.unobserve(entry.target); }
+   });
+  }, {rootMargin: '300px 0px'});
+  archiveVideos.forEach(video => archiveObserver.observe(video));
+ }
  document.querySelectorAll('table').forEach(t=>{const d=document.createElement('div');d.className='table-wrap';t.before(d);d.append(t)});
 };document.addEventListener('DOMContentLoaded',onReady);
