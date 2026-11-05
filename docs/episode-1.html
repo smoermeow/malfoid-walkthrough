@@ -1,0 +1,1179 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A source-linked production walkthrough of two retro-anime episodes, from script iteration through reference design and generation."><title>Episode 1 / generation walkthrough · Malfoid</title><meta name="theme-color" content="#0b0d10"><link rel="icon" type="image/png" href="brand/logo.png"><link rel="stylesheet" href="style.css"><script src="site.js" defer></script></head><body><a class="skip-link" href="#walkthrough-content">Skip to content</a><header><div class="masthead"><a class="brand" href="index.html" aria-label="Morderkai Studio — walkthrough overview"><img class="brand-logo" src="brand/logo.png" width="36" height="36" alt=""><span class="brand-name"><span class="brand-title">MORDERKAI <em>STUDIO</em></span><span class="brand-by">By smoermeow</span></span></a><div class="notebook-meta"><span class="notebook-label">Production notebooks</span><span class="draft">Production walkthrough</span></div></div><nav aria-label="Main navigation"><a href="index.html">Overview</a><a href="character-design.html">Images</a><a href="script-development.html">Scripting</a><a href="prompting.html">Prompting</a><a href="assets.html">References</a><a href="episode-1.html" aria-current="page">Episode 1</a><a href="episode-2.html">Episode 2</a><a href="skills.html">Skills</a><a href="prompt-archive.html">Archive</a></nav></header><main id="walkthrough-content"><p class="small"><a href="prompting.html">Read the starting briefs and prompting decisions →</a></p><p class="eyebrow">Generation walkthrough</p><h1>Episode 1 / generation walkthrough</h1><p class="lede">The finished episode, followed by its source sections, exact generation recipes, continuation inputs and version history.</p><video controls playsinline preload="metadata" src="media/episodes/episode-1-finished.mp4">Your browser cannot play this video. <a href="media/episodes/episode-1-finished.mp4" >Download the video</a></video><p class="small">My finished export · <a href="media/episodes/episode-1-finished.mp4" download="">Download native episode</a></p><aside class="note">All in-scope videos use Seedance 2.5 at 480p, as confirmed by the creator; no upscale mode was used. Exact provider identifiers remain in technical metadata. Original scripts, authoring revisions and submitted payloads are kept separate.</aside><section><h2>Three production sequences</h2><p><a href="archive/episode-1/scripts/episode-1-three-sequences-26-shots.md" >Read the supplied 26-shot, three-sequence script</a>. Prompt revisions changed timing and extended the farewell; the original story script is not rewritten to match every result.</p><div class="chapter-nav"><a href="#part-1">01 · Threat / Setup</a><a href="#part-2">02 · Reversal</a><a href="#part-3">03 · Farewell</a></div><section id="part-1"><h2>01 / Threat / Setup</h2><p>The completed source clip is identified. The nearby recovered authoring revision is shown as a candidate, with its authored references; an exact submitted-revision match is not invented. Whether the creator pasted it manually is irrelevant to the skill-written workflow.</p><details class="render" id="ep1-prompt-1-user-source" open><summary>Threat / Setup</summary><div class="render-body"><span class="tag">Shots 01–09</span><span class="tag">Seedance 2.5 · 480p</span><p class="status">Source clip identified by the creator; its exact ranges in the finished edit are not asserted.</p><video controls playsinline preload="none" src="media/renders/ep1-prompt-1.mp4">Your browser cannot play this video. <a href="media/renders/ep1-prompt-1.mp4" >Download the video</a></video><p><a href="media/renders/ep1-prompt-1.mp4" download="">Download native video</a> · <a href="archive/episode-1/authoring/01_threat_setup_wizards_v3.txt" >Open exact prompt text</a></p><p>Recovered authored candidate; exact submitted revision is not independently tied to this source clip.</p><details class="prompt" ><summary>Prompt text</summary><p class="file-actions"><a href="archive/episode-1/authoring/01_threat_setup_wizards_v3.txt" download="">Download exact text</a></p><pre><code>[TITLE]
+Threat / Setup
+
+[REFERENCES]
+@image1: Male 1.
+@image2: Male 2.
+@image3: Female 1.
+@image4: Malfoid.
+@image5: Evil Lord.
+@image6: Wizards — six other masked followers; Male 3 is a separate character.
+@image7: Courtyard establishing.
+@image8: Courtyard ground-level.
+@image9: Courtyard overhead.
+@image10: Male 3 — Malfoid’s father; hood-on appearance only.
+
+Character references define identity, clothing, colors, and equipment, not staging. Do not reproduce Male 1&#x27;s multi-view sheet, stacked portraits, the Wizards&#x27; seven-person comparison lineup, or the other characters&#x27; upright full-body display poses against pale backgrounds. Environment references define one courtyard&#x27;s architecture and materials, not mandatory camera positions. Populate that courtyard according to the shot sequence. For @image10, use only the right-hand hood-on, silver-masked appearance. Do not reproduce the paired full-body sheet, the unmasked face or the hood-off appearance.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes, selective perspective exaggeration. Strong anime impact frames only at key moments.
+
+[VISUAL FEEL]
+Deliberate, oppressive pacing. Heavy cloth, chipped stone, drifting ash, layered painted smoke. Held expressions retain breathing and subtle eye movement.
+
+[DURATION]
+28.5 seconds.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching @image1.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Black robe with burgundy lining, off-white shirt, loosened burgundy tie, charcoal V-neck sweater and trousers, brown lace-up shoes. Dirt and abrasions remain visible.
+State in this scene: Bruised and exhausted, cheek cut, blood at the corner of his mouth; grounded near the courtyard centre, partly supported on his left arm.
+Motion anchor: Never stands. His brown wooden wand stays in his right hand. Upward attention remains fixed on the Evil Lord except where specified.
+
+MALE 2:
+Base: Young man matching @image2.
+Features: Tousled ginger hair, pale freckled face, dark robe with burgundy lining, rumpled pale shirt, dark-red tie, charcoal sweater, worn dark trousers and black lace-up shoes.
+State in this scene: Down on the paving nearby; does not rise or intervene.
+
+FEMALE 1:
+Base: Young woman matching @image3.
+Features: Voluminous chestnut hair, brown eyes, cheek scratches. Black burgundy-lined robe, white shirt, burgundy tie, gray-purple sweater vest, dark pleated skirt, charcoal tights and black lace-up shoes.
+State in this scene: Down on the paving nearby; does not rise or intervene.
+
+MALFOID:
+Base: Young woman matching @image4.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black robe with forest-green lining, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, pleated skirt, dark tights and black loafers.
+Physics / personality / detail: Composed posture, economical movement, unreadable face.
+Motion anchor: Stands among the surrounding Wizards throughout this sequence, Male 3 directly behind her with one hand resting on each shoulder. Brown wand held in her right hand.
+
+MALE 3 — MALFOID’S FATHER:
+Base: Tall, lean male matching the hood-on appearance in @image10.
+Features: Raised black hood; elongated full-face silver mask with narrow black eye openings, central nose ridge and symmetrical engraved ornament. Pale silver-blond hair falls beside the mask. Long black robe with broad sleeves, dark diamond-patterned front trim, small silver chest fittings and a weathered ragged hem; dark high-collared shirt, fitted black waistcoat, black trousers and tall black boots. Bare pale hands; no gloves.
+Motion anchor: Stands directly behind Malfoid, one bare hand resting on each of her shoulders; silver-masked face visible above her head. Keeps his hood raised and mask on throughout.
+
+EVIL LORD:
+Base: Slender bald male matching @image5.
+Features: Pale gray-green skin, angular hollow cheeks, flattened slit-nostril nose, narrow red eyes, long bony fingers. Matte dark charcoal-olive robe, dark boots, pale tan wand in his right hand.
+Physics / personality / detail: Deliberate steps, controlled head movements, contempt expressed through a slight smile.
+Voice: Low male, smooth and controlled, aristocratic and precise; cold resonance, deliberate pacing, never gravelly.
+
+WIZARDS:
+Base: Exactly six other masked followers using six distinct costume variants from @image6; Male 3 is additional and uses his own reference.
+Features: Hooded charcoal, blue-gray, forest-green, olive, plum and teal robes; decorated ivory-gray full-face masks, dark gloves, heavy boots, varied belts and metal bracers. Brown wands where present in the reference.
+Motion anchor: Form an enclosing ring, not a straight lineup. Watch without advancing.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: One continuous location grounded in @image7, @image8 and @image9.
+Features: Roofless Gothic stone arcades, pointed arches, jagged broken walls, cracked blue-gray paving and a depressed rupture in the central stonework. Large fallen masonry stays near the perimeter; weak orange fires burn among side rubble. The broken rear arcade and smoke-softened central opening anchor depth.
+Blocking: Male 1 lies near the ring&#x27;s centre, with Male 2 and Female 1 down nearby. The Evil Lord advances toward Male 1. Malfoid stands within the surrounding ring, Male 3 directly behind her with one hand resting on each shoulder; the six other masked Wizards flank them farther back.
+Lighting: Cold blue moonlight dominates; localized orange fire spill, hard shadows and silver rim light cut through smoke.
+
+[SHOT SEQUENCE]
+00.0–02.0 — SHOT 01:
+Camera: Low close shot on boots and lower robes; controlled backward tracking.
+Action: The Evil Lord advances slowly and deliberately across broken stone. His robe hem drags and lifts around his boots.
+Lighting: Cold moonlight edges his robes; orange firelight flickers across the ground.
+VFX: Dust lifts with each step; embers drift through frame.
+SFX: Heavy footsteps, distant fire, robe movement.
+
+02.0–04.0 — SHOT 02:
+Camera: Static tight three-quarter frontal close-up on Male 1.
+Action: Male 1 remains grounded, partly propped on his left arm, bruised and breathing hard. He looks upward past camera-left.
+Lighting: Cool moonlight catches his eyes and glasses.
+VFX: Subtle line boil and drifting ash.
+SFX: Strained breathing beneath approaching footsteps.
+
+04.0–06.5 — SHOT 03:
+Camera: Eye-level medium-close shot; slow pan across surrounding Wizards, Malfoid near the centre.
+Action: Malfoid stands calm and unreadable among the group. Male 3 stands directly behind her with one hand resting on each of her shoulders, his hood raised and silver-masked face visible above her head; other masked Wizards flank them farther back.
+Dialogue: —
+SFX: Wind, robes shifting, faint leather creaks.
+Lighting: Firelight catches Male 3’s silver mask and pale hands against Malfoid’s white hair and black robe.
+VFX: Thin smoke drifts between foreground and background figures.
+
+06.5–09.0 — SHOT 04:
+Camera: Static slight low-angle medium shot on the Evil Lord.
+Action: He stops, looks downward past camera-right, and forms a thin contemptuous smile.
+Lighting: Hard moonlight rims his head and shoulders; faint firelight shapes his face.
+Dialogue: EVIL LORD; 「見ろ、この有様を。」
+Delivery: Quiet, elegant contempt; almost conversational, with precise measured diction.
+VFX: Smoke drifts behind his silhouette.
+SFX: His final footstep settles into silence.
+
+09.0–11.5 — SHOT 05:
+Camera: Static low three-quarter close shot, Male 1&#x27;s face above his wand hand in the lower foreground.
+Action: Male 1 keeps his eyes raised past camera-left. His right fingers tighten around his wand.
+Lighting: A narrow moonlit reflection crosses one lens without concealing his eyes.
+Dialogue: EVIL LORD; 「ここまで辿り着くために……」
+Delivery: Offscreen; smooth, reflective and unhurried, as though Male 1&#x27;s failure is already settled.
+VFX: Minimal held animation focused on eyes and tightening fingers.
+SFX: Male 1&#x27;s breathing and distant fire.
+
+11.5–15.0 — SHOT 06:
+Camera: Tilted overhead wide shot on the central group and surrounding Wizards; slow push-in.
+Action: Male 1 is on the ground near the centre of the ring. The Evil Lord stands over him while Male 2 and Female 1 remain down nearby; within the ring, Male 3 stands directly behind Malfoid with one hand resting on each of her shoulders.
+Dialogue: EVIL LORD; 「どれほどの者を巻き込み――」
+Delivery: Measured and theatrical, allowing the phrase to carry outward across the courtyard.
+SFX: Wind moves across the courtyard beneath his voice.
+Lighting: Moonlight defines the battlefield while scattered fires create warm pockets around the ring.
+VFX: Layered smoke crosses the courtyard at different depths.
+
+15.0–18.5 — SHOT 07:
+Camera: Medium rear three-quarter shot on the Evil Lord; slow pan as he turns toward the surrounding Wizards.
+Action: The Evil Lord theatrically turns his back on Male 1 and opens his stance toward his followers. Malfoid faces him among the group with Male 3 directly behind her, both hands still resting on her shoulders.
+Dialogue: EVIL LORD; 「どれほどの犠牲を積み重ねたことか。」
+Delivery: Grand and performative, lingering slightly on “犠牲” with ceremonial disdain.
+SFX: His robes sweep across the stone.
+Lighting: Moonlight edges the Evil Lord’s back while firelight catches Male 3’s silver mask behind Malfoid.
+VFX: Smoke curls around the Evil Lord’s turning silhouette.
+
+18.5–21.0 — SHOT 08:
+Camera: Slight low-angle medium shot; slow shallow arc without crossing the confrontation axis.
+Action: The Evil Lord turns back toward Male 1 and lowers his gaze past camera-right again.
+Lighting: His face moves from mixed firelight into colder moonlight.
+Dialogue: EVIL LORD; 「それでもなお――」
+Delivery: Quieter and colder, slowing slightly as theatrical warmth drains away.
+VFX: Background smoke softens behind him.
+SFX: His robes settle.
+
+21.0–28.5 — SHOT 09:
+Camera: Static over-the-shoulder medium shot from behind grounded Male 1.
+Action: The Evil Lord stands facing Male 1, wand raised and fully focused on him. Male 1 watches from the foreground without rising.
+Lighting: The Evil Lord remains darker in the midground, cold moonlight edging his silhouette.
+Dialogue: EVIL LORD; 「結局、お前の行き着く先は……最初から、ここ以外になかった。」
+Delivery: Slow, sinister certainty; controlled and deliberate. Allow the written pause, then land the final words like a verdict.
+VFX: Rack focus from Male 1&#x27;s foreground silhouette to the Evil Lord. Background motion reduces into a held tension beat.
+SFX: Low wind and faint cloth movement.
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Only the specified Japanese dialogue, breathing, footsteps, cloth, wind and distant fire. The Evil Lord&#x27;s speech remains intelligible above the environment.
+Continuity: Match opposing eyelines: Male 1 looks upward past camera-left; the Evil Lord looks downward past camera-right. Preserve the overhead-established geography. Male 1&#x27;s wounds, glasses, wardrobe and right-hand wand never reset.
+Critical constraint: The surrounding group consists of Malfoid and exactly seven masked Wizards: Male 3 plus six others. Male 3 is not duplicated from @image6. His hood stays raised and silver mask stays on; both bare hands remain on Malfoid’s shoulders. Malfoid remains among the followers. No attack, rescue, collapse or magical discharge occurs in this sequence. Reference sheets never become scene compositions.
+Animation style: Controlled cel-anime holds, restrained line boil, articulated eyes and cloth. No impact frames during the speech.
+Avoid: Jitter, bent or distorted limbs, temporal flicker, identity drift, chaotic composition, inconsistent features, duplicated characters, reference-image display poses, subtitles and added dialogue.
+</code></pre></details><h4>Reference inputs in order</h4><p class="small">Authored reference order; original submission receipt not available.</p><ol class="references"><li><code>@image1</code> · Male 1 · <a href="media/images/codex_male_1_redesign_sheet_v1.png" >Open native image</a> · <a href="assets.html#I020" >design recipe</a></li><li><code>@image2</code> · Male 2 · <a href="media/images/krea_male_2_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I017" >design recipe</a></li><li><code>@image3</code> · Female 1 · <a href="media/images/krea_female_1_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I018" >design recipe</a></li><li><code>@image4</code> · Malfoid · <a href="media/images/krea_malfoid_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I021" >design recipe</a></li><li><code>@image5</code> · Evil Lord · <a href="media/images/krea_evil_lord_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I019" >design recipe</a></li><li><code>@image6</code> · Death Eaters / Wizards · <a href="media/images/codex_death_eaters_sheet_v1.png" >Open native image</a> · <a href="assets.html#I015" >design recipe</a></li><li><code>@image7</code> · Courtyard establishing · <a href="media/images/krea_courtyard_establishing_v1.png" >Open native image</a> · <a href="assets.html#I008" >design recipe</a></li><li><code>@image8</code> · Courtyard ground-level · <a href="media/images/krea_courtyard_ground_v1.png" >Open native image</a> · <a href="assets.html#I009" >design recipe</a></li><li><code>@image9</code> · Courtyard overhead · <a href="media/images/krea_courtyard_overhead_v1.png" >Open native image</a> · <a href="assets.html#I010" >design recipe</a></li><li><code>@image10</code> · Male 3, hood-on identity added by the user · <a href="media/images/codex_male_3_hood_on_off_sheet_v1.png" >Open native image</a> · <a href="assets.html#I022" >design recipe</a></li></ol><div class="ref-thumbs"><figure><a class="image-link" href="media/images/codex_male_1_redesign_sheet_v1.png"><img loading="lazy" src="media/images/codex_male_1_redesign_sheet_v1.png" alt="Male 1"></a><figcaption>@image1</figcaption></figure><figure><a class="image-link" href="media/images/krea_male_2_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_male_2_description_redesign_v1.png" alt="Male 2"></a><figcaption>@image2</figcaption></figure><figure><a class="image-link" href="media/images/krea_female_1_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_female_1_description_redesign_v1.png" alt="Female 1"></a><figcaption>@image3</figcaption></figure><figure><a class="image-link" href="media/images/krea_malfoid_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_malfoid_description_redesign_v1.png" alt="Malfoid"></a><figcaption>@image4</figcaption></figure><figure><a class="image-link" href="media/images/krea_evil_lord_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_evil_lord_description_redesign_v1.png" alt="Evil Lord"></a><figcaption>@image5</figcaption></figure><figure><a class="image-link" href="media/images/codex_death_eaters_sheet_v1.png"><img loading="lazy" src="media/images/codex_death_eaters_sheet_v1.png" alt="Death Eaters / Wizards"></a><figcaption>@image6</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_establishing_v1.png"><img loading="lazy" src="media/images/krea_courtyard_establishing_v1.png" alt="Courtyard establishing"></a><figcaption>@image7</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_ground_v1.png"><img loading="lazy" src="media/images/krea_courtyard_ground_v1.png" alt="Courtyard ground-level"></a><figcaption>@image8</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_overhead_v1.png"><img loading="lazy" src="media/images/krea_courtyard_overhead_v1.png" alt="Courtyard overhead"></a><figcaption>@image9</figcaption></figure><figure><a class="image-link" href="media/images/codex_male_3_hood_on_off_sheet_v1.png"><img loading="lazy" src="media/images/codex_male_3_hood_on_off_sheet_v1.png" alt="Male 3, hood-on identity added by the user"></a><figcaption>@image10</figcaption></figure></div><p><a href="archive/episode-1/authoring/01_threat_setup_wizards_v3.authoring.md" >Authoring document, breakdown and revision notes</a> <span class="small">(only local upload/setup paths made portable)</span></p><details><summary>Settings and technical provenance</summary><pre><code>{
+  &quot;model&quot;: &quot;Seedance 2.5&quot;,
+  &quot;resolution&quot;: &quot;480p&quot;,
+  &quot;display_model&quot;: &quot;Seedance 2.5&quot;,
+  &quot;display_resolution&quot;: &quot;480p&quot;
+}</code></pre><p class="small">Creator confirmed the same model and resolution for both episodes.</p><p class="source-hash">Video SHA-256: fa61f8fe02fb301b49f84fc0124f45530dd558d93f01398bdfcbdb5d164cc239</p></details></div></details></section><section id="part-2"><h2>02 / Reversal / Malfoid Takes Control</h2><p>The completed source clip is identified. The nearby recovered authoring revision is shown as a candidate, with its authored references; an exact submitted-revision match is not invented. Whether the creator pasted it manually is irrelevant to the skill-written workflow.</p><details class="render" id="ep1-prompt-2-user-source" open><summary>Reversal / Malfoid Takes Control</summary><div class="render-body"><span class="tag">Shots 10–18</span><span class="tag">Seedance 2.5 · 480p</span><p class="status">Source clip identified by the creator; its exact ranges in the finished edit are not asserted.</p><video controls playsinline preload="none" src="media/renders/ep1-prompt-2.mp4">Your browser cannot play this video. <a href="media/renders/ep1-prompt-2.mp4" >Download the video</a></video><p><a href="media/renders/ep1-prompt-2.mp4" download="">Download native video</a> · <a href="archive/episode-1/authoring/02_reversal_malfoid_takes_control_seedance_v4_continuation_v5.txt" >Open exact prompt text</a></p><p>Recovered authored candidate; exact submitted revision is not independently tied to this source clip.</p><details class="prompt" ><summary>Prompt text</summary><p class="file-actions"><a href="archive/episode-1/authoring/02_reversal_malfoid_takes_control_seedance_v4_continuation_v5.txt" download="">Download exact text</a></p><pre><code>[PROMPT START]
+Continue from @video1.
+
+[TITLE]
+Reversal / Malfoid Takes Control
+
+[REFERENCES]
+@video1: Video continuation reference for character state, environment, spatial continuity, visual style and established voices.
+@image1: Male 1.
+@image2: Male 2.
+@image3: Female 1.
+@image4: Malfoid.
+@image5: Evil Lord.
+@image6: Wizards — six other masked followers; Male 3 is a separate character.
+@image7: Courtyard ground-level.
+@image8: Courtyard overhead.
+@image9: Male 3 — Malfoid’s father; hood-on appearance only.
+
+Character references define identity, clothing, colors, and equipment, not staging. Do not reproduce Male 1&#x27;s repeated turnaround figures, the Wizards&#x27; side-by-side costume lineup, or the upright full-body display poses and pale backgrounds of the other references. Environment references define the ruined courtyard&#x27;s architecture and materials; the shot sequence defines camera placement and action. For @image9, use only the right-hand hood-on, silver-masked appearance. Do not reproduce the paired full-body sheet, the unmasked face or the hood-off appearance.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes, selective perspective exaggeration. Strong impact frames only for the blitz and curse.
+
+[VISUAL FEEL]
+A sharp rupture in held tension, followed by increasingly intimate stillness. Heavy cloth, green afterimage, drifting dust, dark painted backgrounds.
+
+[DURATION]
+30.0 seconds.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching @image1.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Dirt-marked black robe with burgundy lining, off-white shirt, loosened burgundy tie, charcoal sweater and trousers, brown lace-up shoes.
+State in this scene: Bruised and exhausted, cheek cut and blood at the mouth corner. On the ground, partly supported on his left arm; brown wooden wand in his right hand.
+Motion anchor: Never stands. His wand rises only slightly when Malfoid approaches. He stays physically guarded, then freezes at her closeness.
+Voice: Young male, clear and natural, exhaustion slightly roughening a grounded mid-range tone; emotionally direct, restrained intensity.
+
+MALFOID:
+Base: Young woman matching @image4.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black forest-green-lined robe, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, pleated skirt, dark tights and black loafers.
+State in this scene: Initially among the surrounding followers, Male 3 directly behind her with one hand on each shoulder; composed, uninjured, brown wand in her right hand.
+Physics / personality / detail: Explosive entry followed by measured steps, precise hands and an unreadable face.
+Motion anchor: Her wand remains in her right hand. She uses her free left hand for Male 1&#x27;s chin and mouth. No kiss.
+Voice: Young female, cool and composed, smooth and slightly low-pitched; precise articulation, understated confidence, dry lightly teasing edge rather than softness.
+
+MALE 3 — MALFOID’S FATHER:
+Base: Tall, lean male matching the hood-on appearance in @image9.
+Features: Raised black hood; elongated full-face silver mask with narrow black eye openings, central nose ridge and symmetrical engraved ornament. Pale silver-blond hair falls beside the mask. Long black robe with broad sleeves, dark diamond-patterned front trim, small silver chest fittings and a weathered ragged hem; dark high-collared shirt, fitted black waistcoat, black trousers and tall black boots. Bare pale hands; no gloves.
+State in this scene: Within the surrounding ring at the opening, directly behind Malfoid with one hand on each of her shoulders. When the battlefield is revealed in Shot 12, he is down and motionless among the six other masked Wizards.
+Motion anchor: Does not accompany Malfoid’s blitz. Shoulder contact does not persist after she moves away. His takedown is not shown; hood and full-face silver mask remain on.
+
+EVIL LORD:
+Base: Slender bald male matching @image5.
+Features: Pale gray-green skin, hollow angular face, slit-nostril nose, narrow red eyes, bony fingers. Matte dark charcoal-olive robe, dark boots, pale tan wand in his right hand.
+State in this scene: Standing over grounded Male 1 with wand raised toward him.
+Voice: Low male, smooth and controlled, aristocratic and precise, cold resonant presence; forceful attack followed by a quiet break of disbelief.
+
+MALE 2:
+Base: Young man matching @image2.
+Features: Ginger hair, pale freckled face, burgundy-lined dark robe, pale shirt, dark-red tie, charcoal sweater, worn trousers and black lace-up shoes.
+Motion anchor: Remains down nearby throughout; no intervention.
+
+FEMALE 1:
+Base: Young woman matching @image3.
+Features: Voluminous chestnut hair, brown eyes, scratched cheeks, burgundy-lined black robe, white shirt, burgundy tie, gray-purple sweater vest, dark pleated skirt, tights and black lace-up shoes.
+Motion anchor: Remains down nearby throughout; no intervention.
+
+WIZARDS:
+Base: Exactly six other masked followers using six distinct costume variants from @image6; Male 3 is additional and uses his own reference.
+Features: Varied dark hooded robes in charcoal, blue-gray, green, olive, plum and teal; decorated ivory-gray masks, dark gloves, boots, belts and selected metal bracers.
+State in this scene: Standing in an enclosing ring at the opening. All are down and motionless when the battlefield is revealed in Shot 12.
+Motion anchor: Their takedown is not shown. No added battle or explanatory attack.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: Architecture and paving grounded in @image7 and @image8.
+Features: Broken Gothic arcades, jagged roofless walls, cracked blue-gray slabs, central paving damage, perimeter rubble and weak side fires. Layered smoke obscures parts of the ring.
+Blocking: Male 1 is grounded near the centre. The Evil Lord faces him at close range. Male 2 and Female 1 lie nearby. Malfoid begins within the followers, Male 3 behind her with one hand on each shoulder. She appears directly behind the Evil Lord, then approaches Male 1 across his fallen body.
+Lighting: Cold blue moonlight, weak orange fires, hard shadows and silver rims; the curse briefly replaces these with green.
+
+[SHOT SEQUENCE]
+00.0–07.5 — SHOT 10:
+Camera: Hard cut at 00.0; static tight frontal medium close-up on the Evil Lord from Male 1&#x27;s eyeline.
+Action: The Evil Lord begins the killing curse. On “アバダ――”, Malfoid blitzes into frame directly behind him in a teleport-like anime burst, already holding her right-hand wand to his temple. Her face is readable beyond his shoulder. He freezes, recognizes her, and quietly speaks. She delivers her incantation without hesitation and fires immediately at its completion.
+Lighting: Cold moonlight on the Evil Lord; hard silver rim on Malfoid&#x27;s arrival, then the frame floods green.
+Dialogue: EVIL LORD; 「アバダ――」
+Delivery: Suddenly forceful and lethal, all previous restraint snapping into the attack; interrupted before completing the curse.
+Dialogue: EVIL LORD; 「……ドラコ。」
+Delivery: Very quiet, breath caught slightly, disbelief entering his voice.
+Dialogue: MALFOID; 「アバダ・ケダブラ。」
+Delivery: Calm and absolute, level volume, no hesitation or anger.
+VFX: High-speed smear/blitz entry, brief held reveal, then point-blank green impact flash and shadow inversion.
+SFX: Sharp blitz impact, wand tap against skin, point-blank curse discharge.
+
+07.5–09.5 — SHOT 11:
+Duration: 2.0s
+Camera: Ground-level medium shot from Male 1’s side; static.
+Action: The Evil Lord’s wand slips from his hand and he collapses heavily. Malfoid remains standing behind him.
+Dialogue: —
+SFX: CLACK. THUD.
+Lighting: Green afterglow fades back into cold moonlight.
+VFX: Small impact shake and dust kick.
+
+09.5–12.5 — SHOT 12:
+Camera: High-angle wide shot, slowly pulling back over the courtyard.
+Action: The Evil Lord is down beside Male 1. Male 3 and the other six masked Wizards who had surrounded them are now down across the courtyard while Malfoid remains the only standing figure.
+Dialogue: —
+SFX: Wind returns into the silence.
+Lighting: Moonlight opens the entire battlefield while scattered fires continue to flicker.
+VFX: Smoke clears in layers, gradually exposing the changed battlefield.
+
+12.5–14.0 — SHOT 13:
+Camera: Static tight three-quarter frontal close-up on Male 1.
+Action: Male 1 looks screen-left, then slowly scans toward screen-right. Shock shifts into deeper confusion.
+Lighting: Cold moonlight catches both eyes behind his glasses.
+VFX: Minimal held animation.
+SFX: His breathing.
+
+14.0–16.5 — SHOT 14:
+Camera: Static low-angle Male 1 POV, medium-full on Malfoid; fallen Evil Lord across the lower foreground.
+Action: Malfoid lowers her wand, steps over the Evil Lord and walks directly toward camera.
+Lighting: She crosses alternating moonlight and orange fire spill.
+VFX: Smoke parallax separates her from the background.
+SFX: Slow measured footsteps.
+
+16.5–19.0 — SHOT 15:
+Camera: Static over-the-shoulder medium shot behind Male 1, his wand enlarged in the near foreground.
+Action: Male 1 raises his right-hand wand slightly. Malfoid notices without slowing, stops directly in front of him and crouches.
+Lighting: Cool rim light outlines her; Male 1 remains darker in the foreground.
+VFX: Background detail softens as she comes closer.
+SFX: Footsteps stop; fabric folds as she crouches.
+
+19.0–22.0 — SHOT 16:
+Camera: Static tight side-profile two-shot at their eye level; Male 1 frame-left, Malfoid frame-right.
+Action: Keeping her wand lowered in her right hand, Malfoid places her left hand beneath Male 1&#x27;s chin and turns his face slightly toward her. She studies his cheek cut, then wipes the blood from the corner of his mouth with her left thumb.
+Lighting: Moonlight falls across his face as she turns it.
+VFX: Background simplifies into dark painted shapes.
+SFX: Male 1 takes a short breath.
+
+22.0–24.5 — SHOT 17:
+Camera: Over-the-shoulder close-up behind Malfoid on Male 1&#x27;s face; slow push-in.
+Action: Male 1 watches her closely, unable to read her. His mouth opens as he finally tries to speak.
+Lighting: A narrow moonlit reflection crosses his glasses without hiding his eyes.
+Dialogue: MALE 1; 「どうして――」
+Delivery: Quiet and bewildered, weakened by exhaustion; the unfinished question slips out before he composes himself.
+VFX: Background falls progressively darker.
+SFX: His voice breaks the silence.
+
+24.5–30.0 — SHOT 18:
+Camera: Tight side-profile two-shot; slow push-in.
+Action: Malfoid leans toward Male 1 until their faces nearly touch, then deliberately moves past his mouth toward his ear. Male 1 freezes. She speaks close to his ear; their lips never touch.
+Lighting: A thin silver rim traces both profiles.
+Dialogue: MALFOID; 「相変わらず質問が多いのね、ポッター。」
+Delivery: Low and close, dry and lightly amused; confident teasing without tenderness.
+VFX: Background reduces to near-black, with restrained eye highlights.
+SFX: Her voice sits almost alone in the mix.
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Exact Japanese dialogue only. Physical blitz, wand contact, discharge, clack, thud, footsteps, fabric, breathing, wind and distant fire. Reduce ambience around the final exchange without introducing a musical tone.
+Continuity: Preserve Male 1&#x27;s bruises and cheek cut. The mouth-corner blood is visibly wiped in Shot 16 and must not return afterward. Both protagonists retain their wands in their right hands. Preserve Male 1 frame-left and Malfoid frame-right across the intimate profile shots.
+Critical constraint: Begin Shot 10 immediately after the final shot of @video1, with no replay, overlap or added opening shot. Exactly seven masked Wizards surround the central group: Male 3 plus six others, not seven others. In Shot 12 all seven are down and Malfoid is the only standing figure. Male 3 retains his raised hood and full-face silver mask. Shot 11 is exactly the specified two-second ground-level collapse. No alternative fall, disintegration or additional action. The Evil Lord never completes his curse. The followers&#x27; defeat is revealed, not explained. No kiss, tenderness, added combat or extra dialogue. Reference display poses never replace staging.
+Animation style: Stable camera during the blitz. Impact frames are confined to the entry and discharge; subsequent performance uses restrained cel-anime acting.
+Avoid: Jitter, bent or distorted limbs, malformed hands, temporal flicker, identity drift, chaotic composition, inconsistent features, duplicated wands, hand swapping, reference-image display poses and subtitles.
+</code></pre></details><h4>Reference inputs in order</h4><p class="small">Authored reference order; original submission receipt not available.</p><ol class="references"><li><code>@image1</code> · Male 1 · <a href="media/images/codex_male_1_redesign_sheet_v1.png" >Open native image</a> · <a href="assets.html#I020" >design recipe</a></li><li><code>@image2</code> · Male 2 · <a href="media/images/krea_male_2_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I017" >design recipe</a></li><li><code>@image3</code> · Female 1 · <a href="media/images/krea_female_1_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I018" >design recipe</a></li><li><code>@image4</code> · Malfoid · <a href="media/images/krea_malfoid_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I021" >design recipe</a></li><li><code>@image5</code> · Evil Lord · <a href="media/images/krea_evil_lord_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I019" >design recipe</a></li><li><code>@image6</code> · Death Eaters / Wizards · <a href="media/images/codex_death_eaters_sheet_v1.png" >Open native image</a> · <a href="assets.html#I015" >design recipe</a></li><li><code>@image7</code> · Courtyard ground-level · <a href="media/images/krea_courtyard_ground_v1.png" >Open native image</a> · <a href="assets.html#I009" >design recipe</a></li><li><code>@image8</code> · Courtyard overhead · <a href="media/images/krea_courtyard_overhead_v1.png" >Open native image</a> · <a href="assets.html#I010" >design recipe</a></li><li><code>@image9</code> · Male 3, hood-on identity added by the user · <a href="media/images/codex_male_3_hood_on_off_sheet_v1.png" >Open native image</a> · <a href="assets.html#I022" >design recipe</a></li></ol><div class="ref-thumbs"><figure><a class="image-link" href="media/images/codex_male_1_redesign_sheet_v1.png"><img loading="lazy" src="media/images/codex_male_1_redesign_sheet_v1.png" alt="Male 1"></a><figcaption>@image1</figcaption></figure><figure><a class="image-link" href="media/images/krea_male_2_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_male_2_description_redesign_v1.png" alt="Male 2"></a><figcaption>@image2</figcaption></figure><figure><a class="image-link" href="media/images/krea_female_1_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_female_1_description_redesign_v1.png" alt="Female 1"></a><figcaption>@image3</figcaption></figure><figure><a class="image-link" href="media/images/krea_malfoid_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_malfoid_description_redesign_v1.png" alt="Malfoid"></a><figcaption>@image4</figcaption></figure><figure><a class="image-link" href="media/images/krea_evil_lord_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_evil_lord_description_redesign_v1.png" alt="Evil Lord"></a><figcaption>@image5</figcaption></figure><figure><a class="image-link" href="media/images/codex_death_eaters_sheet_v1.png"><img loading="lazy" src="media/images/codex_death_eaters_sheet_v1.png" alt="Death Eaters / Wizards"></a><figcaption>@image6</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_ground_v1.png"><img loading="lazy" src="media/images/krea_courtyard_ground_v1.png" alt="Courtyard ground-level"></a><figcaption>@image7</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_overhead_v1.png"><img loading="lazy" src="media/images/krea_courtyard_overhead_v1.png" alt="Courtyard overhead"></a><figcaption>@image8</figcaption></figure><figure><a class="image-link" href="media/images/codex_male_3_hood_on_off_sheet_v1.png"><img loading="lazy" src="media/images/codex_male_3_hood_on_off_sheet_v1.png" alt="Male 3, hood-on identity added by the user"></a><figcaption>@image9</figcaption></figure></div><p><a href="archive/episode-1/authoring/02_reversal_malfoid_takes_control_seedance_v4_continuation_v5.authoring.md" >Authoring document, breakdown and revision notes</a> <span class="small">(only local upload/setup paths made portable)</span></p><details><summary>Settings and technical provenance</summary><pre><code>{
+  &quot;model&quot;: &quot;Seedance 2.5&quot;,
+  &quot;resolution&quot;: &quot;480p&quot;,
+  &quot;display_model&quot;: &quot;Seedance 2.5&quot;,
+  &quot;display_resolution&quot;: &quot;480p&quot;
+}</code></pre><p class="small">Creator confirmed the same model and resolution for both episodes.</p><p class="source-hash">Video SHA-256: 8d30187b1bca43d0a794ae665868912adb92ffe79596bce8bef55e247885f727</p></details></div></details></section><section id="part-3"><h2>03 / Farewell and private grief</h2><p>These three completed versions preserve the progression through the private-grief coda, composed-to-grief revision and seven-second final-shot revision. v10 requested 24 seconds; v11 requested 26 seconds with a seven-second final shot. The exact submitted texts and reference order are available for each.</p><details class="render" id="malfoid_prompt3_dreamina_f4f9f1b6" ><summary>Private-grief coda · v9</summary><div class="render-body"><span class="tag">Shots 19–26 / revised farewell and coda</span><span class="tag">Seedance 2.5 · 480p</span><p class="status">Earlier completed farewell revision.</p><video controls playsinline preload="none" src="media/renders/prompt3_private_grief.mp4">Your browser cannot play this video. <a href="media/renders/prompt3_private_grief.mp4" >Download the video</a></video><p><a href="media/renders/prompt3_private_grief.mp4" download="">Download native video</a> · <a href="archive/episode-1/authoring/03_farewell_private_grief_coda_v9.txt" >Open exact prompt text</a></p><p>Exact submitted provider payload and corresponding authoring revision recovered.</p><details class="prompt" ><summary>Prompt text</summary><p class="file-actions"><a href="archive/episode-1/authoring/03_farewell_private_grief_coda_v9.txt" download="">Download exact text</a></p><pre><code>[PROMPT START]
+Continue from @video1.
+Use @image5 for visual continuity of the characters, their starting positions and colors.
+
+[TITLE]
+Farewell
+
+[REFERENCES]
+@video1: The 15-second continuation tail. Use it for character state, environment, spatial continuity, visual style and established vocal identities. Generate a new soundtrack for the shot sequence below; do not replay, sample or continue recorded dialogue, ambience, SFX or music from this reference.
+@image1: Male 1.
+@image2: Malfoid.
+@image3: Courtyard establishing.
+@image4: Courtyard ground-level.
+@image5: Continuation frame for character appearance, colors, injuries, wardrobe and close starting positions. Preserve this scene state across the cut to the first shot’s static medium side-profile composition.
+@image6: Fallen Evil Lord body reference for his appearance, prone pose, robe folds and contact with the courtyard paving. Retain this body at its established ground position behind Malfoid, on her far side from Male 1. Do not replace the starting frame or copy this reference’s isolated wide composition; adapt the body’s perspective to each existing camera.
+
+Character references define identity, wardrobe, colors and equipment. Do not reproduce Male 1&#x27;s multi-view sheet, stacked portraits or upright turnaround stances. Do not reproduce Malfoid&#x27;s front-facing full-body display pose with both arms lowered against a pale background. Environment references define the ruined courtyard, not a compulsory establishing composition. Follow the exact hand continuity and departure staging below.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes and selective perspective exaggeration. No impact frames during the farewell.
+
+[VISUAL FEEL]
+Natural conversational pacing, fluid hand movement, controlled glances and suspended uncertainty. Crisp hand silhouettes, heavy robe folds, pale hair against dark smoke.
+
+[DURATION]
+23.5 seconds.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching @image1.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Dirt-marked black robe with burgundy lining, off-white shirt, loose burgundy tie, charcoal V-neck sweater and trousers, brown lace-up shoes.
+State in this scene: Bruised and exhausted, cheek cut still visible. Blood has been wiped from the corner of his mouth. Seated low on the paving, weight settled sufficiently for his left hand to be free.
+Motion anchor: Remains on the ground throughout. Brown wand always in his right hand. Only his free left hand catches Malfoid&#x27;s right wrist. He does not stand or follow her.
+Voice: Young male, clear and natural, slightly roughened by exhaustion; grounded mid-range tone and restrained intensity.
+
+MALFOID:
+Base: Young woman matching @image2.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black robe with forest-green lining, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, dark pleated skirt, opaque dark tights and black loafers.
+State in this scene: Crouched beside Male 1 with their faces close at the opening, as anchored by @image5; composed and uninjured.
+Physics / personality / detail: Precise fingers, economical movement, small knowing smile; self-assured teasing without tenderness.
+Motion anchor: Brown wand remains in her right hand even while that wrist is held. Her free left thumb and forefinger release his left-hand grip in one continuous gesture under her line. On the final spoken word she turns and takes her first departing step. Once she turns away in Shot 25, she never looks back again.
+Voice: Young female, cool and composed, smooth and slightly low-pitched; precise articulation, understated confidence, dry and lightly teasing rather than soft.
+
+EVIL LORD — FALLEN BODY:
+Base: The dead Evil Lord, matching the prone body in @image6.
+Features: Pale bald head with closed eyes, gaunt face, long dark charcoal-black robe spread across the paving, and a visible pale bare hand with relaxed fingers. Preserve the reference’s body pose and robe silhouette; the robe conceals much of the lower anatomy.
+State in this scene: Already dead and lying on the courtyard stones behind Malfoid at the opening, on the far side of her crouched position from Male 1. He remains on this same patch of paving throughout.
+Motion anchor: Completely motionless. His body does not follow Malfoid, move between cuts, disappear or disintegrate. Show it whenever the existing camera includes its ground position; close-ups may crop it out. No forced reframing or additional corpse-reveal shot.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: Architecture and materials grounded in @image3 and @image4.
+Features: Roofless Gothic arcades, jagged broken masonry, cracked blue-gray paving, rubble banks along the sides and weak orange fires. A smoke-filled route recedes across the open paving toward the broken rear arcade.
+State in this scene: The battlefield is quiet. The Evil Lord’s body remains on the paving behind Malfoid’s initial crouching position, on her far side from Male 1, anchored by @image6. Other fallen figures remain motionless outside the principal framing or indistinct in the distance; no background character rises.
+Blocking: Male 1 stays low at screen-left. Malfoid begins close at screen-right, then rises and turns toward the receding departure route. Her first step leaves her right wrist within his left-hand reach. Maintain this relationship through the wrist release. The Evil Lord lies on the ground beyond Malfoid, farther from Male 1. His location is fixed relative to the paving, regardless of Malfoid’s movement or the camera angle.
+Lighting: Dominant cold blue moonlight, weak orange fire spill, hard shadows and thin silver rim light through drifting smoke.
+
+FAR SIDE OF THE RUINS:
+Base: A secluded ruined stone wall beyond the courtyard, out of Male 1’s sight, using the weathered Gothic masonry and night palette of @image3 and @image4.
+Features: Rough gray stone directly behind Malfoid, deep recesses and thin smoke beyond. She is alone here; Male 1 and all fallen bodies remain in the original courtyard.
+
+[SHOT SEQUENCE]
+00.0–03.0 — SHOT 19:
+Camera: Static medium side-profile shot on Male 1 and Malfoid.
+Action: Malfoid rises beside Male 1, turns toward her departure route and takes one step away. Male 1 remains grounded. The Evil Lord’s pale head and dark-robed body lie on the paving behind Malfoid, on her far side from Male 1, revealed as she rises.
+Lighting: Malfoid moves into stronger moonlight while Male 1 stays lower in shadow.
+VFX: Embers drift through the space between them.
+SFX: Fabric movement and one departing footstep.
+
+03.0–05.5 — SHOT 20:
+Camera: Static wide side-profile shot; Male 1 screen-left, Malfoid screen-right.
+Action: Male 1 reaches with his free left hand and catches Malfoid&#x27;s right wrist. His wand remains in his right hand; hers remains in her right hand. Her departure stops. The Evil Lord lies motionless on the paving beyond Malfoid, his pale head and dark robe visible behind her.
+Lighting: Separate pools of cold moonlight across the darker courtyard.
+Dialogue: MALE 1; &quot;待て！&quot;
+Delivery: Sudden and instinctive, sharper than his weakened voice until now.
+VFX: Embers hang through the negative space.
+SFX: Her step stops with a sharp catch of fabric at the wrist.
+
+05.5–07.5 — SHOT 21:
+Camera: Static rear three-quarter medium close-up on Malfoid from Male 1&#x27;s side.
+Action: Malfoid turns her head back over her shoulder toward Male 1 with a small, knowing smile. His left-hand grip remains intact.
+Lighting: Moonlight traces her white hair and cheek.
+VFX: Restrained anime eye highlight.
+SFX: Low wind and distant fire.
+
+07.5–08.3 — SHOT 22:
+Camera: Static low lateral medium shot, Male 1 below and Malfoid standing above him.
+Action: Male 1’s left hand remains around Malfoid’s right wrist. As she starts speaking, she slips her left thumb and forefinger beneath one of his fingers and lifts it in a single light motion, immediately continuing the release. Other fingers remain in contact at this cut. Both wands stay in their right hands. The Evil Lord’s pale head and dark robe remain motionless on the ground behind Malfoid.
+Lighting: Malfoid is more strongly moonlit; Male 1 remains lower in shadow.
+Dialogue: MALFOID; &quot;ちゃんとついてきなさい、ポッター。&quot;
+Delivery: Light and self-assured, faintly amused; effortless rather than affectionate. One continuous utterance starts here and carries uninterrupted across Shots 23–25. The final word begins at 10.2 seconds, exactly as she turns and takes her first departing step. Do not restart or repeat the line at any cut.
+VFX: Minimal movement emphasis around the hands; no slow motion or finger holds.
+SFX: Brief fabric friction beneath her voice.
+
+08.3–09.5 — SHOT 23:
+Camera: Static extreme low-angle close-up from Male 1&#x27;s ground-level viewpoint on Malfoid looking back over her shoulder.
+Action: Malfoid looks down at Male 1, composed and lightly amused, making no attempt to explain herself. Her line continues naturally while the same release progresses below the crop, without a held pause or grip reset.
+Lighting: Cold moonlight edges her white hair and face against the dark sky.
+VFX: Thin smoke drifts behind her.
+SFX: Quiet wind beneath the continuing utterance.
+
+09.5–10.2 — SHOT 24:
+Camera: Static extreme close-up on Male 1&#x27;s left hand and Malfoid&#x27;s right wrist.
+Action: Only Male 1’s final finger remains in contact. In one small, immediate lift, Malfoid’s left thumb and forefinger free it, completing the same continuous release while her line continues. Her right hand keeps its wand grip throughout. Her wrist is free before the final spoken word.
+Lighting: Cool moonlight defines their hands, forearms and Malfoid&#x27;s wand grip.
+VFX: Crisp anime hand detail in continuous motion; no prolonged final-finger hold.
+SFX: A brief slip of fabric beneath her continuing voice.
+
+10.2–11.5 — SHOT 25:
+Camera: Static low-angle close-up on Malfoid along her departure direction.
+Action: On the final word of her continuing line, Malfoid turns away and takes her first departing step in the same motion. Her wrist is already free. The word finishes during that first step; she keeps walking without pausing or looking back.
+Lighting: Moonlight catches her hair and jawline; the route ahead disappears into smoke.
+VFX: Embers and thin mist frame her departure.
+SFX: Her first departing footstep coincides with the final spoken word.
+
+11.5–18.5 — SHOT 26:
+Camera: Static lateral long shot, Male 1&#x27;s profile near foreground, Malfoid&#x27;s route receding into the distant background.
+Action: For the first four seconds, Malfoid is visibly walking away along the receding route, her white hair and green-lined robe gradually swallowed by moonlit smoke. Male 1 remains grounded with his wand lowered, watching her go. For the final three seconds, she is gone; he continues staring toward the empty route, unresolved and bewildered. He neither rises nor follows. The Evil Lord’s pale head, slack hand and dark-robed body lie motionless on the stones in the midground beyond Male 1.
+Lighting: A small catchlight remains in his eyes; pale moonlight diffuses through the route beyond him.
+VFX: Layered smoke gradually obscures Malfoid, then occupies the empty distance. Hold Male 1&#x27;s watching profile.
+SFX: Her departing footsteps recede during the visible walk; after she disappears, only wind and distant fire remain.
+
+18.5–23.5 — SHOT 27:
+Camera: Very slow zoom from a medium shot toward a medium close-up; camera position fixed.
+Action: Malfoid already stands alone with her back against the ruined stone wall. Her left hand clutches her collar at her upper chest; her right hand holds her wand separately at her side. Her brows draw together, her mouth trembles, and her eyes fill. Tears run down her cheeks before the end. She tries to steady her breathing, but one breath catches into a small involuntary sob. She remains standing against the wall.
+Delivery: Quiet, nonverbal crying. Her grief is plainly visible in her wet eyes, drawn brows and trembling mouth; the caught sob is small and involuntary.
+Lighting: Cold blue moonlight edges her white hair and catches her wet eyes; faint fire spill keeps her face readable.
+VFX: Small highlights on the tears, thin smoke in the background. Fade to black at the very end.
+SFX: Quiet wind, distant fire, uneven breathing and one small caught sob. No dialogue.
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Preserve the characters’ vocal identities from @video1 while generating a new soundtrack. Only the two exact dialogue utterances written in this prompt are spoken, once each, by their assigned speakers. Male 1 speaks in Shot 20. Malfoid speaks one uninterrupted line from Shot 22 through Shot 25; its final word begins at 10.2 seconds with her turn and first departing step. Do not replay, sample, continue or add dialogue or recorded sounds from @video1. Generate only the specified cloth friction, footsteps, breathing, wind, distant fire and the final shot’s small nonverbal sob for the new actions. End on environmental sound, not a musical resolution.
+Continuity: Male 1 left, Malfoid right in lateral coverage. Male 1&#x27;s LEFT hand grips Malfoid&#x27;s RIGHT wrist. Both wands remain in RIGHT hands. Malfoid releases his fingers with her LEFT thumb and forefinger. Release progresses as one fluid movement across Shots 22–24 under the same uninterrupted line, without regripping, isolated finger pauses or restarting. The turn and first departing step coincide with the final spoken word at the start of Shot 25.
+Subtext: In the final shot, Malfoid is alone with the grief and shock of having killed her father and the others to save Male 1, her secret love. He does not witness her crying.
+Critical constraint: Begin the first shot immediately after the final shot of @video1, with no replay, overlap or added opening shot. The Evil Lord’s corpse persists at one fixed courtyard position behind Malfoid’s opening position, anchored by @image6. It must remain visible whenever that ground position is in frame; do not erase, relocate or disintegrate it, and do not alter existing cameras just to feature it. Use @image5 for visual continuity across the new cut. Keep the first-shot camera locked off in the specified medium side-profile composition. Match vocal identity without reusing reference soundtrack content. Preserve the farewell&#x27;s narrative and order. No kiss, embrace, explanation, additional dialogue, second wrist catch or final backward glance. Male 1 remains grounded. Preserve the courtyard departure and Male 1’s full watching hold, then cut to Malfoid’s private grief on the far side of the ruins. Male 1 and the fallen bodies stay in the original courtyard; she is alone at the wall.
+Animation style: Restrained cel-anime acting; subtle eye highlights and carefully articulated hands. Smoke and cloth provide motion during held compositions.
+Avoid: Jitter, bent or distorted limbs, malformed hands, extra fingers, temporal flicker, identity drift, inconsistent features, duplicated wands, mirrored hand assignments, grip resets, reference-sheet compositions and subtitles.
+</code></pre></details><h4>Reference inputs in order</h4><p class="small">Submitted order verified from the saved execution records.</p><ol class="references"><li><code>@video1</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-1.mp4" >Open native video</a></li><li><code>@image1</code> · Reference input · <a href="media/images/codex_male_1_redesign_sheet_v1.png" >Open native image</a> · <a href="assets.html#I020" >design recipe</a></li><li><code>@image2</code> · Reference input · <a href="media/images/krea_malfoid_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I021" >design recipe</a></li><li><code>@image3</code> · Reference input · <a href="media/images/krea_courtyard_establishing_v1.png" >Open native image</a> · <a href="assets.html#I008" >design recipe</a></li><li><code>@image4</code> · Reference input · <a href="media/images/krea_courtyard_ground_v1.png" >Open native image</a> · <a href="assets.html#I009" >design recipe</a></li><li><code>@image5</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-6.png" >Open native image</a></li><li><code>@image6</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-7.png" >Open native image</a></li></ol><div class="ref-thumbs"><figure><a class="image-link" href="media/images/codex_male_1_redesign_sheet_v1.png"><img loading="lazy" src="media/images/codex_male_1_redesign_sheet_v1.png" alt="Reference input"></a><figcaption>@image1</figcaption></figure><figure><a class="image-link" href="media/images/krea_malfoid_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_malfoid_description_redesign_v1.png" alt="Reference input"></a><figcaption>@image2</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_establishing_v1.png"><img loading="lazy" src="media/images/krea_courtyard_establishing_v1.png" alt="Reference input"></a><figcaption>@image3</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_ground_v1.png"><img loading="lazy" src="media/images/krea_courtyard_ground_v1.png" alt="Reference input"></a><figcaption>@image4</figcaption></figure><figure><a class="image-link" href="media/continuation/ep1-prompt3_private_grief-ref-6.png"><img loading="lazy" src="media/continuation/ep1-prompt3_private_grief-ref-6.png" alt="Reference input"></a><figcaption>@image5</figcaption></figure><figure><a class="image-link" href="media/continuation/ep1-prompt3_private_grief-ref-7.png"><img loading="lazy" src="media/continuation/ep1-prompt3_private_grief-ref-7.png" alt="Reference input"></a><figcaption>@image6</figcaption></figure></div><p><a href="archive/episode-1/authoring/03_farewell_private_grief_coda_v9.authoring.md" >Authoring document, breakdown and revision notes</a> <span class="small">(only local upload/setup paths made portable)</span></p><details class="prompt" ><summary>Exact provider-bound/readback payload</summary><p class="file-actions"><a href="archive/episode-1/submitted/prompt3_private_grief.provider.txt" download="">Download exact text</a></p><pre><code>[PROMPT START]
+Continue from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}}.
+Use {{res:b605f735-9e57-4cfd-b317-45f23f1382de}} for visual continuity of the characters, their starting positions and colors.
+
+[TITLE]
+Farewell
+
+[REFERENCES]
+{{res:32194de9-4202-4883-b568-6b2dcbb592dd}}: 15-second continuation tail for character state, environment, spatial and visual continuity, and established voice identities. Generate the new soundtrack specified below; never replay its recorded speech or sounds.
+{{res:5d6321d9-b8e9-451c-ab87-dee79150801b}}: Male 1.
+{{res:27735744-6590-423b-b76b-5d6279d44f0d}}: Malfoid.
+{{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}}: Courtyard establishing.
+{{res:14475e9b-9afe-4bd0-8544-75543393e020}}: Courtyard ground-level.
+{{res:b605f735-9e57-4cfd-b317-45f23f1382de}}: Continuation frame for character appearance, colors, injuries, wardrobe and close starting positions across the cut to the static medium side-profile opening.
+{{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}: Fallen Evil Lord appearance, prone pose and robe reference. His body stays behind Malfoid, on her far side from Male 1. Keep the specified cameras rather than copying this isolated wide composition.
+
+Character images anchor identity, clothes and colors; exclude Male 1’s sheet layout/portraits and Malfoid’s frontal white-background display pose. Environment images define one courtyard. Preserve hand continuity.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes and selective perspective exaggeration. No impact frames during the farewell.
+
+[VISUAL FEEL]
+Natural conversational pacing, fluid hand movement, controlled glances and suspended uncertainty. Crisp hand silhouettes, heavy robe folds, pale hair against dark smoke.
+
+[DURATION]
+24 seconds total. Preserve the listed shot timings through 23.5 seconds; 23.5–24.0 is black after the final fade. Do not stretch the shots.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching {{res:5d6321d9-b8e9-451c-ab87-dee79150801b}}.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Dirt-marked black robe with burgundy lining, off-white shirt, loose burgundy tie, charcoal V-neck sweater and trousers, brown lace-up shoes.
+State in this scene: Bruised and exhausted, cheek cut still visible. Blood has been wiped from the corner of his mouth. Seated low on the paving, weight settled sufficiently for his left hand to be free.
+Motion anchor: Remains on the ground throughout. Brown wand always in his right hand. Only his free left hand catches Malfoid&#x27;s right wrist. He does not stand or follow her.
+Voice: Young male, clear and natural, slightly roughened by exhaustion; grounded mid-range tone and restrained intensity.
+
+MALFOID:
+Base: Young woman matching {{res:27735744-6590-423b-b76b-5d6279d44f0d}}.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black robe with forest-green lining, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, dark pleated skirt, opaque dark tights and black loafers.
+State in this scene: Crouched beside Male 1 with their faces close at the opening, as anchored by {{res:b605f735-9e57-4cfd-b317-45f23f1382de}}; composed and uninjured.
+Physics / personality / detail: Precise fingers, economical movement, small knowing smile; self-assured teasing without tenderness.
+Motion anchor: Brown wand remains in her right hand even while that wrist is held. Her free left thumb and forefinger release his left-hand grip in one continuous gesture under her line. On the final spoken word she turns and takes her first departing step. Once she turns away in Shot 25, she never looks back again.
+Voice: Young female, cool and composed, smooth and slightly low-pitched; precise articulation, understated confidence, dry and lightly teasing rather than soft.
+
+EVIL LORD — FALLEN BODY:
+Base: The dead Evil Lord, matching the prone body in {{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}.
+Features: Pale bald head with closed eyes, gaunt face, long dark charcoal-black robe spread across the paving, and a visible pale bare hand with relaxed fingers. Preserve the reference’s body pose and robe silhouette; the robe conceals much of the lower anatomy.
+State in this scene: Already dead and lying on the courtyard stones behind Malfoid at the opening, on the far side of her crouched position from Male 1. He remains on this same patch of paving throughout.
+Motion anchor: Dead and motionless on the same paving. Never relocate, erase or disintegrate the body or add a corpse-reveal cut.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: Architecture and materials grounded in {{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}} and {{res:14475e9b-9afe-4bd0-8544-75543393e020}}.
+Features: Roofless Gothic arcades, jagged broken masonry, cracked blue-gray paving, rubble banks along the sides and weak orange fires. A smoke-filled route recedes across the open paving toward the broken rear arcade.
+State in this scene: The courtyard is quiet. The Evil Lord stays behind Malfoid’s initial crouching position, on her far side from Male 1. Other fallen figures remain motionless; nobody rises.
+Blocking: Male 1 stays low at screen-left. Malfoid starts close at screen-right, rises, turns toward her departure route and steps within his wrist-catching reach. Preserve their relationship through the release. The Evil Lord lies beyond Malfoid, farther from Male 1, fixed to the paving.
+Lighting: Dominant cold blue moonlight, weak orange fire spill, hard shadows and thin silver rim light through drifting smoke.
+
+FAR SIDE OF THE RUINS:
+Base: A secluded ruined stone wall beyond the courtyard, out of Male 1’s sight, using the weathered Gothic masonry and night palette of {{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}} and {{res:14475e9b-9afe-4bd0-8544-75543393e020}}.
+Features: Rough gray stone directly behind Malfoid, deep recesses and thin smoke beyond. She is alone here; Male 1 and all fallen bodies remain in the original courtyard.
+
+[SHOT SEQUENCE]
+00.0–03.0 — SHOT 19:
+Camera: Static medium side-profile shot on Male 1 and Malfoid.
+Action: Malfoid rises beside Male 1, turns toward her departure route and takes one step away. Male 1 remains grounded. The Evil Lord’s pale head and dark-robed body lie on the paving behind Malfoid, on her far side from Male 1, revealed as she rises.
+Lighting: Malfoid moves into stronger moonlight while Male 1 stays lower in shadow.
+VFX: Embers drift through the space between them.
+SFX: Fabric movement and one departing footstep.
+
+03.0–05.5 — SHOT 20:
+Camera: Static wide side-profile shot; Male 1 screen-left, Malfoid screen-right.
+Action: Male 1 reaches with his free left hand and catches Malfoid&#x27;s right wrist. His wand remains in his right hand; hers remains in her right hand. Her departure stops. The Evil Lord lies motionless on the paving beyond Malfoid, his pale head and dark robe visible behind her.
+Lighting: Separate pools of cold moonlight across the darker courtyard.
+Dialogue: MALE 1; &quot;待て！&quot;
+Delivery: Sudden and instinctive, sharper than his weakened voice until now.
+VFX: Embers hang through the negative space.
+SFX: Her step stops with a sharp catch of fabric at the wrist.
+
+05.5–07.5 — SHOT 21:
+Camera: Static rear three-quarter medium close-up on Malfoid from Male 1&#x27;s side.
+Action: Malfoid turns her head back over her shoulder toward Male 1 with a small, knowing smile. His left-hand grip remains intact.
+Lighting: Moonlight traces her white hair and cheek.
+VFX: Restrained anime eye highlight.
+SFX: Low wind and distant fire.
+
+07.5–08.3 — SHOT 22:
+Camera: Static low lateral medium shot, Male 1 below and Malfoid standing above him.
+Action: Male 1’s left hand remains around Malfoid’s right wrist. As she starts speaking, she slips her left thumb and forefinger beneath one of his fingers and lifts it in a single light motion, immediately continuing the release. Other fingers remain in contact at this cut. Both wands stay in their right hands. The Evil Lord’s pale head and dark robe remain motionless on the ground behind Malfoid.
+Lighting: Malfoid is more strongly moonlit; Male 1 remains lower in shadow.
+Dialogue: MALFOID; &quot;ちゃんとついてきなさい、ポッター。&quot;
+Delivery: Light and self-assured, faintly amused; effortless rather than affectionate. One continuous utterance starts here and carries uninterrupted across Shots 23–25. The final word begins at 10.2 seconds, exactly as she turns and takes her first departing step. Do not restart or repeat the line at any cut.
+VFX: Minimal movement emphasis around the hands; no slow motion or finger holds.
+SFX: Brief fabric friction beneath her voice.
+
+08.3–09.5 — SHOT 23:
+Camera: Static extreme low-angle close-up from Male 1&#x27;s ground-level viewpoint on Malfoid looking back over her shoulder.
+Action: Malfoid looks down at Male 1, composed and lightly amused, making no attempt to explain herself. Her line continues naturally while the same release progresses below the crop, without a held pause or grip reset.
+Lighting: Cold moonlight edges her white hair and face against the dark sky.
+VFX: Thin smoke drifts behind her.
+SFX: Quiet wind beneath the continuing utterance.
+
+09.5–10.2 — SHOT 24:
+Camera: Static extreme close-up on Male 1&#x27;s left hand and Malfoid&#x27;s right wrist.
+Action: Only Male 1’s final finger remains in contact. In one small, immediate lift, Malfoid’s left thumb and forefinger free it, completing the same continuous release while her line continues. Her right hand keeps its wand grip throughout. Her wrist is free before the final spoken word.
+Lighting: Cool moonlight defines their hands, forearms and Malfoid&#x27;s wand grip.
+VFX: Crisp anime hand detail in continuous motion; no prolonged final-finger hold.
+SFX: A brief slip of fabric beneath her continuing voice.
+
+10.2–11.5 — SHOT 25:
+Camera: Static low-angle close-up on Malfoid along her departure direction.
+Action: On the final word of her continuing line, Malfoid turns away and takes her first departing step in the same motion. Her wrist is already free. The word finishes during that first step; she keeps walking without pausing or looking back.
+Lighting: Moonlight catches her hair and jawline; the route ahead disappears into smoke.
+VFX: Embers and thin mist frame her departure.
+SFX: Her first departing footstep coincides with the final spoken word.
+
+11.5–18.5 — SHOT 26:
+Camera: Static lateral long shot, Male 1&#x27;s profile near foreground, Malfoid&#x27;s route receding into the distant background.
+Action: For the first four seconds, Malfoid is visibly walking away along the receding route, her white hair and green-lined robe gradually swallowed by moonlit smoke. Male 1 remains grounded with his wand lowered, watching her go. For the final three seconds, she is gone; he continues staring toward the empty route, unresolved and bewildered. He neither rises nor follows. The Evil Lord’s pale head, slack hand and dark-robed body lie motionless on the stones in the midground beyond Male 1.
+Lighting: A small catchlight remains in his eyes; pale moonlight diffuses through the route beyond him.
+VFX: Layered smoke gradually obscures Malfoid, then occupies the empty distance. Hold Male 1&#x27;s watching profile.
+SFX: Her departing footsteps recede during the visible walk; after she disappears, only wind and distant fire remain.
+
+18.5–23.5 — SHOT 27:
+Camera: Very slow zoom from a medium shot toward a medium close-up; camera position fixed.
+Action: Malfoid already stands alone with her back against the ruined stone wall. Her left hand clutches her collar at her upper chest; her right hand holds her wand separately at her side. Her brows draw together, her mouth trembles, and her eyes fill. Tears run down her cheeks before the end. She tries to steady her breathing, but one breath catches into a small involuntary sob. She remains standing against the wall.
+Delivery: Quiet, nonverbal crying. Her grief is plainly visible in her wet eyes, drawn brows and trembling mouth; the caught sob is small and involuntary.
+Lighting: Cold blue moonlight edges her white hair and catches her wet eyes; faint fire spill keeps her face readable.
+VFX: Small highlights on the tears, thin smoke in the background. Fade to black at the very end.
+SFX: Quiet wind, distant fire, uneven breathing and one small caught sob. No dialogue.
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Preserve the characters’ vocal identities from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}} while generating a new soundtrack. Only the two exact dialogue utterances written in this prompt are spoken, once each, by their assigned speakers. Male 1 speaks in Shot 20. Malfoid speaks one uninterrupted line from Shot 22 through Shot 25; its final word begins at 10.2 seconds with her turn and first departing step. Do not replay, sample, continue or add dialogue or recorded sounds from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}}. Generate only the specified cloth friction, footsteps, breathing, wind, distant fire and the final shot’s small nonverbal sob for the new actions. End on environmental sound, not a musical resolution.
+Continuity: Male 1 left, Malfoid right in lateral coverage. Male 1&#x27;s LEFT hand grips Malfoid&#x27;s RIGHT wrist. Both wands remain in RIGHT hands. Malfoid releases his fingers with her LEFT thumb and forefinger. Release progresses as one fluid movement across Shots 22–24 under the same uninterrupted line, without regripping, isolated finger pauses or restarting. The turn and first departing step coincide with the final spoken word at the start of Shot 25.
+Subtext: Malfoid privately grieves killing her father and the others to save her secret love, Male 1. He does not see her cry.
+Critical constraint: Continue immediately after {{res:32194de9-4202-4883-b568-6b2dcbb592dd}} with no replay, overlap or extra opening shot. The Evil Lord’s corpse stays fixed behind Malfoid’s opening position, as in {{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}; never erase, relocate or disintegrate it. Keep the first camera locked in its specified medium side-profile composition, using {{res:b605f735-9e57-4cfd-b317-45f23f1382de}} for continuity. Match voice identity without replaying reference audio. Preserve story order, actions and all shot timings. No kiss, embrace, explanation, extra dialogue, second wrist catch or backward glance. Male 1 remains grounded. Preserve his full watching hold before the private grief cut. In that last shot Malfoid is alone beyond the ruins; Male 1 and all bodies stay in the courtyard.
+Animation style: Restrained cel-anime acting; subtle eye highlights and carefully articulated hands. Smoke and cloth provide motion during held compositions.
+Avoid: Jitter, bent or distorted limbs, malformed hands, extra fingers, temporal flicker, identity drift, inconsistent features, duplicated wands, mirrored hand assignments, grip resets, reference-sheet compositions and subtitles.</code></pre></details><details><summary>Settings and technical provenance</summary><pre><code>{
+  &quot;mode&quot;: &quot;m2v&quot;,
+  &quot;duration_seconds&quot;: 24,
+  &quot;resolution&quot;: &quot;480p&quot;,
+  &quot;ratio&quot;: &quot;16:9&quot;,
+  &quot;count&quot;: 1,
+  &quot;display_model&quot;: &quot;Seedance 2.5&quot;,
+  &quot;display_resolution&quot;: &quot;480p&quot;,
+  &quot;raw_provider_identifier&quot;: &quot;seedance_2.5_draft&quot;
+}</code></pre><p class="small">Settings retained from the saved execution record. Raw labels are preserved without presenting Draft/480p as a separate creative workflow.</p><p class="source-hash">Video SHA-256: e9619c1626a3fcbe953b39b110713930b70cdf516f55f24f6a74f10f92767c55</p></details></div></details><details class="render" id="malfoid_prompt3_composure_b2c813c1" ><summary>Composed to grief · v10</summary><div class="render-body"><span class="tag">Shots 19–26 / revised farewell and coda</span><span class="tag">Seedance 2.5 · 480p</span><p class="status">Earlier completed farewell revision.</p><video controls playsinline preload="none" src="media/renders/prompt3_composed_to_grief.mp4">Your browser cannot play this video. <a href="media/renders/prompt3_composed_to_grief.mp4" >Download the video</a></video><p><a href="media/renders/prompt3_composed_to_grief.mp4" download="">Download native video</a> · <a href="archive/episode-1/authoring/03_farewell_composed_to_grief_v10.txt" >Open exact prompt text</a></p><p>Exact submitted provider payload and corresponding authoring revision recovered.</p><details class="prompt" ><summary>Prompt text</summary><p class="file-actions"><a href="archive/episode-1/authoring/03_farewell_composed_to_grief_v10.txt" download="">Download exact text</a></p><pre><code>[PROMPT START]
+Continue from @video1.
+Use @image5 for visual continuity of the characters, their starting positions and colors.
+
+[TITLE]
+Farewell
+
+[REFERENCES]
+@video1: 15-second continuation tail for character state, environment, spatial and visual continuity, and established voice identities. Generate the new soundtrack specified below; never replay its recorded speech or sounds.
+@image1: Male 1.
+@image2: Malfoid.
+@image3: Courtyard establishing.
+@image4: Courtyard ground-level.
+@image5: Continuation frame for character appearance, colors, injuries, wardrobe and close starting positions across the cut to the static medium side-profile opening.
+@image6: Fallen Evil Lord appearance, prone pose and robe reference. His body stays behind Malfoid, on her far side from Male 1. Keep the specified cameras rather than copying this isolated wide composition.
+
+Character images anchor identity, clothes and colors; exclude Male 1’s sheet layout/portraits and Malfoid’s frontal white-background display pose. Environment images define one courtyard. Preserve hand continuity.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes and selective perspective exaggeration. No impact frames during the farewell.
+
+[VISUAL FEEL]
+Natural conversational pacing, fluid hand movement, controlled glances and suspended uncertainty. Crisp hand silhouettes, heavy robe folds, pale hair against dark smoke.
+
+[DURATION]
+24 seconds total. Preserve the listed shot timings through 23.5 seconds; 23.5–24.0 is black after the final fade. Do not stretch the shots.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching @image1.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Dirt-marked black robe with burgundy lining, off-white shirt, loose burgundy tie, charcoal V-neck sweater and trousers, brown lace-up shoes.
+State in this scene: Bruised and exhausted, cheek cut still visible. Blood has been wiped from the corner of his mouth. Seated low on the paving, weight settled sufficiently for his left hand to be free.
+Motion anchor: Remains on the ground throughout. Brown wand always in his right hand. Only his free left hand catches Malfoid&#x27;s right wrist. He does not stand or follow her.
+Voice: Young male, clear and natural, slightly roughened by exhaustion; grounded mid-range tone and restrained intensity.
+
+MALFOID:
+Base: Young woman matching @image2.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black robe with forest-green lining, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, dark pleated skirt, opaque dark tights and black loafers.
+State in this scene: Crouched beside Male 1 with their faces close at the opening, as anchored by @image5; composed and uninjured.
+Physics / personality / detail: Precise fingers, economical movement, small knowing smile; self-assured teasing without tenderness.
+Motion anchor: Brown wand remains in her right hand even while that wrist is held. Her free left thumb and forefinger release his left-hand grip in one continuous gesture under her line. On the final spoken word she turns and takes her first departing step. Once she turns away in Shot 25, she never looks back again.
+Voice: Young female, cool and composed, smooth and slightly low-pitched; precise articulation, understated confidence, dry and lightly teasing rather than soft.
+
+EVIL LORD — FALLEN BODY:
+Base: The dead Evil Lord, matching the prone body in @image6.
+Features: Pale bald head with closed eyes, gaunt face, long dark charcoal-black robe spread across the paving, and a visible pale bare hand with relaxed fingers. Preserve the reference’s body pose and robe silhouette; the robe conceals much of the lower anatomy.
+State in this scene: Already dead and lying on the courtyard stones behind Malfoid at the opening, on the far side of her crouched position from Male 1. He remains on this same patch of paving throughout.
+Motion anchor: Dead and motionless on the same paving. Never relocate, erase or disintegrate the body or add a corpse-reveal cut.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: Architecture and materials grounded in @image3 and @image4.
+Features: Roofless Gothic arcades, jagged broken masonry, cracked blue-gray paving, rubble banks along the sides and weak orange fires. A smoke-filled route recedes across the open paving toward the broken rear arcade.
+State in this scene: The courtyard is quiet. The Evil Lord stays behind Malfoid’s initial crouching position, on her far side from Male 1. Other fallen figures remain motionless; nobody rises.
+Blocking: Male 1 stays low at screen-left. Malfoid starts close at screen-right, rises, turns toward her departure route and steps within his wrist-catching reach. Preserve their relationship through the release. The Evil Lord lies beyond Malfoid, farther from Male 1, fixed to the paving.
+Lighting: Dominant cold blue moonlight, weak orange fire spill, hard shadows and thin silver rim light through drifting smoke.
+
+FAR SIDE OF THE RUINS:
+Base: A secluded ruined stone wall beyond the courtyard, out of Male 1’s sight, using the weathered Gothic masonry and night palette of @image3 and @image4.
+Features: Rough gray stone directly behind Malfoid, deep recesses and thin smoke beyond. She is alone here; Male 1 and all fallen bodies remain in the original courtyard.
+
+[SHOT SEQUENCE]
+00.0–03.0 — SHOT 19:
+Camera: Static medium side-profile shot on Male 1 and Malfoid.
+Action: Malfoid rises beside Male 1, turns toward her departure route and takes one step away. Male 1 remains grounded. The Evil Lord’s pale head and dark-robed body lie on the paving behind Malfoid, on her far side from Male 1, revealed as she rises.
+Lighting: Malfoid moves into stronger moonlight while Male 1 stays lower in shadow.
+VFX: Embers drift through the space between them.
+SFX: Fabric movement and one departing footstep.
+
+03.0–05.5 — SHOT 20:
+Camera: Static wide side-profile shot; Male 1 screen-left, Malfoid screen-right.
+Action: Male 1 reaches with his free left hand and catches Malfoid&#x27;s right wrist. His wand remains in his right hand; hers remains in her right hand. Her departure stops. The Evil Lord lies motionless on the paving beyond Malfoid, his pale head and dark robe visible behind her.
+Lighting: Separate pools of cold moonlight across the darker courtyard.
+Dialogue: MALE 1; &quot;待て！&quot;
+Delivery: Sudden and instinctive, sharper than his weakened voice until now.
+VFX: Embers hang through the negative space.
+SFX: Her step stops with a sharp catch of fabric at the wrist.
+
+05.5–07.5 — SHOT 21:
+Camera: Static rear three-quarter medium close-up on Malfoid from Male 1&#x27;s side.
+Action: Malfoid turns her head back over her shoulder toward Male 1 with a small, knowing smile. His left-hand grip remains intact.
+Lighting: Moonlight traces her white hair and cheek.
+VFX: Restrained anime eye highlight.
+SFX: Low wind and distant fire.
+
+07.5–08.3 — SHOT 22:
+Camera: Static low lateral medium shot, Male 1 below and Malfoid standing above him.
+Action: Male 1’s left hand remains around Malfoid’s right wrist. As she starts speaking, she slips her left thumb and forefinger beneath one of his fingers and lifts it in a single light motion, immediately continuing the release. Other fingers remain in contact at this cut. Both wands stay in their right hands. The Evil Lord’s pale head and dark robe remain motionless on the ground behind Malfoid.
+Lighting: Malfoid is more strongly moonlit; Male 1 remains lower in shadow.
+Dialogue: MALFOID; &quot;ちゃんとついてきなさい、ポッター。&quot;
+Delivery: Light and self-assured, faintly amused; effortless rather than affectionate. One continuous utterance starts here and carries uninterrupted across Shots 23–25. The final word begins at 10.2 seconds, exactly as she turns and takes her first departing step. Do not restart or repeat the line at any cut.
+VFX: Minimal movement emphasis around the hands; no slow motion or finger holds.
+SFX: Brief fabric friction beneath her voice.
+
+08.3–09.5 — SHOT 23:
+Camera: Static extreme low-angle close-up from Male 1&#x27;s ground-level viewpoint on Malfoid looking back over her shoulder.
+Action: Malfoid looks down at Male 1, composed and lightly amused, making no attempt to explain herself. Her line continues naturally while the same release progresses below the crop, without a held pause or grip reset.
+Lighting: Cold moonlight edges her white hair and face against the dark sky.
+VFX: Thin smoke drifts behind her.
+SFX: Quiet wind beneath the continuing utterance.
+
+09.5–10.2 — SHOT 24:
+Camera: Static extreme close-up on Male 1&#x27;s left hand and Malfoid&#x27;s right wrist.
+Action: Only Male 1’s final finger remains in contact. In one small, immediate lift, Malfoid’s left thumb and forefinger free it, completing the same continuous release while her line continues. Her right hand keeps its wand grip throughout. Her wrist is free before the final spoken word.
+Lighting: Cool moonlight defines their hands, forearms and Malfoid&#x27;s wand grip.
+VFX: Crisp anime hand detail in continuous motion; no prolonged final-finger hold.
+SFX: A brief slip of fabric beneath her continuing voice.
+
+10.2–11.5 — SHOT 25:
+Camera: Static low-angle close-up on Malfoid along her departure direction.
+Action: On the final word of her continuing line, Malfoid turns away and takes her first departing step in the same motion. Her wrist is already free. The word finishes during that first step; she keeps walking without pausing or looking back.
+Lighting: Moonlight catches her hair and jawline; the route ahead disappears into smoke.
+VFX: Embers and thin mist frame her departure.
+SFX: Her first departing footstep coincides with the final spoken word.
+
+11.5–18.5 — SHOT 26:
+Camera: Static lateral long shot, Male 1&#x27;s profile near foreground, Malfoid&#x27;s route receding into the distant background.
+Action: For the first four seconds, Malfoid is visibly walking away along the receding route, her white hair and green-lined robe gradually swallowed by moonlit smoke. Male 1 remains grounded with his wand lowered, watching her go. For the final three seconds, she is gone; he continues staring toward the empty route, unresolved and bewildered. He neither rises nor follows. The Evil Lord’s pale head, slack hand and dark-robed body lie motionless on the stones in the midground beyond Male 1.
+Lighting: A small catchlight remains in his eyes; pale moonlight diffuses through the route beyond him.
+VFX: Layered smoke gradually obscures Malfoid, then occupies the empty distance. Hold Male 1&#x27;s watching profile.
+SFX: Her departing footsteps recede during the visible walk; after she disappears, only wind and distant fire remain.
+
+18.5–23.5 — SHOT 27:
+Camera: Very slow zoom from a medium shot toward a medium close-up; camera position fixed.
+Action: Malfoid stands alone side-on to the ruined wall, LEFT hand on the stone, wand low in her RIGHT hand. Her face is composed, eyes dry. In one fluid movement she turns, settles her back against the wall and brings her LEFT hand from the stone to clutch her collar. Only after her back meets the wall does her grip tighten, her brows knit, her mouth tremble and her eyes fill; tears follow. A steadying breath catches into a small sob. She remains standing.
+Delivery: Controlled through the turn. Grief emerges only against the wall: trembling mouth, tears and a small involuntary sob. No extended pause.
+Lighting: Cold blue moonlight edges her white hair; faint fire spill keeps her face and initially dry eyes readable.
+VFX: Thin background smoke; tear highlights only as tears fall. Fade to black at the very end.
+SFX: Quiet wind, distant fire, cloth movement. Controlled breathing gives way to one caught breath and small sob. No dialogue.
+
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Preserve the characters’ vocal identities from @video1 while generating a new soundtrack. Only the two exact dialogue utterances written in this prompt are spoken, once each, by their assigned speakers. Male 1 speaks in Shot 20. Malfoid speaks one uninterrupted line from Shot 22 through Shot 25; its final word begins at 10.2 seconds with her turn and first departing step. Do not replay, sample, continue or add dialogue or recorded sounds from @video1. Generate only the specified cloth friction, footsteps, breathing, wind, distant fire and the final shot’s small nonverbal sob for the new actions. End on environmental sound, not a musical resolution.
+Continuity: Male 1 left, Malfoid right in lateral coverage. Male 1&#x27;s LEFT hand grips Malfoid&#x27;s RIGHT wrist. Both wands remain in RIGHT hands. Malfoid releases his fingers with her LEFT thumb and forefinger. Release progresses as one fluid movement across Shots 22–24 under the same uninterrupted line, without regripping, isolated finger pauses or restarting. The turn and first departing step coincide with the final spoken word at the start of Shot 25.
+Subtext: Malfoid privately grieves killing her father and the others to save her secret love, Male 1. He does not see her cry.
+Critical constraint: Continue immediately after @video1 with no replay, overlap or extra opening shot. The Evil Lord’s corpse stays fixed behind Malfoid’s opening position, as in @image6; never erase, relocate or disintegrate it. Keep the first camera locked in its specified medium side-profile composition, using @image5 for continuity. Match voice identity without replaying reference audio. Preserve story order, actions and all shot timings. No kiss, embrace, explanation, extra dialogue, second wrist catch or backward glance. Male 1 remains grounded. Preserve his full watching hold before the private grief cut. In that last shot Malfoid is alone beyond the ruins; Male 1 and all bodies stay in the courtyard.
+Animation style: Restrained cel-anime acting; subtle eye highlights and carefully articulated hands. Smoke and cloth provide motion during held compositions.
+Avoid: Jitter, bent or distorted limbs, malformed hands, extra fingers, temporal flicker, identity drift, inconsistent features, duplicated wands, mirrored hand assignments, grip resets, reference-sheet compositions and subtitles.
+</code></pre></details><h4>Reference inputs in order</h4><p class="small">Submitted order verified from the saved execution records.</p><ol class="references"><li><code>@video1</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-1.mp4" >Open native video</a></li><li><code>@image1</code> · Reference input · <a href="media/images/codex_male_1_redesign_sheet_v1.png" >Open native image</a> · <a href="assets.html#I020" >design recipe</a></li><li><code>@image2</code> · Reference input · <a href="media/images/krea_malfoid_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I021" >design recipe</a></li><li><code>@image3</code> · Reference input · <a href="media/images/krea_courtyard_establishing_v1.png" >Open native image</a> · <a href="assets.html#I008" >design recipe</a></li><li><code>@image4</code> · Reference input · <a href="media/images/krea_courtyard_ground_v1.png" >Open native image</a> · <a href="assets.html#I009" >design recipe</a></li><li><code>@image5</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-6.png" >Open native image</a></li><li><code>@image6</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-7.png" >Open native image</a></li></ol><div class="ref-thumbs"><figure><a class="image-link" href="media/images/codex_male_1_redesign_sheet_v1.png"><img loading="lazy" src="media/images/codex_male_1_redesign_sheet_v1.png" alt="Reference input"></a><figcaption>@image1</figcaption></figure><figure><a class="image-link" href="media/images/krea_malfoid_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_malfoid_description_redesign_v1.png" alt="Reference input"></a><figcaption>@image2</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_establishing_v1.png"><img loading="lazy" src="media/images/krea_courtyard_establishing_v1.png" alt="Reference input"></a><figcaption>@image3</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_ground_v1.png"><img loading="lazy" src="media/images/krea_courtyard_ground_v1.png" alt="Reference input"></a><figcaption>@image4</figcaption></figure><figure><a class="image-link" href="media/continuation/ep1-prompt3_private_grief-ref-6.png"><img loading="lazy" src="media/continuation/ep1-prompt3_private_grief-ref-6.png" alt="Reference input"></a><figcaption>@image5</figcaption></figure><figure><a class="image-link" href="media/continuation/ep1-prompt3_private_grief-ref-7.png"><img loading="lazy" src="media/continuation/ep1-prompt3_private_grief-ref-7.png" alt="Reference input"></a><figcaption>@image6</figcaption></figure></div><p><a href="archive/episode-1/authoring/03_farewell_composed_to_grief_v10.authoring.md" >Authoring document, breakdown and revision notes</a> <span class="small">(only local upload/setup paths made portable)</span></p><details class="prompt" ><summary>Exact provider-bound/readback payload</summary><p class="file-actions"><a href="archive/episode-1/submitted/prompt3_composed_to_grief.provider.txt" download="">Download exact text</a></p><pre><code>[PROMPT START]
+Continue from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}}.
+Use {{res:b605f735-9e57-4cfd-b317-45f23f1382de}} for visual continuity of the characters, their starting positions and colors.
+
+[TITLE]
+Farewell
+
+[REFERENCES]
+{{res:32194de9-4202-4883-b568-6b2dcbb592dd}}: 15-second continuation tail for character state, environment, spatial and visual continuity, and established voice identities. Generate the new soundtrack specified below; never replay its recorded speech or sounds.
+{{res:5d6321d9-b8e9-451c-ab87-dee79150801b}}: Male 1.
+{{res:27735744-6590-423b-b76b-5d6279d44f0d}}: Malfoid.
+{{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}}: Courtyard establishing.
+{{res:14475e9b-9afe-4bd0-8544-75543393e020}}: Courtyard ground-level.
+{{res:b605f735-9e57-4cfd-b317-45f23f1382de}}: Continuation frame for character appearance, colors, injuries, wardrobe and close starting positions across the cut to the static medium side-profile opening.
+{{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}: Fallen Evil Lord appearance, prone pose and robe reference. His body stays behind Malfoid, on her far side from Male 1. Keep the specified cameras rather than copying this isolated wide composition.
+
+Character images anchor identity, clothes and colors; exclude Male 1’s sheet layout/portraits and Malfoid’s frontal white-background display pose. Environment images define one courtyard. Preserve hand continuity.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes and selective perspective exaggeration. No impact frames during the farewell.
+
+[VISUAL FEEL]
+Natural conversational pacing, fluid hand movement, controlled glances and suspended uncertainty. Crisp hand silhouettes, heavy robe folds, pale hair against dark smoke.
+
+[DURATION]
+24 seconds total. Preserve the listed shot timings through 23.5 seconds; 23.5–24.0 is black after the final fade. Do not stretch the shots.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching {{res:5d6321d9-b8e9-451c-ab87-dee79150801b}}.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Dirt-marked black robe with burgundy lining, off-white shirt, loose burgundy tie, charcoal V-neck sweater and trousers, brown lace-up shoes.
+State in this scene: Bruised and exhausted, cheek cut still visible. Blood has been wiped from the corner of his mouth. Seated low on the paving, weight settled sufficiently for his left hand to be free.
+Motion anchor: Remains on the ground throughout. Brown wand always in his right hand. Only his free left hand catches Malfoid&#x27;s right wrist. He does not stand or follow her.
+Voice: Young male, clear and natural, slightly roughened by exhaustion; grounded mid-range tone and restrained intensity.
+
+MALFOID:
+Base: Young woman matching {{res:27735744-6590-423b-b76b-5d6279d44f0d}}.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black robe with forest-green lining, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, dark pleated skirt, opaque dark tights and black loafers.
+State in this scene: Crouched beside Male 1 with their faces close at the opening, as anchored by {{res:b605f735-9e57-4cfd-b317-45f23f1382de}}; composed and uninjured.
+Physics / personality / detail: Precise fingers, economical movement, small knowing smile; self-assured teasing without tenderness.
+Motion anchor: Brown wand remains in her right hand even while that wrist is held. Her free left thumb and forefinger release his left-hand grip in one continuous gesture under her line. On the final spoken word she turns and takes her first departing step. Once she turns away in Shot 25, she never looks back again.
+Voice: Young female, cool and composed, smooth and slightly low-pitched; precise articulation, understated confidence, dry and lightly teasing rather than soft.
+
+EVIL LORD — FALLEN BODY:
+Base: The dead Evil Lord, matching the prone body in {{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}.
+Features: Pale bald head with closed eyes, gaunt face, long dark charcoal-black robe spread across the paving, and a visible pale bare hand with relaxed fingers. Preserve the reference’s body pose and robe silhouette; the robe conceals much of the lower anatomy.
+State in this scene: Already dead and lying on the courtyard stones behind Malfoid at the opening, on the far side of her crouched position from Male 1. He remains on this same patch of paving throughout.
+Motion anchor: Dead and motionless on the same paving. Never relocate, erase or disintegrate the body or add a corpse-reveal cut.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: Architecture and materials grounded in {{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}} and {{res:14475e9b-9afe-4bd0-8544-75543393e020}}.
+Features: Roofless Gothic arcades, jagged broken masonry, cracked blue-gray paving, rubble banks along the sides and weak orange fires. A smoke-filled route recedes across the open paving toward the broken rear arcade.
+State in this scene: The courtyard is quiet. The Evil Lord stays behind Malfoid’s initial crouching position, on her far side from Male 1. Other fallen figures remain motionless; nobody rises.
+Blocking: Male 1 stays low at screen-left. Malfoid starts close at screen-right, rises, turns toward her departure route and steps within his wrist-catching reach. Preserve their relationship through the release. The Evil Lord lies beyond Malfoid, farther from Male 1, fixed to the paving.
+Lighting: Dominant cold blue moonlight, weak orange fire spill, hard shadows and thin silver rim light through drifting smoke.
+
+FAR SIDE OF THE RUINS:
+Base: A secluded ruined stone wall beyond the courtyard, out of Male 1’s sight, using the weathered Gothic masonry and night palette of {{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}} and {{res:14475e9b-9afe-4bd0-8544-75543393e020}}.
+Features: Rough gray stone directly behind Malfoid, deep recesses and thin smoke beyond. She is alone here; Male 1 and all fallen bodies remain in the original courtyard.
+
+[SHOT SEQUENCE]
+00.0–03.0 — SHOT 19:
+Camera: Static medium side-profile shot on Male 1 and Malfoid.
+Action: Malfoid rises beside Male 1, turns toward her departure route and takes one step away. Male 1 remains grounded. The Evil Lord’s pale head and dark-robed body lie on the paving behind Malfoid, on her far side from Male 1, revealed as she rises.
+Lighting: Malfoid moves into stronger moonlight while Male 1 stays lower in shadow.
+VFX: Embers drift through the space between them.
+SFX: Fabric movement and one departing footstep.
+
+03.0–05.5 — SHOT 20:
+Camera: Static wide side-profile shot; Male 1 screen-left, Malfoid screen-right.
+Action: Male 1 reaches with his free left hand and catches Malfoid&#x27;s right wrist. His wand remains in his right hand; hers remains in her right hand. Her departure stops. The Evil Lord lies motionless on the paving beyond Malfoid, his pale head and dark robe visible behind her.
+Lighting: Separate pools of cold moonlight across the darker courtyard.
+Dialogue: MALE 1; &quot;待て！&quot;
+Delivery: Sudden and instinctive, sharper than his weakened voice until now.
+VFX: Embers hang through the negative space.
+SFX: Her step stops with a sharp catch of fabric at the wrist.
+
+05.5–07.5 — SHOT 21:
+Camera: Static rear three-quarter medium close-up on Malfoid from Male 1&#x27;s side.
+Action: Malfoid turns her head back over her shoulder toward Male 1 with a small, knowing smile. His left-hand grip remains intact.
+Lighting: Moonlight traces her white hair and cheek.
+VFX: Restrained anime eye highlight.
+SFX: Low wind and distant fire.
+
+07.5–08.3 — SHOT 22:
+Camera: Static low lateral medium shot, Male 1 below and Malfoid standing above him.
+Action: Male 1’s left hand remains around Malfoid’s right wrist. As she starts speaking, she slips her left thumb and forefinger beneath one of his fingers and lifts it in a single light motion, immediately continuing the release. Other fingers remain in contact at this cut. Both wands stay in their right hands. The Evil Lord’s pale head and dark robe remain motionless on the ground behind Malfoid.
+Lighting: Malfoid is more strongly moonlit; Male 1 remains lower in shadow.
+Dialogue: MALFOID; &quot;ちゃんとついてきなさい、ポッター。&quot;
+Delivery: Light and self-assured, faintly amused; effortless rather than affectionate. One continuous utterance starts here and carries uninterrupted across Shots 23–25. The final word begins at 10.2 seconds, exactly as she turns and takes her first departing step. Do not restart or repeat the line at any cut.
+VFX: Minimal movement emphasis around the hands; no slow motion or finger holds.
+SFX: Brief fabric friction beneath her voice.
+
+08.3–09.5 — SHOT 23:
+Camera: Static extreme low-angle close-up from Male 1&#x27;s ground-level viewpoint on Malfoid looking back over her shoulder.
+Action: Malfoid looks down at Male 1, composed and lightly amused, making no attempt to explain herself. Her line continues naturally while the same release progresses below the crop, without a held pause or grip reset.
+Lighting: Cold moonlight edges her white hair and face against the dark sky.
+VFX: Thin smoke drifts behind her.
+SFX: Quiet wind beneath the continuing utterance.
+
+09.5–10.2 — SHOT 24:
+Camera: Static extreme close-up on Male 1&#x27;s left hand and Malfoid&#x27;s right wrist.
+Action: Only Male 1’s final finger remains in contact. In one small, immediate lift, Malfoid’s left thumb and forefinger free it, completing the same continuous release while her line continues. Her right hand keeps its wand grip throughout. Her wrist is free before the final spoken word.
+Lighting: Cool moonlight defines their hands, forearms and Malfoid&#x27;s wand grip.
+VFX: Crisp anime hand detail in continuous motion; no prolonged final-finger hold.
+SFX: A brief slip of fabric beneath her continuing voice.
+
+10.2–11.5 — SHOT 25:
+Camera: Static low-angle close-up on Malfoid along her departure direction.
+Action: On the final word of her continuing line, Malfoid turns away and takes her first departing step in the same motion. Her wrist is already free. The word finishes during that first step; she keeps walking without pausing or looking back.
+Lighting: Moonlight catches her hair and jawline; the route ahead disappears into smoke.
+VFX: Embers and thin mist frame her departure.
+SFX: Her first departing footstep coincides with the final spoken word.
+
+11.5–18.5 — SHOT 26:
+Camera: Static lateral long shot, Male 1&#x27;s profile near foreground, Malfoid&#x27;s route receding into the distant background.
+Action: For the first four seconds, Malfoid is visibly walking away along the receding route, her white hair and green-lined robe gradually swallowed by moonlit smoke. Male 1 remains grounded with his wand lowered, watching her go. For the final three seconds, she is gone; he continues staring toward the empty route, unresolved and bewildered. He neither rises nor follows. The Evil Lord’s pale head, slack hand and dark-robed body lie motionless on the stones in the midground beyond Male 1.
+Lighting: A small catchlight remains in his eyes; pale moonlight diffuses through the route beyond him.
+VFX: Layered smoke gradually obscures Malfoid, then occupies the empty distance. Hold Male 1&#x27;s watching profile.
+SFX: Her departing footsteps recede during the visible walk; after she disappears, only wind and distant fire remain.
+
+18.5–23.5 — SHOT 27:
+Camera: Very slow zoom from a medium shot toward a medium close-up; camera position fixed.
+Action: Malfoid stands alone side-on to the ruined wall, LEFT hand on the stone, wand low in her RIGHT hand. Her face is composed, eyes dry. In one fluid movement she turns, settles her back against the wall and brings her LEFT hand from the stone to clutch her collar. Only after her back meets the wall does her grip tighten, her brows knit, her mouth tremble and her eyes fill; tears follow. A steadying breath catches into a small sob. She remains standing.
+Delivery: Controlled through the turn. Grief emerges only against the wall: trembling mouth, tears and a small involuntary sob. No extended pause.
+Lighting: Cold blue moonlight edges her white hair; faint fire spill keeps her face and initially dry eyes readable.
+VFX: Thin background smoke; tear highlights only as tears fall. Fade to black at the very end.
+SFX: Quiet wind, distant fire, cloth movement. Controlled breathing gives way to one caught breath and small sob. No dialogue.
+
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Preserve the characters’ vocal identities from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}} while generating a new soundtrack. Only the two exact dialogue utterances written in this prompt are spoken, once each, by their assigned speakers. Male 1 speaks in Shot 20. Malfoid speaks one uninterrupted line from Shot 22 through Shot 25; its final word begins at 10.2 seconds with her turn and first departing step. Do not replay, sample, continue or add dialogue or recorded sounds from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}}. Generate only the specified cloth friction, footsteps, breathing, wind, distant fire and the final shot’s small nonverbal sob for the new actions. End on environmental sound, not a musical resolution.
+Continuity: Male 1 left, Malfoid right in lateral coverage. Male 1&#x27;s LEFT hand grips Malfoid&#x27;s RIGHT wrist. Both wands remain in RIGHT hands. Malfoid releases his fingers with her LEFT thumb and forefinger. Release progresses as one fluid movement across Shots 22–24 under the same uninterrupted line, without regripping, isolated finger pauses or restarting. The turn and first departing step coincide with the final spoken word at the start of Shot 25.
+Subtext: Malfoid privately grieves killing her father and the others to save her secret love, Male 1. He does not see her cry.
+Critical constraint: Continue immediately after {{res:32194de9-4202-4883-b568-6b2dcbb592dd}} with no replay, overlap or extra opening shot. The Evil Lord’s corpse stays fixed behind Malfoid’s opening position, as in {{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}; never erase, relocate or disintegrate it. Keep the first camera locked in its specified medium side-profile composition, using {{res:b605f735-9e57-4cfd-b317-45f23f1382de}} for continuity. Match voice identity without replaying reference audio. Preserve story order, actions and all shot timings. No kiss, embrace, explanation, extra dialogue, second wrist catch or backward glance. Male 1 remains grounded. Preserve his full watching hold before the private grief cut. In that last shot Malfoid is alone beyond the ruins; Male 1 and all bodies stay in the courtyard.
+Animation style: Restrained cel-anime acting; subtle eye highlights and carefully articulated hands. Smoke and cloth provide motion during held compositions.
+Avoid: Jitter, bent or distorted limbs, malformed hands, extra fingers, temporal flicker, identity drift, inconsistent features, duplicated wands, mirrored hand assignments, grip resets, reference-sheet compositions and subtitles.</code></pre></details><details><summary>Settings and technical provenance</summary><pre><code>{
+  &quot;mode&quot;: &quot;m2v&quot;,
+  &quot;duration_seconds&quot;: 24,
+  &quot;resolution&quot;: &quot;480p&quot;,
+  &quot;ratio&quot;: &quot;16:9&quot;,
+  &quot;count&quot;: 1,
+  &quot;display_model&quot;: &quot;Seedance 2.5&quot;,
+  &quot;display_resolution&quot;: &quot;480p&quot;,
+  &quot;raw_provider_identifier&quot;: &quot;seedance_2.5_draft&quot;
+}</code></pre><p class="small">Settings retained from the saved execution record. Raw labels are preserved without presenting Draft/480p as a separate creative workflow.</p><p class="source-hash">Video SHA-256: 48c40a0e828e8e62583346edf9c781c95bda1fbdb8d964cf584a6442c473fe92</p></details></div></details><details class="render" id="malfoid_prompt3_grief7s_cd7b1f4b" open><summary>Seven-second grief shot · v11</summary><div class="render-body"><span class="tag">Shots 19–26 / revised farewell and coda</span><span class="tag">Seedance 2.5 · 480p</span><p class="status">Latest recovered completed revision; not automatically the final-edit selection.</p><video controls playsinline preload="none" src="media/renders/prompt3_composed_to_grief_7s.mp4">Your browser cannot play this video. <a href="media/renders/prompt3_composed_to_grief_7s.mp4" >Download the video</a></video><p><a href="media/renders/prompt3_composed_to_grief_7s.mp4" download="">Download native video</a> · <a href="archive/episode-1/authoring/03_farewell_composed_to_grief_7s_v11.txt" >Open exact prompt text</a></p><p>Exact submitted provider payload and corresponding authoring revision recovered.</p><details class="prompt" ><summary>Prompt text</summary><p class="file-actions"><a href="archive/episode-1/authoring/03_farewell_composed_to_grief_7s_v11.txt" download="">Download exact text</a></p><pre><code>[PROMPT START]
+Continue from @video1.
+Use @image5 for visual continuity of the characters, their starting positions and colors.
+
+[TITLE]
+Farewell
+
+[REFERENCES]
+@video1: 15-second continuation tail for character state, environment, spatial and visual continuity, and established voice identities. Generate the new soundtrack specified below; never replay its recorded speech or sounds.
+@image1: Male 1.
+@image2: Malfoid.
+@image3: Courtyard establishing.
+@image4: Courtyard ground-level.
+@image5: Continuation frame for character appearance, colors, injuries, wardrobe and close starting positions across the cut to the static medium side-profile opening.
+@image6: Fallen Evil Lord appearance, prone pose and robe reference. His body stays behind Malfoid, on her far side from Male 1. Keep the specified cameras rather than copying this isolated wide composition.
+
+Character images anchor identity, clothes and colors; exclude Male 1’s sheet layout/portraits and Malfoid’s frontal white-background display pose. Environment images define one courtyard. Preserve hand continuity.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes and selective perspective exaggeration. No impact frames during the farewell.
+
+[VISUAL FEEL]
+Natural conversational pacing, fluid hand movement, controlled glances and suspended uncertainty. Crisp hand silhouettes, heavy robe folds, pale hair against dark smoke.
+
+[DURATION]
+26 seconds total. Preserve the listed shot timings through 25.5 seconds; 25.5–26.0 is black after the final fade. Do not stretch the shots.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching @image1.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Dirt-marked black robe with burgundy lining, off-white shirt, loose burgundy tie, charcoal V-neck sweater and trousers, brown lace-up shoes.
+State in this scene: Bruised and exhausted, cheek cut still visible. Blood has been wiped from the corner of his mouth. Seated low on the paving, weight settled sufficiently for his left hand to be free.
+Motion anchor: Remains on the ground throughout. Brown wand always in his right hand. Only his free left hand catches Malfoid&#x27;s right wrist. He does not stand or follow her.
+Voice: Young male, clear and natural, slightly roughened by exhaustion; grounded mid-range tone and restrained intensity.
+
+MALFOID:
+Base: Young woman matching @image2.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black robe with forest-green lining, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, dark pleated skirt, opaque dark tights and black loafers.
+State in this scene: Crouched beside Male 1 with their faces close at the opening, as anchored by @image5; composed and uninjured.
+Physics / personality / detail: Precise fingers, economical movement, small knowing smile; self-assured teasing without tenderness.
+Motion anchor: Brown wand remains in her right hand even while that wrist is held. Her free left thumb and forefinger release his left-hand grip in one continuous gesture under her line. On the final spoken word she turns and takes her first departing step. Once she turns away in Shot 25, she never looks back again.
+Voice: Young female, cool and composed, smooth and slightly low-pitched; precise articulation, understated confidence, dry and lightly teasing rather than soft.
+
+EVIL LORD — FALLEN BODY:
+Base: The dead Evil Lord, matching the prone body in @image6.
+Features: Pale bald head with closed eyes, gaunt face, long dark charcoal-black robe spread across the paving, and a visible pale bare hand with relaxed fingers. Preserve the reference’s body pose and robe silhouette; the robe conceals much of the lower anatomy.
+State in this scene: Already dead and lying on the courtyard stones behind Malfoid at the opening, on the far side of her crouched position from Male 1. He remains on this same patch of paving throughout.
+Motion anchor: Dead and motionless on the same paving. Never relocate, erase or disintegrate the body or add a corpse-reveal cut.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: Architecture and materials grounded in @image3 and @image4.
+Features: Roofless Gothic arcades, jagged broken masonry, cracked blue-gray paving, rubble banks along the sides and weak orange fires. A smoke-filled route recedes across the open paving toward the broken rear arcade.
+State in this scene: The courtyard is quiet. The Evil Lord stays behind Malfoid’s initial crouching position, on her far side from Male 1. Other fallen figures remain motionless; nobody rises.
+Blocking: Male 1 stays low at screen-left. Malfoid starts close at screen-right, rises, turns toward her departure route and steps within his wrist-catching reach. Preserve their relationship through the release. The Evil Lord lies beyond Malfoid, farther from Male 1, fixed to the paving.
+Lighting: Dominant cold blue moonlight, weak orange fire spill, hard shadows and thin silver rim light through drifting smoke.
+
+FAR SIDE OF THE RUINS:
+Base: A secluded ruined stone wall beyond the courtyard, out of Male 1’s sight, using the weathered Gothic masonry and night palette of @image3 and @image4.
+Features: Rough gray stone directly behind Malfoid, deep recesses and thin smoke beyond. She is alone here; Male 1 and all fallen bodies remain in the original courtyard.
+
+[SHOT SEQUENCE]
+00.0–03.0 — SHOT 19:
+Camera: Static medium side-profile shot on Male 1 and Malfoid.
+Action: Malfoid rises beside Male 1, turns toward her departure route and takes one step away. Male 1 remains grounded. The Evil Lord’s pale head and dark-robed body lie on the paving behind Malfoid, on her far side from Male 1, revealed as she rises.
+Lighting: Malfoid moves into stronger moonlight while Male 1 stays lower in shadow.
+VFX: Embers drift through the space between them.
+SFX: Fabric movement and one departing footstep.
+
+03.0–05.5 — SHOT 20:
+Camera: Static wide side-profile shot; Male 1 screen-left, Malfoid screen-right.
+Action: Male 1 reaches with his free left hand and catches Malfoid&#x27;s right wrist. His wand remains in his right hand; hers remains in her right hand. Her departure stops. The Evil Lord lies motionless on the paving beyond Malfoid, his pale head and dark robe visible behind her.
+Lighting: Separate pools of cold moonlight across the darker courtyard.
+Dialogue: MALE 1; &quot;待て！&quot;
+Delivery: Sudden and instinctive, sharper than his weakened voice until now.
+VFX: Embers hang through the negative space.
+SFX: Her step stops with a sharp catch of fabric at the wrist.
+
+05.5–07.5 — SHOT 21:
+Camera: Static rear three-quarter medium close-up on Malfoid from Male 1&#x27;s side.
+Action: Malfoid turns her head back over her shoulder toward Male 1 with a small, knowing smile. His left-hand grip remains intact.
+Lighting: Moonlight traces her white hair and cheek.
+VFX: Restrained anime eye highlight.
+SFX: Low wind and distant fire.
+
+07.5–08.3 — SHOT 22:
+Camera: Static low lateral medium shot, Male 1 below and Malfoid standing above him.
+Action: Male 1’s left hand remains around Malfoid’s right wrist. As she starts speaking, she slips her left thumb and forefinger beneath one of his fingers and lifts it in a single light motion, immediately continuing the release. Other fingers remain in contact at this cut. Both wands stay in their right hands. The Evil Lord’s pale head and dark robe remain motionless on the ground behind Malfoid.
+Lighting: Malfoid is more strongly moonlit; Male 1 remains lower in shadow.
+Dialogue: MALFOID; &quot;ちゃんとついてきなさい、ポッター。&quot;
+Delivery: Light and self-assured, faintly amused; effortless rather than affectionate. One continuous utterance starts here and carries uninterrupted across Shots 23–25. The final word begins at 10.2 seconds, exactly as she turns and takes her first departing step. Do not restart or repeat the line at any cut.
+VFX: Minimal movement emphasis around the hands; no slow motion or finger holds.
+SFX: Brief fabric friction beneath her voice.
+
+08.3–09.5 — SHOT 23:
+Camera: Static extreme low-angle close-up from Male 1&#x27;s ground-level viewpoint on Malfoid looking back over her shoulder.
+Action: Malfoid looks down at Male 1, composed and lightly amused, making no attempt to explain herself. Her line continues naturally while the same release progresses below the crop, without a held pause or grip reset.
+Lighting: Cold moonlight edges her white hair and face against the dark sky.
+VFX: Thin smoke drifts behind her.
+SFX: Quiet wind beneath the continuing utterance.
+
+09.5–10.2 — SHOT 24:
+Camera: Static extreme close-up on Male 1&#x27;s left hand and Malfoid&#x27;s right wrist.
+Action: Only Male 1’s final finger remains in contact. In one small, immediate lift, Malfoid’s left thumb and forefinger free it, completing the same continuous release while her line continues. Her right hand keeps its wand grip throughout. Her wrist is free before the final spoken word.
+Lighting: Cool moonlight defines their hands, forearms and Malfoid&#x27;s wand grip.
+VFX: Crisp anime hand detail in continuous motion; no prolonged final-finger hold.
+SFX: A brief slip of fabric beneath her continuing voice.
+
+10.2–11.5 — SHOT 25:
+Camera: Static low-angle close-up on Malfoid along her departure direction.
+Action: On the final word of her continuing line, Malfoid turns away and takes her first departing step in the same motion. Her wrist is already free. The word finishes during that first step; she keeps walking without pausing or looking back.
+Lighting: Moonlight catches her hair and jawline; the route ahead disappears into smoke.
+VFX: Embers and thin mist frame her departure.
+SFX: Her first departing footstep coincides with the final spoken word.
+
+11.5–18.5 — SHOT 26:
+Camera: Static lateral long shot, Male 1&#x27;s profile near foreground, Malfoid&#x27;s route receding into the distant background.
+Action: For the first four seconds, Malfoid is visibly walking away along the receding route, her white hair and green-lined robe gradually swallowed by moonlit smoke. Male 1 remains grounded with his wand lowered, watching her go. For the final three seconds, she is gone; he continues staring toward the empty route, unresolved and bewildered. He neither rises nor follows. The Evil Lord’s pale head, slack hand and dark-robed body lie motionless on the stones in the midground beyond Male 1.
+Lighting: A small catchlight remains in his eyes; pale moonlight diffuses through the route beyond him.
+VFX: Layered smoke gradually obscures Malfoid, then occupies the empty distance. Hold Male 1&#x27;s watching profile.
+SFX: Her departing footsteps recede during the visible walk; after she disappears, only wind and distant fire remain.
+
+18.5–25.5 — SHOT 27:
+Camera: Very slow zoom from a medium shot toward a medium close-up; camera position fixed.
+Action: Malfoid stands alone side-on to the ruined wall, LEFT hand on the stone, wand low in her RIGHT hand. Her face is composed, eyes dry. In one fluid movement she turns, settles her back against the wall and brings her LEFT hand from the stone to clutch her collar. Only after her back meets the wall does her grip tighten, her brows knit, her mouth tremble and her eyes fill; tears follow. A steadying breath catches into a small sob. She remains standing.
+Delivery: Controlled through the turn. Grief emerges only against the wall: trembling mouth, tears and a small involuntary sob. No extended pause.
+Lighting: Cold blue moonlight edges her white hair; faint fire spill keeps her face and initially dry eyes readable.
+VFX: Thin background smoke; tear highlights only as tears fall. Fade to black at the very end.
+SFX: Quiet wind, distant fire, cloth movement. Controlled breathing gives way to one caught breath and small sob. No dialogue.
+
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Preserve the characters’ vocal identities from @video1 while generating a new soundtrack. Only the two exact dialogue utterances written in this prompt are spoken, once each, by their assigned speakers. Male 1 speaks in Shot 20. Malfoid speaks one uninterrupted line from Shot 22 through Shot 25; its final word begins at 10.2 seconds with her turn and first departing step. Do not replay, sample, continue or add dialogue or recorded sounds from @video1. Generate only the specified cloth friction, footsteps, breathing, wind, distant fire and the final shot’s small nonverbal sob for the new actions. End on environmental sound, not a musical resolution.
+Continuity: Male 1 left, Malfoid right in lateral coverage. Male 1&#x27;s LEFT hand grips Malfoid&#x27;s RIGHT wrist. Both wands remain in RIGHT hands. Malfoid releases his fingers with her LEFT thumb and forefinger. Release progresses as one fluid movement across Shots 22–24 under the same uninterrupted line, without regripping, isolated finger pauses or restarting. The turn and first departing step coincide with the final spoken word at the start of Shot 25.
+Subtext: Malfoid privately grieves killing her father and the others to save her secret love, Male 1. He does not see her cry.
+Critical constraint: Continue immediately after @video1 with no replay, overlap or extra opening shot. The Evil Lord’s corpse stays fixed behind Malfoid’s opening position, as in @image6; never erase, relocate or disintegrate it. Keep the first camera locked in its specified medium side-profile composition, using @image5 for continuity. Match voice identity without replaying reference audio. Preserve story order, actions and all shot timings. No kiss, embrace, explanation, extra dialogue, second wrist catch or backward glance. Male 1 remains grounded. Preserve his full watching hold before the private grief cut. In that last shot Malfoid is alone beyond the ruins; Male 1 and all bodies stay in the courtyard.
+Animation style: Restrained cel-anime acting; subtle eye highlights and carefully articulated hands. Smoke and cloth provide motion during held compositions.
+Avoid: Jitter, bent or distorted limbs, malformed hands, extra fingers, temporal flicker, identity drift, inconsistent features, duplicated wands, mirrored hand assignments, grip resets, reference-sheet compositions and subtitles.
+</code></pre></details><h4>Reference inputs in order</h4><p class="small">Submitted order verified from the saved execution records.</p><ol class="references"><li><code>@video1</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-1.mp4" >Open native video</a></li><li><code>@image1</code> · Reference input · <a href="media/images/codex_male_1_redesign_sheet_v1.png" >Open native image</a> · <a href="assets.html#I020" >design recipe</a></li><li><code>@image2</code> · Reference input · <a href="media/images/krea_malfoid_description_redesign_v1.png" >Open native image</a> · <a href="assets.html#I021" >design recipe</a></li><li><code>@image3</code> · Reference input · <a href="media/images/krea_courtyard_establishing_v1.png" >Open native image</a> · <a href="assets.html#I008" >design recipe</a></li><li><code>@image4</code> · Reference input · <a href="media/images/krea_courtyard_ground_v1.png" >Open native image</a> · <a href="assets.html#I009" >design recipe</a></li><li><code>@image5</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-6.png" >Open native image</a></li><li><code>@image6</code> · Reference input · <a href="media/continuation/ep1-prompt3_private_grief-ref-7.png" >Open native image</a></li></ol><div class="ref-thumbs"><figure><a class="image-link" href="media/images/codex_male_1_redesign_sheet_v1.png"><img loading="lazy" src="media/images/codex_male_1_redesign_sheet_v1.png" alt="Reference input"></a><figcaption>@image1</figcaption></figure><figure><a class="image-link" href="media/images/krea_malfoid_description_redesign_v1.png"><img loading="lazy" src="media/images/krea_malfoid_description_redesign_v1.png" alt="Reference input"></a><figcaption>@image2</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_establishing_v1.png"><img loading="lazy" src="media/images/krea_courtyard_establishing_v1.png" alt="Reference input"></a><figcaption>@image3</figcaption></figure><figure><a class="image-link" href="media/images/krea_courtyard_ground_v1.png"><img loading="lazy" src="media/images/krea_courtyard_ground_v1.png" alt="Reference input"></a><figcaption>@image4</figcaption></figure><figure><a class="image-link" href="media/continuation/ep1-prompt3_private_grief-ref-6.png"><img loading="lazy" src="media/continuation/ep1-prompt3_private_grief-ref-6.png" alt="Reference input"></a><figcaption>@image5</figcaption></figure><figure><a class="image-link" href="media/continuation/ep1-prompt3_private_grief-ref-7.png"><img loading="lazy" src="media/continuation/ep1-prompt3_private_grief-ref-7.png" alt="Reference input"></a><figcaption>@image6</figcaption></figure></div><p><a href="archive/episode-1/authoring/03_farewell_composed_to_grief_7s_v11.authoring.md" >Authoring document, breakdown and revision notes</a> <span class="small">(only local upload/setup paths made portable)</span></p><details class="prompt" ><summary>Exact provider-bound/readback payload</summary><p class="file-actions"><a href="archive/episode-1/submitted/prompt3_composed_to_grief_7s.provider.txt" download="">Download exact text</a></p><pre><code>[PROMPT START]
+Continue from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}}.
+Use {{res:b605f735-9e57-4cfd-b317-45f23f1382de}} for visual continuity of the characters, their starting positions and colors.
+
+[TITLE]
+Farewell
+
+[REFERENCES]
+{{res:32194de9-4202-4883-b568-6b2dcbb592dd}}: 15-second continuation tail for character state, environment, spatial and visual continuity, and established voice identities. Generate the new soundtrack specified below; never replay its recorded speech or sounds.
+{{res:5d6321d9-b8e9-451c-ab87-dee79150801b}}: Male 1.
+{{res:27735744-6590-423b-b76b-5d6279d44f0d}}: Malfoid.
+{{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}}: Courtyard establishing.
+{{res:14475e9b-9afe-4bd0-8544-75543393e020}}: Courtyard ground-level.
+{{res:b605f735-9e57-4cfd-b317-45f23f1382de}}: Continuation frame for character appearance, colors, injuries, wardrobe and close starting positions across the cut to the static medium side-profile opening.
+{{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}: Fallen Evil Lord appearance, prone pose and robe reference. His body stays behind Malfoid, on her far side from Male 1. Keep the specified cameras rather than copying this isolated wide composition.
+
+Character images anchor identity, clothes and colors; exclude Male 1’s sheet layout/portraits and Malfoid’s frontal white-background display pose. Environment images define one courtyard. Preserve hand continuity.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes and selective perspective exaggeration. No impact frames during the farewell.
+
+[VISUAL FEEL]
+Natural conversational pacing, fluid hand movement, controlled glances and suspended uncertainty. Crisp hand silhouettes, heavy robe folds, pale hair against dark smoke.
+
+[DURATION]
+26 seconds total. Preserve the listed shot timings through 25.5 seconds; 25.5–26.0 is black after the final fade. Do not stretch the shots.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching {{res:5d6321d9-b8e9-451c-ab87-dee79150801b}}.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Dirt-marked black robe with burgundy lining, off-white shirt, loose burgundy tie, charcoal V-neck sweater and trousers, brown lace-up shoes.
+State in this scene: Bruised and exhausted, cheek cut still visible. Blood has been wiped from the corner of his mouth. Seated low on the paving, weight settled sufficiently for his left hand to be free.
+Motion anchor: Remains on the ground throughout. Brown wand always in his right hand. Only his free left hand catches Malfoid&#x27;s right wrist. He does not stand or follow her.
+Voice: Young male, clear and natural, slightly roughened by exhaustion; grounded mid-range tone and restrained intensity.
+
+MALFOID:
+Base: Young woman matching {{res:27735744-6590-423b-b76b-5d6279d44f0d}}.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black robe with forest-green lining, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, dark pleated skirt, opaque dark tights and black loafers.
+State in this scene: Crouched beside Male 1 with their faces close at the opening, as anchored by {{res:b605f735-9e57-4cfd-b317-45f23f1382de}}; composed and uninjured.
+Physics / personality / detail: Precise fingers, economical movement, small knowing smile; self-assured teasing without tenderness.
+Motion anchor: Brown wand remains in her right hand even while that wrist is held. Her free left thumb and forefinger release his left-hand grip in one continuous gesture under her line. On the final spoken word she turns and takes her first departing step. Once she turns away in Shot 25, she never looks back again.
+Voice: Young female, cool and composed, smooth and slightly low-pitched; precise articulation, understated confidence, dry and lightly teasing rather than soft.
+
+EVIL LORD — FALLEN BODY:
+Base: The dead Evil Lord, matching the prone body in {{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}.
+Features: Pale bald head with closed eyes, gaunt face, long dark charcoal-black robe spread across the paving, and a visible pale bare hand with relaxed fingers. Preserve the reference’s body pose and robe silhouette; the robe conceals much of the lower anatomy.
+State in this scene: Already dead and lying on the courtyard stones behind Malfoid at the opening, on the far side of her crouched position from Male 1. He remains on this same patch of paving throughout.
+Motion anchor: Dead and motionless on the same paving. Never relocate, erase or disintegrate the body or add a corpse-reveal cut.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: Architecture and materials grounded in {{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}} and {{res:14475e9b-9afe-4bd0-8544-75543393e020}}.
+Features: Roofless Gothic arcades, jagged broken masonry, cracked blue-gray paving, rubble banks along the sides and weak orange fires. A smoke-filled route recedes across the open paving toward the broken rear arcade.
+State in this scene: The courtyard is quiet. The Evil Lord stays behind Malfoid’s initial crouching position, on her far side from Male 1. Other fallen figures remain motionless; nobody rises.
+Blocking: Male 1 stays low at screen-left. Malfoid starts close at screen-right, rises, turns toward her departure route and steps within his wrist-catching reach. Preserve their relationship through the release. The Evil Lord lies beyond Malfoid, farther from Male 1, fixed to the paving.
+Lighting: Dominant cold blue moonlight, weak orange fire spill, hard shadows and thin silver rim light through drifting smoke.
+
+FAR SIDE OF THE RUINS:
+Base: A secluded ruined stone wall beyond the courtyard, out of Male 1’s sight, using the weathered Gothic masonry and night palette of {{res:38e8ece5-2918-45a1-865e-3a4b19de7fe1}} and {{res:14475e9b-9afe-4bd0-8544-75543393e020}}.
+Features: Rough gray stone directly behind Malfoid, deep recesses and thin smoke beyond. She is alone here; Male 1 and all fallen bodies remain in the original courtyard.
+
+[SHOT SEQUENCE]
+00.0–03.0 — SHOT 19:
+Camera: Static medium side-profile shot on Male 1 and Malfoid.
+Action: Malfoid rises beside Male 1, turns toward her departure route and takes one step away. Male 1 remains grounded. The Evil Lord’s pale head and dark-robed body lie on the paving behind Malfoid, on her far side from Male 1, revealed as she rises.
+Lighting: Malfoid moves into stronger moonlight while Male 1 stays lower in shadow.
+VFX: Embers drift through the space between them.
+SFX: Fabric movement and one departing footstep.
+
+03.0–05.5 — SHOT 20:
+Camera: Static wide side-profile shot; Male 1 screen-left, Malfoid screen-right.
+Action: Male 1 reaches with his free left hand and catches Malfoid&#x27;s right wrist. His wand remains in his right hand; hers remains in her right hand. Her departure stops. The Evil Lord lies motionless on the paving beyond Malfoid, his pale head and dark robe visible behind her.
+Lighting: Separate pools of cold moonlight across the darker courtyard.
+Dialogue: MALE 1; &quot;待て！&quot;
+Delivery: Sudden and instinctive, sharper than his weakened voice until now.
+VFX: Embers hang through the negative space.
+SFX: Her step stops with a sharp catch of fabric at the wrist.
+
+05.5–07.5 — SHOT 21:
+Camera: Static rear three-quarter medium close-up on Malfoid from Male 1&#x27;s side.
+Action: Malfoid turns her head back over her shoulder toward Male 1 with a small, knowing smile. His left-hand grip remains intact.
+Lighting: Moonlight traces her white hair and cheek.
+VFX: Restrained anime eye highlight.
+SFX: Low wind and distant fire.
+
+07.5–08.3 — SHOT 22:
+Camera: Static low lateral medium shot, Male 1 below and Malfoid standing above him.
+Action: Male 1’s left hand remains around Malfoid’s right wrist. As she starts speaking, she slips her left thumb and forefinger beneath one of his fingers and lifts it in a single light motion, immediately continuing the release. Other fingers remain in contact at this cut. Both wands stay in their right hands. The Evil Lord’s pale head and dark robe remain motionless on the ground behind Malfoid.
+Lighting: Malfoid is more strongly moonlit; Male 1 remains lower in shadow.
+Dialogue: MALFOID; &quot;ちゃんとついてきなさい、ポッター。&quot;
+Delivery: Light and self-assured, faintly amused; effortless rather than affectionate. One continuous utterance starts here and carries uninterrupted across Shots 23–25. The final word begins at 10.2 seconds, exactly as she turns and takes her first departing step. Do not restart or repeat the line at any cut.
+VFX: Minimal movement emphasis around the hands; no slow motion or finger holds.
+SFX: Brief fabric friction beneath her voice.
+
+08.3–09.5 — SHOT 23:
+Camera: Static extreme low-angle close-up from Male 1&#x27;s ground-level viewpoint on Malfoid looking back over her shoulder.
+Action: Malfoid looks down at Male 1, composed and lightly amused, making no attempt to explain herself. Her line continues naturally while the same release progresses below the crop, without a held pause or grip reset.
+Lighting: Cold moonlight edges her white hair and face against the dark sky.
+VFX: Thin smoke drifts behind her.
+SFX: Quiet wind beneath the continuing utterance.
+
+09.5–10.2 — SHOT 24:
+Camera: Static extreme close-up on Male 1&#x27;s left hand and Malfoid&#x27;s right wrist.
+Action: Only Male 1’s final finger remains in contact. In one small, immediate lift, Malfoid’s left thumb and forefinger free it, completing the same continuous release while her line continues. Her right hand keeps its wand grip throughout. Her wrist is free before the final spoken word.
+Lighting: Cool moonlight defines their hands, forearms and Malfoid&#x27;s wand grip.
+VFX: Crisp anime hand detail in continuous motion; no prolonged final-finger hold.
+SFX: A brief slip of fabric beneath her continuing voice.
+
+10.2–11.5 — SHOT 25:
+Camera: Static low-angle close-up on Malfoid along her departure direction.
+Action: On the final word of her continuing line, Malfoid turns away and takes her first departing step in the same motion. Her wrist is already free. The word finishes during that first step; she keeps walking without pausing or looking back.
+Lighting: Moonlight catches her hair and jawline; the route ahead disappears into smoke.
+VFX: Embers and thin mist frame her departure.
+SFX: Her first departing footstep coincides with the final spoken word.
+
+11.5–18.5 — SHOT 26:
+Camera: Static lateral long shot, Male 1&#x27;s profile near foreground, Malfoid&#x27;s route receding into the distant background.
+Action: For the first four seconds, Malfoid is visibly walking away along the receding route, her white hair and green-lined robe gradually swallowed by moonlit smoke. Male 1 remains grounded with his wand lowered, watching her go. For the final three seconds, she is gone; he continues staring toward the empty route, unresolved and bewildered. He neither rises nor follows. The Evil Lord’s pale head, slack hand and dark-robed body lie motionless on the stones in the midground beyond Male 1.
+Lighting: A small catchlight remains in his eyes; pale moonlight diffuses through the route beyond him.
+VFX: Layered smoke gradually obscures Malfoid, then occupies the empty distance. Hold Male 1&#x27;s watching profile.
+SFX: Her departing footsteps recede during the visible walk; after she disappears, only wind and distant fire remain.
+
+18.5–25.5 — SHOT 27:
+Camera: Very slow zoom from a medium shot toward a medium close-up; camera position fixed.
+Action: Malfoid stands alone side-on to the ruined wall, LEFT hand on the stone, wand low in her RIGHT hand. Her face is composed, eyes dry. In one fluid movement she turns, settles her back against the wall and brings her LEFT hand from the stone to clutch her collar. Only after her back meets the wall does her grip tighten, her brows knit, her mouth tremble and her eyes fill; tears follow. A steadying breath catches into a small sob. She remains standing.
+Delivery: Controlled through the turn. Grief emerges only against the wall: trembling mouth, tears and a small involuntary sob. No extended pause.
+Lighting: Cold blue moonlight edges her white hair; faint fire spill keeps her face and initially dry eyes readable.
+VFX: Thin background smoke; tear highlights only as tears fall. Fade to black at the very end.
+SFX: Quiet wind, distant fire, cloth movement. Controlled breathing gives way to one caught breath and small sob. No dialogue.
+
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Preserve the characters’ vocal identities from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}} while generating a new soundtrack. Only the two exact dialogue utterances written in this prompt are spoken, once each, by their assigned speakers. Male 1 speaks in Shot 20. Malfoid speaks one uninterrupted line from Shot 22 through Shot 25; its final word begins at 10.2 seconds with her turn and first departing step. Do not replay, sample, continue or add dialogue or recorded sounds from {{res:32194de9-4202-4883-b568-6b2dcbb592dd}}. Generate only the specified cloth friction, footsteps, breathing, wind, distant fire and the final shot’s small nonverbal sob for the new actions. End on environmental sound, not a musical resolution.
+Continuity: Male 1 left, Malfoid right in lateral coverage. Male 1&#x27;s LEFT hand grips Malfoid&#x27;s RIGHT wrist. Both wands remain in RIGHT hands. Malfoid releases his fingers with her LEFT thumb and forefinger. Release progresses as one fluid movement across Shots 22–24 under the same uninterrupted line, without regripping, isolated finger pauses or restarting. The turn and first departing step coincide with the final spoken word at the start of Shot 25.
+Subtext: Malfoid privately grieves killing her father and the others to save her secret love, Male 1. He does not see her cry.
+Critical constraint: Continue immediately after {{res:32194de9-4202-4883-b568-6b2dcbb592dd}} with no replay, overlap or extra opening shot. The Evil Lord’s corpse stays fixed behind Malfoid’s opening position, as in {{res:f24c76d7-0f7a-4d19-b50f-4c860e569a25}}; never erase, relocate or disintegrate it. Keep the first camera locked in its specified medium side-profile composition, using {{res:b605f735-9e57-4cfd-b317-45f23f1382de}} for continuity. Match voice identity without replaying reference audio. Preserve story order, actions and all shot timings. No kiss, embrace, explanation, extra dialogue, second wrist catch or backward glance. Male 1 remains grounded. Preserve his full watching hold before the private grief cut. In that last shot Malfoid is alone beyond the ruins; Male 1 and all bodies stay in the courtyard.
+Animation style: Restrained cel-anime acting; subtle eye highlights and carefully articulated hands. Smoke and cloth provide motion during held compositions.
+Avoid: Jitter, bent or distorted limbs, malformed hands, extra fingers, temporal flicker, identity drift, inconsistent features, duplicated wands, mirrored hand assignments, grip resets, reference-sheet compositions and subtitles.</code></pre></details><details><summary>Settings and technical provenance</summary><pre><code>{
+  &quot;mode&quot;: &quot;m2v&quot;,
+  &quot;duration_seconds&quot;: 26,
+  &quot;resolution&quot;: &quot;480p&quot;,
+  &quot;ratio&quot;: &quot;16:9&quot;,
+  &quot;count&quot;: 1,
+  &quot;display_model&quot;: &quot;Seedance 2.5&quot;,
+  &quot;display_resolution&quot;: &quot;480p&quot;,
+  &quot;raw_provider_identifier&quot;: &quot;seedance_2.5_draft&quot;
+}</code></pre><p class="small">Settings retained from the saved execution record. Raw labels are preserved without presenting Draft/480p as a separate creative workflow.</p><p class="source-hash">Video SHA-256: bfae635a884e4b92bdf8f15833424dfb3ddfc0a5a7f4cb0c72703c57f7adc270</p></details></div></details></section></section><section id="continuation"><h2>Carrying continuity into the farewell</h2><p>Prompt 3 uses a tail of the preceding Prompt 2 video, shared character/environment inputs, a selected original-source continuation frame and a body-continuity image. Historical 10- and 15-second tails are retained with their real source provenance.</p><ul><li><a href="media/continuation/ep1-prompt2-tail-1.mp4" >Historical source tail</a> · source interval [20.016666666666666, 30.016666666666666] seconds</li><li><a href="media/continuation/ep1-prompt3_private_grief-ref-1.mp4" >Historical source tail</a> · source interval [15.016666666666667, 30.016666666666666] seconds</li></ul><p>The reusable <a href="skills.html#video-continuation-frame-v3">Continuation Frame V3 package</a> is the selected public replacement; it did not retroactively create these older inputs.</p></section><section><h2>Dialogue source history</h2><p><a href="archive/episode-1/dialogue/dialogue_japanese_english_v1.md" >Japanese dialogue and English translation</a> · <a href="archive/episode-1/dialogue/dialogue_original_english_japanese_v2.md" >Original English and Japanese adaptation</a></p><p class="small">These are historical dialogue documents with their own revision notes. They do not silently replace the exact lines in a submitted prompt.</p></section><section><h2>Additional supplied source versions</h2><p>These clips are retained without inventing a submitted-prompt association or a final-edit selection.</p><details><summary>video2 v2.mp4</summary><video controls playsinline preload="none" src="media/renders/ep1-additional-video2-v2.mp4">Your browser cannot play this video. <a href="media/renders/ep1-additional-video2-v2.mp4" >Download the video</a></video><p>Additional creator-supplied Episode 1 source version; exact submitted prompt association not established.</p></details><details><summary>video 3.mp4</summary><video controls playsinline preload="none" src="media/renders/ep1-additional-video-3.mp4">Your browser cannot play this video. <a href="media/renders/ep1-additional-video-3.mp4" >Download the video</a></video><p>Additional creator-supplied Episode 1 source version; exact submitted prompt association not established.</p></details></section><section><h2>After generation</h2><div class="prose"><p>I assemble the clips in CapCut and use the dialogue and sound effects generated with them. Prompts request no music; extra post-production sound effects were minimal.</p><p>Episode 1 adds <a href="https://elevenlabs.io/music/songs/aCCc7Em3kGA5Ubp7iGYH" target="_blank" rel="noopener">Walked Away on ElevenLabs</a> (<a href="music.html">music prompt and lyrics</a>), created with Eleven Music. The soundtrack walkthrough preserves the accidental first-version-lyrics prompt and the separate final lyrics.</p><p>This publication focuses on generation. A detailed editing walkthrough and timeline screenshots are deferred.</p></div></section></main><footer><a class="brand" href="index.html" aria-label="Morderkai Studio — walkthrough overview"><img class="brand-logo" src="brand/logo.png" width="36" height="36" alt=""><span class="brand-name"><span class="brand-title">MORDERKAI <em>STUDIO</em></span><span class="brand-by">By smoermeow</span></span></a><div class="footer-copy">Created by smoermeow / MORDERKAI. Exact generation text and native media are preserved; portable annotations and skill adaptations are labelled. <a href="provenance.html" >Sources &amp; scope</a> · <a href="recreate.html" >Follow the example</a> · <a href="make-your-own.html" >Make your own</a></div></footer></body></html>

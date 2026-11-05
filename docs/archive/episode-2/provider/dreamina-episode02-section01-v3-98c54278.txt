@@ -1,0 +1,103 @@
+[TITLE]
+The Case for Malfoid
+
+[REFERENCES]
+@image1: Malfoid's identity and uniform; exclude the upright full-body wand-display pose and pale background.
+@image2: Male 1's identity, uniform and cheek scrape; exclude the expression panels and front/side/back lineup.
+@image3: Foideldore's costume; use the hood-up back silhouette only here. Do not show the front or profile views, face, hair, waist or feminine body contours.
+@image4: Office architecture, furnishings and materials, not its empty symmetrical camera composition. Populate it using the shots below.
+
+[STYLE]
+Retro Japanese cel anime, bold linework, Shirow meets Frieren. Mature proportions, painted Gothic interiors, expressive face and full-body acting, selective perspective exaggeration.
+
+[VISUAL FEEL]
+Urgent moral protest against an unmoving authority; cutting sidelong irritation. Weighted cloth, crisp expression changes and deliberate holds between gestures.
+
+[DURATION]
+26.5 seconds.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching @image2.
+Features: Messy blue-black hair, green eyes, black rectangular glasses, cheek scrape; burgundy-lined black robe, ivory shirt, loosened burgundy tie, gray-purple sweater, charcoal trousers, brown shoes.
+Personality: Leads with his chest and open hands; exhaustion roughens his conviction without weakening it.
+State in this scene: Standing before the desk, arguing for Malfoid; she stands slightly behind and beside him.
+Motion anchor: Addresses Foideldore throughout. Small forward step, distinct open-hand appeals; never poses for Malfoid or draws a wand.
+Voice: Young Japanese male, natural mid-range, slightly roughened by exhaustion; earnest and increasingly frustrated, not a continuous shout.
+
+MALFOID:
+Base: Young woman matching @image1.
+Features: Long straight platinum-white hair, gray-blue eyes; forest-green-lined black robe, cream shirt, green/silver tie, charcoal V-neck sweater, dark skirt, opaque tights, black strapped shoes.
+Personality: Proud chin, hip-weighted stance, incisive eye movements; annoyance is openly readable.
+State in this scene: Beside Male 1, initially watching Foideldore, then watching him.
+Motion anchor: Folds her arms, side-eyes him, rolls her eyes; keeps her place. Inner dialogue has no lip movement.
+Voice: Young Japanese female, smooth slightly low register, precise consonants and a dry edge; thoughts sound private, not whispered aloud.
+
+FOIDELDORE:
+Base: Hooded head of school matching @image3's back view.
+Features: Heavy wine-red floor-length cloak, broad sleeves, navy hood lining; hood raised, body concealed by uninterrupted hanging folds.
+State in this scene: Back to the exterior camera; the interior view catches the end of her turn toward the windows.
+Motion anchor: Her heavy cloak trails the turn and settles as she takes her final step. Remains back-facing and silent afterwards.
+
+[SETTING]
+TOWER OFFICE:
+Base: @image4's stone walls, dark wooden floor, heavy carved desk, curved rear bookcases and three pointed windows.
+Features: Candles, books, parchment and brass instruments; elderly portrait left, lunar chart between windows, landscape right. Night rooftops beyond the glass.
+Blocking: Windows behind the desk. From the visitor side, Male 1 stands left and slightly forward, Malfoid right and slightly behind; Foideldore stands beyond the desk near the windows. Preserve these physical positions through angle changes.
+
+[SHOT SEQUENCE]
+00.0–03.5 — SHOT 01:
+Camera: Eye-level exterior wide through the tower windows; slow push toward the glass.
+Action: Gothic tower above dark roofs and spires. Foideldore stands nearest the glass, back to camera, facing Male 1 deeper inside. His body pitches toward the argument, one hand raised; Malfoid stands slightly behind him.
+Lighting: Blue moonlit stone; amber office light silhouettes the hood.
+Dialogue: MALE 1; 「本気で彼女をアズカバンに送るつもりなんですか？」
+Delivery: Incredulous challenge, pressure rising toward the question's end.
+VFX: Thin mist passes outside.
+SFX: Wind; his voice slightly muffled through glass.
+
+03.5–10.5 — SHOT 02:
+Camera: Interior rear three-quarter medium-wide behind the students, across the desk; slow push-in.
+Action: Foideldore’s hooded back is already toward us. Her heavy cloak swings sideways with the last of the turn, its hem trailing across the floor. The folds settle down her back as she takes the final step toward the windows. Male 1 follows with his eyes, then takes one small step toward the desk, opening his hand more insistently. Malfoid shifts onto one hip.
+Lighting: Moonlight across the hood's cloth folds; warm hands and uniforms.
+Dialogue: MALE 1; 「校長先生、マルフォイドがいなかったら、僕はヴォルデモートに殺されてた。ロンも、ハーマイオニーも。」
+Delivery: Direct appeal; the last two names land separately with personal weight.
+SFX: Footsteps, candle crackle, window wind.
+
+10.5–14.5 — SHOT 03:
+Camera: Locked three-quarter medium close-up on Male 1, Malfoid farther behind his shoulder.
+Action: His raised hand lowers, then opens again as if the fact should settle the matter. Brows draw together; he keeps addressing Foideldore offscreen. Behind him, Malfoid's eyes leave the windows and settle on his profile.
+Lighting: Warm facial planes, blue edge along glasses and hair.
+Dialogue: MALE 1; 「僕たちがあそこから生きて帰れたのは、彼女のおかげです。」
+Delivery: Emphatic gratitude, clearer and more personal than the preceding protest. His line continues over the cut into Shot 04.
+
+14.5–17.0 — SHOT 04:
+Camera: Locked tight three-quarter close-up on Malfoid; Male 1's shoulder blurred in foreground.
+Action: She folds her arms with a decisive sleeve movement, tracks his gesturing hand, then cuts a visibly annoyed side-glance up toward his face. Her mouth stays closed and tight.
+Lighting: Amber cheek light; moonlight softly shades her white hair.
+Internal voiceover: MALFOID; 「ほんと、放っておけないのね。」
+Delivery: Dry exasperation with a downward, dismissive finish.
+Audio: Male 1's preceding line continues audibly beneath Malfoid's dry internal voiceover.
+
+17.0–23.0 — SHOT 05:
+Camera: Oblique lateral room view; very slow push toward Foideldore's back-facing silhouette.
+Action: Foideldore occupies the window-side frame edge, hood hiding every facial angle; both students remain readable across the desk toward the opposite side. Male 1 presses his case. Malfoid rolls her eyes conspicuously and tilts her head away, arms firmly crossed, mouth closed. Foideldore gives no response.
+Lighting: Moonlight across the robe's folds; warm students and desk.
+Dialogue: MALE 1; 「彼女がヴォルデモートを止めたんです。あそこにいた連中も、全部。」
+Delivery: Insistent, stressing the scale of what Malfoid did.
+Internal voiceover: MALFOID; 「いつも自分が助けなきゃ気が済まない。」
+Delivery: Sharper private judgment; overlaps Male 1's ongoing line.
+SFX: Candle crackle and distant wind.
+
+23.0–26.5 — SHOT 06:
+Camera: Malfoid's eyeline, slight low-angle three-quarter medium close-up on Male 1; slow push.
+Action: Still looking toward Foideldore, he makes his last appeal. His final hand gesture settles at his side; jaw set, eyes completely sincere. Hold his unperformed conviction after the line.
+Lighting: Blue-white catches his cheek and messy hair over amber fill.
+Dialogue: MALE 1; 「それで彼女を罰するなんて、おかしいでしょう。」
+Delivery: Frustration peaks on the injustice, not on self-importance.
+
+[PRODUCTION NOTES]
+Audio design: Male 1's exact Japanese lines form one continuous appeal across Shots 02–06. Malfoid's internal voiceover overlaps him, his speech audible underneath. Candle crackle, wind, footsteps and fabric. No music or subtitles.
+Subtext: Male 1 is defending her because it is right; Malfoid finds his need to intervene infuriating. Do not reveal attraction early.
+Critical constraint: All six shots in order. Foideldore's gender remains visually concealed throughout: hood up, no face/profile/hair, body outline or reflection. Exactly three characters; reference sheets never become scene layouts. No new injuries, props or spells.
+Animation style: Japanese anime anticipation, accented brows and eyes, decisive poses, sleeve and hair follow-through. Foideldore's stillness contrasts with active student performances; do not flatten everyone into restraint.
+Avoid: Jitter, distorted limbs, malformed hands, temporal flicker, identity drift, duplicated characters, frozen reference poses, chaotic composition, live action and chibi deformation.

@@ -1,0 +1,60 @@
+[PROMPT START]
+Continue from @video1.
+
+[TITLE]
+Annoyed Office Continuation
+
+[REFERENCES]
+@video1: Video continuation reference for character state, environment, spatial continuity, visual style and established voices.
+@image1: Malfoid's identity and uniform; exclude the static full-body wand-display pose and pale backdrop.
+@image2: Male 1's identity, uniform and cheek scrape; exclude the expression-panel collage and turnaround lineup.
+@image3: Foideldore's hood-up back silhouette and cloak only; exclude every front/profile view and all readable feminine features.
+@image4: Office architecture, furnishings and materials; do not reproduce the empty symmetrical composition.
+@image5: Start frame.
+
+[STYLE]
+Retro Japanese cel anime, bold linework, Shirow meets Frieren. Mature proportions, painted Gothic interiors, expressive character acting, selective perspective exaggeration.
+
+[VISUAL FEEL]
+Defensive annoyance and mounting tension, with clear anime poses, accented shoulder movement and weighted robe follow-through. Warm amber office light and cold blue window edging.
+
+[DURATION]
+4 seconds.
+
+[CHARACTERS]
+MALFOID:
+Base: Young woman matching @image1.
+Features: Long straight platinum-white hair, gray-blue eyes; forest-green-lined black robe, cream shirt, green/silver tie, charcoal sweater, dark skirt, opaque tights, black strapped shoes.
+State in this scene: Right foreground, arms already crossed, cheeks flushed, narrowed eyes directed frame-left toward Male 1, holding an annoyed frown.
+Motion anchor: Keeps her arms crossed throughout the brief shoulder lift and settling movement.
+
+MALE 1:
+Base: Young man matching @image2.
+Features: Messy blue-black hair, green eyes, black rectangular glasses, cheek scrape; burgundy-lined black robe, ivory shirt, loose burgundy tie, gray-purple sweater, charcoal trousers, brown shoes.
+State in this scene: Center frame with his back mostly toward the camera, head directed toward Foideldore at frame-left, arms hanging at his sides.
+Motion anchor: Continues addressing Foideldore. His speaking performance reads through a small forward inclination and shoulder emphasis; his head stays directed toward Foideldore.
+
+FOIDELDORE:
+Base: Hooded head of school matching @image3's back view.
+Features: Broad wine-red floor-length cloak and sleeves, navy-lined raised hood; heavy folds conceal body shape.
+State in this scene: Left background at the windows, hood raised and back toward the room, body and arms concealed by the cloak.
+Motion anchor: Remains back-facing as tension accumulates through her posture.
+
+[SETTING]
+TOWER OFFICE:
+Base: @image4's Gothic stone room, dark floorboards, carved desk, curved bookcases and three pointed windows.
+Features: Elderly portrait left, lunar chart between windows, Hogwarts landscape right; books, parchment, candles and brass instruments. Cold blue night outside, amber practicals inside.
+Layout: The desk stands between the visitor area and the three pointed windows.
+
+[SHOT SEQUENCE]
+00.0–04.0 — CONTINUATION:
+Camera: Locked medium shot: Malfoid right foreground, Male 1 center back-facing, Foideldore left background.
+Action: Starting from @image5, Malfoid keeps her arms crossed and her annoyed side-eye on Male 1 as her shoulders lift briefly with tension and settle, her brows drawing together and her cheeks remaining flushed. At the same time, Male 1 continues addressing Foideldore in the background, inclining his upper body slightly forward with a brief conversational shoulder emphasis. Foideldore’s back becomes more rigid as her hooded head dips slightly toward the windows. These performances overlap within the same continuous shot, with hair and sleeves following the movements.
+Lighting: Existing warm amber interior light and cold blue window rim.
+SFX: Quiet office ambience and soft robe movement.
+
+[PRODUCTION NOTES]
+Audio design: Office room tone and soft cloth movement.
+Critical constraint: @image5 is the start frame. Preserve its composition, identities, existing poses and character placement. Foideldore remains hooded and back-facing at the windows. Male 1 keeps addressing Foideldore; Malfoid retains her crossed arms, blush and annoyed side-eye.
+Animation style: Expressive Japanese cel anime, readable poses and accented reactions, with delayed hair and sleeve follow-through.
+Avoid: Jitter, distorted limbs, malformed hands, temporal flicker, identity drift, duplicate characters, reference-sheet compositions and live-action rendering.

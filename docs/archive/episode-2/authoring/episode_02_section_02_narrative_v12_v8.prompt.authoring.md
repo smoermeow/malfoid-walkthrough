@@ -1,0 +1,119 @@
+# Episode 02 · Prompt 2 · Narrative V12 · Revision 8 · Blocking and flushed-state continuity
+
+Authoring authority: `<projects-root>/seedance-prompter-skills-v12/SKILL.md` and its full `references/knowledge.md`, with the latest approved in-chat direction. Prompt-only revision; source scripts and previous versions remain unchanged. No render, upload or credit spend.
+
+## Upload order
+
+- `@video1` · Final 15 seconds of Prompt 1 revision 5 · `_staging/episode02-section02-continuation-inputs-c24076cb/episode02_section01_v5_tail15s.mp4`
+- `@image1` · Malfoid · `library/characters/draco_malfoy/krea_malfoid_description_redesign_v1.png`
+- `@image2` · Male 1 · `library/characters/harry_potter/codex_male_1_redesign_sheet_v1.png`
+- `@image3` · Foideldore · `library/characters/female_dumbledore/codex_foideldore_hood_up_front_back_side_sheet_v1.png`
+- `@image4` · Office · `library/images/output_02.png`
+- `@image5` · Start frame · `_staging/episode02-section02-continuation-inputs-c24076cb/source_frame_selection/continuation_frame.png`
+
+## Copy-ready prompt
+
+```text
+[REFERENCES]
+@video1: Video continuation reference for character state, environment, spatial continuity, visual style and established voices.
+@image1: Malfoid's identity and uniform; exclude the static full-body wand-display pose and pale backdrop.
+@image2: Male 1's identity, uniform and cheek scrape; exclude the expression-panel collage and turnaround lineup.
+@image3: Foideldore's hood-up back silhouette and cloak only; exclude every front/profile view and all readable feminine features.
+@image4: Office architecture, furnishings and materials; do not reproduce the empty symmetrical composition.
+@image5: Start frame.
+
+[AUDIO]
+The first two Japanese lines are heard as Malfoid’s intimate internal voiceover. The handsome thought is dreamy and sincerely affectionate; the refusal is emphatic self-rebuke after the headshake. Her face and body perform the emotions while the audience hears her private thoughts. Her spoken confrontation begins in the next timed range with visible articulation and natural office acoustics. Preserve the established voice identities from @video1 and every exact Japanese line. Cuts follow completed lines.
+
+[VISUAL STYLE]
+Retro Japanese cel anime, bold linework, Shirow meets Frieren. Mature proportions, painted Gothic interiors, expressive character acting, selective perspective exaggeration.
+
+Malfoid’s annoyed frown slowly changes into a lovestruck expression with dreamy eyes, an affectionate smile and pink cheeks. Warm pink haze and small rose-pink hearts accompany the daydream. A rapid headshake and sharp snap-zoom out restore the office and her defensive annoyance before the exaggerated spoken outburst.
+
+[DURATION]
+30 seconds.
+
+[CHARACTERS]
+MALFOID:
+Base: Young woman matching @image1.
+Features: Long straight platinum-white hair, gray-blue eyes; forest-green-lined black robe, cream shirt, green/silver tie, charcoal sweater, dark skirt, opaque tights, black strapped shoes.
+Personality: Proud posture and precise diction; her eyes and shoulders betray feelings before she can recover her pose.
+State in this scene: Standing right of and slightly behind Male 1 on the visitor side of the desk, arms folded, watching him rant with irritation. The intrusive thought that he is handsome brings a complete change into dreamy affection and a visible blush.
+Motion anchor: Her annoyed frown slowly changes into a lovestruck expression with dreamy eyes and an affectionate smile; she blushes and raises her hands beneath her chin. After the affectionate thought, a rapid side-to-side headshake breaks the daydream. She crosses her arms and side-eyes Male 1 during her internal refusal, then unfolds one arm to point at him and shouts with exaggerated indignation, still blushing. Facial acting carries the thoughts; visible speech articulation begins with her spoken confrontation.
+Voice: Young Japanese female, smooth slightly low register and precise articulation. The handsome thought is soft, dreamy and sincerely affectionate internal voiceover. The internal refusal becomes brisk and emphatic after the headshake. Her first spoken interruption is a sharp, exaggerated shout with biting emphasis on his famous name; later accusations remain dry and pointed. Voice identity remains consistent through these changes.
+
+MALE 1:
+Base: Young man matching @image2.
+Features: Messy blue-black hair, green eyes, black rectangular glasses, cheek scrape; burgundy-lined black robe, ivory shirt, loose burgundy tie, gray-purple sweater, charcoal trousers, brown shoes.
+State in this scene: Left of Malfoid, slightly nearer the desk, finishing an appeal toward the hooded head of school.
+Personality: Open-handed moral urgency; baffled by Malfoid's attack, then completely direct when thanking her.
+Motion anchor: Turns from Foideldore toward Malfoid when challenged. His correction is baffled and factual; his gratitude is direct and sincere.
+Voice: Young Japanese male, grounded mid-range, clear and slightly exhaustion-roughened; confused protest becomes unguarded sincerity.
+
+FOIDELDORE:
+Base: Hooded head of school matching @image3's back view.
+Features: Broad wine-red floor-length cloak and sleeves, navy-lined raised hood; heavy folds conceal body shape.
+State in this scene: Beyond the desk at the windows, back to the room, silent.
+Motion anchor: Remains back-facing at the windows. Frustration accumulates through stiffening shoulders and a small head drop.
+
+[SETTING]
+TOWER OFFICE:
+Base: @image4's Gothic stone room, dark floorboards, carved desk, curved bookcases and three pointed windows.
+Features: Elderly portrait left, lunar chart between windows, Hogwarts landscape right; books, parchment, candles and brass instruments. Cold blue night outside, amber practicals inside.
+Blocking: Windows behind the desk. From the visitor side, Male 1 stands left and slightly forward, nearer the desk; Malfoid stands right and slightly behind him. Both students remain on the visitor side. Foideldore stands beyond the desk near the windows with her back toward the students. Their feet retain these positions while they turn, lean and gesture toward one another. Argument angles preserve their positions and eyelines.
+
+00.0–06.5 seconds:
+Starting from @image5, cut to a three-quarter frontal medium close-up of Malfoid watching Male 1. The camera slowly pushes toward her face. Her annoyed frown slowly changes into a lovestruck expression with dreamy eyes and an affectionate smile. Her cheeks blush as she raises her hands beneath her chin and thinks to herself in a dreamy, affectionate inner voice, 「嘘……かっこいい。」 Simultaneously, the office background gradually blurs into a warm pink haze filled with small, translucent rose-pink hearts, softly glowing and drifting upward behind her. The push-in ends on her lovestruck face as the thought finishes.
+
+She suddenly shakes her head rapidly from side to side. As she finishes the shake, the camera snap-zooms out to a medium shot and the romantic background instantly returns to the clearly defined office, restoring its amber light and blue window rim. Her expression immediately sharpens back into an annoyed frown, her cheeks still flushed. She crosses her arms and side-eyes Male 1, thinking to herself in an emphatic, self-rebuking inner voice, 「ダメ。絶対にダメ。こいつはポッターよ。」
+
+06.5–13.0 seconds:
+Cut to a locked wide side-profile two-shot across the near desk edge. Male 1 stands frame-left and slightly forward, nearer the desk; Malfoid stands frame-right and slightly behind him, both on the visitor side. Foideldore remains back-facing near the windows on the opposite side of the desk. Malfoid holds her annoyed frown and crossed-arm pose, her cheeks flushed. From her position, she sharply turns toward Male 1, unfolds her arms and throws one hand out to point at him, leaning into the accusation with an exaggeratedly indignant expression and flushed cheeks. She shouts, {誰にも庇ってもらう必要なんてないわ。特に、かの有名なハリー・ポッターにはね。} The first sentence bursts out; his famous name receives pointed, biting emphasis. Warm light holds the students; a distant blue rim outlines Foideldore’s hood. <Robe and sleeve movement.>
+
+13.0–17.5 seconds:
+Cut to a locked medium OTS behind Malfoid’s white-haired shoulder, framing Male 1. Her pointing hand lowers as he begins his reply, leaving her arms unfolded. His half-raised hand stops, hangs, then drops. His brows lift in genuine confusion. He turns fully toward her and opens his hand past her toward Foideldore, replying with baffled correction, growing friction and factual emphasis, {君の代わりに戦ってるんじゃない。何があったか話してるだけだ。} Amber light shapes his face; blue light edges his black hair and glasses.
+
+17.5–20.0 seconds:
+Cut to a locked tight side-profile two-shot, Male 1 left and Malfoid right. Malfoid leans closer with her arms unfolded and cheeks flushed, her eyes narrowing as she says with accusatory familiarity, {あなたって、いつもそう。} Male 1 holds her gaze, his forehead creasing, then answers with immediate, honest bewilderment, {何が？} His short reply follows her completed line. Thin blue rims separate their profiles from the amber room.
+
+20.0–23.0 seconds:
+Cut to a locked rear medium close-up of Foideldore’s hood and shoulders. Her shoulders become markedly rigid and the hood tips down a fraction as Malfoid continues from offscreen with a sharp, increasingly personal spoken accusation, {何でも自分のことみたいに首を突っ込む。} Foideldore keeps her back toward the room, her heavy robe concealing her body. The nearly black hood has a hard blue rim. <Window wind beneath Malfoid’s voice.>
+
+23.0–26.5 seconds:
+Cut to a locked tight three-quarter frontal close-up on Male 1 from Malfoid’s side. He looks directly at her. His frustrated brow releases; his hands lower completely and his shoulders settle. Holding her eyes, he states plainly and firmly, emotionally exposed, {君に命を救われたんだ。だったら僕の問題だ。} The second sentence receives its own weight. Blue light catches one cheek; amber holds the other.
+
+26.5–30.0 seconds:
+Cut to a tight frontal close-up on Malfoid from Male 1’s eyeline; slow push inward. Malfoid holds his gaze for a beat too long, her flushed cheeks turning a deeper red. Her annoyed frown tightens as her eyes linger on his face. Her eyes snap aside before her head follows. She turns partly away, folds her arms and complains with flustered exasperation and pointed irritation, {もう……ほんっと、イライラする。} Her cheeks remain red. Warm light holds her face through the eye contact; the blue hair rim strengthens as she turns. The gaze break receives a sharp graphic accent.
+
+[FINAL VISUAL STYLE]
+Full-range Japanese cel-anime acting with distinct emotional states and readable poses. A slow push into lovestruck affection is interrupted by the rapid headshake and a sharp snap-zoom out to a medium shot. Warm pink haze and small, translucent rose-pink hearts resolve back into the Gothic office during that reversal. The spoken outburst uses an exaggeratedly indignant expression, pointing gesture and visible blush. Preserve the reference identities, wardrobe, lighting geography and spatial continuity through the remaining exchange.
+
+Subtext: Malfoid watches Male 1 rant with irritation. The intrusive thought that he is handsome draws her into genuine, dreamy affection and makes her blush. She interrupts that state with a rapid headshake, thinks her refusal, recovers her defensive annoyance and snaps at him. Male 1 means his gratitude literally. Foideldore’s motionless back accumulates pressure while their argument grows more volatile.
+Critical constraint: @image5 is the start frame. Preserve the chronological action, all exact Japanese wording and the 30-second duration. The first range combines source beats 07–08; the outburst occupies 06.5–13.0, and all later boundaries are retained. Both thought lines remain internal voiceover, with no lip synchronization to their words. The headshake follows the affectionate thought, the snap-zoom out follows the headshake, and the private refusal precedes the spoken snap. Foideldore remains back-facing and concealed throughout: no gender, face, profile, hair, body-contour or reflection reveal. Preserve reference identities without display poses and the students’ left/right and depth relationship: Male 1 left and slightly forward, Malfoid right and slightly behind, both on the visitor side. Carry the resulting character state through subsequent cuts until a described action changes it. No drawn wands, deliberate flirting by Male 1, kiss, physical contact, added dialogue, invented murmuring, music, subtitles or added story beat.
+
+Avoid: Jitter, bent or distorted limbs. Temporal flicker, identity drift, duplicate characters, frozen reference poses, chaotic composition and live-action rendering.
+```
+
+## Scene breakdown
+
+00.0–06.5: The slow push-in accompanies Malfoid’s lovestruck expression, blush, hands beneath her chin, warm pink haze and small rose-pink hearts during her affectionate inner thought. A rapid headshake is followed by a snap-zoom out to medium and the return of the office. She crosses her arms, side-eyes Male 1 and thinks her refusal. 06.5–13.0: Cut wide with Harry left and slightly forward and Malfoid right and slightly behind, both on the visitor side. Her flushed face and crossed arms carry into the shot; she points and leans from her position to shout. 13.0–30.0: Her pointing hand lowers during Harry’s reply, leaving her arms unfolded; her flushed cheeks carry into the later visible reactions and turn a deeper red during the final held gaze. The remaining exchange retains its order and timing.
+
+## Character count
+
+11665 / 15000 characters including spaces, excluding code fences.
+
+## Four optional creative suggestions
+
+These are not applied to the prompt above.
+
+1. Test a slightly longer lovestruck hold within the existing first range.
+2. Test a stronger hair follow-through on the rapid headshake.
+3. Test a more graphic pointing silhouette within the existing outburst.
+4. Test a more elongated sarcastic emphasis on the famous name while preserving every word.
+
+## Revision notes and dependencies
+
+The former 00.0–03.0 and 03.0–06.5 beats are grouped into one narrative range. The canted close-up and exaggerated empty framing are removed. The camera’s progression is explicit: slow push-in ending on the lovestruck face, then a snap-zoom out to medium as the headshake finishes. All later boundaries are unchanged. Exact Japanese wording/order, character designs, costumes, environment and reference paths are preserved. The lovestruck pose, hands beneath chin and pink hearts follow the subsequent in-chat discussion and approval; the screenshot remains only a directional reference and is not added as an input. Harry’s eyeline/light-catching-hair shot remains Prompt 1 Shot 06, untouched. The source scripts are retained unchanged; their older acting directions do not supersede the approved prompt revision.
+
+
+Revision 8 applies the approved wide-shot blocking and character-state correction only. The forward step and its footstep sound are removed; pointing and leaning occur from the position established in Prompt 1. The extended pointing gesture resolves by lowering her hand during Harry’s reply, carrying unfolded arms into the next two-shot and her later arm-fold. Her flushed cheeks carry through the visible reactions and turn a deeper red at the end. The final close-up camera is unchanged. Prompt 1, Prompt 3, source scripts, dialogue, timing, references and the opening daydream/headshake/snap-zoom sequence are unchanged. No render submitted.

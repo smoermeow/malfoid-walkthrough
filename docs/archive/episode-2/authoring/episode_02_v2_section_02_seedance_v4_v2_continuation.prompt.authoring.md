@@ -1,0 +1,154 @@
+# Episode 02 v2 · Section 02 · Seedance Prompter V4 · Revision 2 · Continuation
+
+Source: `documents/scripts/episode_02_v2_section_02.md`
+
+Draft duration: **30 seconds**. Timing is expanded for the supplied Japanese lines and acting beats; the source script is unchanged.
+
+## Upload order
+
+- `@video1` · Final 15 seconds of Prompt 1 revision 5 · `_staging/episode02-section02-continuation-inputs-c24076cb/episode02_section01_v5_tail15s.mp4`
+- `@image1` · Malfoid · `library/characters/draco_malfoy/krea_malfoid_description_redesign_v1.png`
+- `@image2` · Male 1 · `library/characters/harry_potter/codex_male_1_redesign_sheet_v1.png`
+- `@image3` · Foideldore · `library/characters/female_dumbledore/codex_foideldore_hood_up_front_back_side_sheet_v1.png`
+- `@image4` · Office · `library/images/output_02.png`
+
+Continuation revision: the existing shots, Japanese dialogue and voice instructions remain unchanged. Total duration is corrected to 30 seconds by ending Shot 14 at 30.0; every earlier timestamp is unchanged. No paid generation submitted.
+
+## Copy-ready prompt
+
+```text
+[PROMPT START]
+Continue from @video1.
+
+[TITLE]
+Absolutely Not Potter
+
+[REFERENCES]
+@video1: Video continuation reference for character state, environment, spatial continuity, visual style and established voices.
+@image1: Malfoid's identity and uniform; exclude the static full-body wand-display pose and pale backdrop.
+@image2: Male 1's identity, uniform and cheek scrape; exclude the expression-panel collage and turnaround lineup.
+@image3: Foideldore's hood-up back silhouette and cloak only; exclude every front/profile view and all readable feminine features.
+@image4: Office architecture, furnishings and materials; do not reproduce the empty symmetrical composition.
+
+[STYLE]
+Retro Japanese cel anime, bold linework, Shirow meets Frieren. Mature proportions, painted Gothic interiors, expressive character acting, selective perspective exaggeration.
+
+[VISUAL FEEL]
+Irritation melts into attraction, snaps into mortification, then erupts as defensive hostility. Sharp reaction changes alternate with uncomfortable eye-contact holds.
+
+[DURATION]
+30 seconds.
+
+[CHARACTERS]
+MALFOID:
+Base: Young woman matching @image1.
+Features: Long straight platinum-white hair, gray-blue eyes; forest-green-lined black robe, cream shirt, green/silver tie, charcoal sweater, dark skirt, opaque tights, black strapped shoes.
+Personality: Proud posture and precise diction; her eyes and shoulders betray feelings before she can recover her pose.
+State in this scene: Standing right of Male 1 on the visitor side of the desk, arms folded; watching his sincere defence of her.
+Motion anchor: Arms loosen with attraction, clamp shut with embarrassment, open for confrontation, then fold again. No wand drawn. Inner voice never moves her lips.
+Voice: Young Japanese female, smooth slightly low register, dry precise articulation. Preserve voice identity while delivery swings from unguarded fascination to inward panic and biting irritation.
+
+MALE 1:
+Base: Young man matching @image2.
+Features: Messy blue-black hair, green eyes, black rectangular glasses, cheek scrape; burgundy-lined black robe, ivory shirt, loose burgundy tie, gray-purple sweater, charcoal trousers, brown shoes.
+State in this scene: Left of Malfoid, slightly nearer the desk, finishing an appeal toward the hooded head of school.
+Personality: Open-handed moral urgency; baffled by Malfoid's attack, then completely direct when thanking her.
+Motion anchor: Turns from Foideldore toward Malfoid when challenged. Never flirts deliberately, touches her or draws a wand.
+Voice: Young Japanese male, grounded mid-range, clear and slightly exhaustion-roughened; confused protest becomes unguarded sincerity.
+
+FOIDELDORE:
+Base: Hooded head of school matching @image3's back view.
+Features: Broad wine-red floor-length cloak and sleeves, navy-lined raised hood; heavy folds conceal body shape.
+State in this scene: Beyond the desk at the windows, back to the room, silent.
+Motion anchor: No turn or visible face, hair, profile or gender cue. Frustration accumulates through stiffening shoulders and a small head drop.
+
+[SETTING]
+TOWER OFFICE:
+Base: @image4's Gothic stone room, dark floorboards, carved desk, curved bookcases and three pointed windows.
+Features: Elderly portrait left, lunar chart between windows, Hogwarts landscape right; books, parchment, candles and brass instruments. Cold blue night outside, amber practicals inside.
+Blocking: Male 1 left and slightly forward, Malfoid right on the visitor side; Foideldore beyond the desk facing the windows. Argument angles preserve their positions and eyelines without crossing the pair's axis.
+
+[SHOT SEQUENCE]
+00.0–03.0 — SHOT 07:
+Camera: Tight three-quarter close-up on Malfoid; slow push toward her face.
+Action: Her eyes finally settle on Male 1. The irritated brow releases; her gaze lingers. Folded arms loosen and shoulders drop without permission. Lips part slightly; hold her absorbed stare long enough for the attraction to read.
+Lighting: Warm face; blue window reflections catch in her eyes.
+Dialogue: MALFOID, inner voice; 「嘘……かっこいい。」
+Delivery: The first word escapes in disbelief; the admission is involuntarily breath-caught, without her usual defensive edge.
+VFX: Office detail softens behind her; no hearts or fantasy cutaway.
+
+03.0–06.5 — SHOT 08:
+Camera: Locked slightly canted high-angle close-up on Malfoid, with exaggerated negative space.
+Action: Eyes spring wide as she catches the thought. Flush spreads clearly across both cheeks. She snaps her gaze away and clamps her arms shut; eyes flick straight back toward him, then stop. Jaw tightens as mortification is forced into an angry mask.
+Lighting: Cold rim flashes along the turning white hair; warm blush readable.
+Dialogue: MALFOID, inner voice; 「ダメ。絶対にダメ。こいつはポッターよ。」
+Delivery: Rapid private self-rebuke, each refusal more emphatic; his name becomes her defensive justification.
+VFX: One brief graphic anime accent when she catches the returning glance; no chibi transformation.
+
+06.5–13.0 — SHOT 09:
+Camera: Locked wide side-profile two-shot across the near desk edge.
+Action: Male 1 remains left, partly oriented toward Foideldore. Malfoid, right, pivots sharply toward him and steps into their shared space without crossing him. Arms unfold, chin lifts; the blush has not quite cleared as embarrassment bursts outward as hostility. Foideldore stays distant and back-facing between them.
+Lighting: Warm students; distant blue-rimmed hood.
+Dialogue: MALFOID; 「誰にも庇ってもらう必要なんてないわ。特に、かの有名なハリー・ポッターにはね。」
+Delivery: Cutting interruption; clipped first sentence, pointed sarcastic weight on his famous name. No coy smile.
+SFX: Her abrupt step and robe movement.
+
+13.0–17.5 — SHOT 10:
+Camera: Locked medium over Malfoid's white-haired shoulder toward Male 1.
+Action: His half-raised hand stops, hangs, then drops. Brows lift in genuine confusion. He turns fully toward her and opens his hand past her toward Foideldore, trying to return to what actually happened.
+Lighting: Amber face; blue edge on black hair and glasses.
+Dialogue: MALE 1; 「君の代わりに戦ってるんじゃない。何があったか話してるだけだ。」
+Delivery: Baffled correction, growing friction; factual rather than patronizing.
+
+17.5–20.0 — SHOT 11:
+Camera: Locked tight side-profile two-shot, Male 1 left and Malfoid right.
+Action: Malfoid leans closer instead of yielding, eyes narrowing. Male 1 holds her gaze, forehead creasing as he waits for an explanation. Let his short reply follow hers cleanly.
+Lighting: Thin blue rims against the amber room.
+Dialogue: MALFOID; 「あなたって、いつもそう。」
+Delivery: Accusatory familiarity, as though this offence is beyond obvious.
+Dialogue: MALE 1; 「何が？」
+Delivery: Immediate, honestly bewildered.
+
+20.0–23.0 — SHOT 12:
+Camera: Locked rear medium close-up on Foideldore's hood and shoulders.
+Action: Her shoulders become markedly rigid. The hood tips down a fraction while Malfoid continues accusing Male 1 offscreen. Foideldore remains completely back-facing; the heavy robe hides her body.
+Lighting: Nearly black hood silhouette with a hard blue rim.
+Dialogue: MALFOID, offscreen; 「何でも自分のことみたいに首を突っ込む。」
+Delivery: Sharp and increasingly personal; not an inner thought.
+SFX: Window wind beneath her voice.
+
+23.0–26.5 — SHOT 13:
+Camera: Locked tight three-quarter frontal close-up on Male 1 from Malfoid's side.
+Action: He looks directly at her. The frustrated brow releases; hands lower completely and shoulders settle. He stops rebutting her and holds her eyes while stating the simplest possible truth. No flirtatious grin.
+Lighting: Blue on one cheek; amber holds the other.
+Dialogue: MALE 1; 「君に命を救われたんだ。だったら僕の問題だ。」
+Delivery: Plain, firm and emotionally exposed; give the second sentence its own weight.
+
+26.5–30.0 — SHOT 14:
+Camera: Tight frontal close-up on Malfoid from his eyeline; slow push inward.
+Action: She freezes. Anger drains; eyes widen and lips part without an answer. Hold the eye contact noticeably too long. Realization hits; her eyes snap aside before her head follows. She turns partly away, folds her arms and forces irritation back over the returning flush.
+Lighting: Warm face through the hold; stronger blue hair rim as she turns.
+Dialogue: MALFOID; 「もう……ほんっと、イライラする。」
+Delivery: Flustered breath into the opening; stress the complaint as she rebuilds her pride. The irritation is real but no longer conceals everything.
+VFX: Held anime reaction followed by a sharply accented gaze break.
+
+[PRODUCTION NOTES]
+Audio design: Exact Japanese lines, no additions or paraphrases. Inner voice is dry and close, without lip sync; spoken dialogue uses natural office acoustics. No invented murmuring, music or subtitles. Cuts follow complete lines.
+Subtext: Attraction destabilizes Malfoid's pride; she attacks because she cannot tolerate how he makes her feel. Male 1 means his gratitude literally. Foideldore's motionless back accumulates pressure while their acting grows more volatile.
+Critical constraint: Preserve all eight shots and their emotional order. Never reveal Foideldore's gender, face, profile, hair, body contours or reflection. Preserve reference identities without display poses, and the students' left/right relationship. No kiss, contact, new dialogue or added story beat.
+Animation style: Full-range Japanese anime acting: eye darts, blush, sharp chin lifts, leaning silhouettes and delayed hair/sleeve follow-through. Strong poses and held reactions, not continuous low-intensity microexpression acting.
+Avoid: Jitter, distorted limbs, malformed hands, temporal flicker, identity drift, duplicate characters, frozen reference poses, chaotic composition and live-action rendering.
+```
+
+## Scene breakdown
+
+**00.0–03.0:** Malfoid unexpectedly lets herself look at him and admits the attraction internally. **03.0–06.5:** Blush, gaze avoidance and a betraying look back turn into private panic. **06.5–13.0:** She attacks his interference with pride and sarcasm. **13.0–17.5:** He turns toward her, genuinely confused. **17.5–20.0:** Their close exchange becomes personal. **20.0–23.0:** Her accusation continues over the hooded head of school stiffening at the windows. **23.0–26.5:** His gratitude disarms her. **26.5–30.0:** The eye contact lasts too long before she rebuilds the irritated pose.
+
+## Four optional creative suggestions
+
+These are un-applied performance variants, not additional story beats.
+
+1. Test a warmer, more surprised inner delivery for 「嘘……かっこいい。」 without changing its words.
+2. Try a stronger returning eye dart in Shot 08 so the second look visibly betrays her.
+3. Give 「かの有名なハリー・ポッター」 a more deliberately elongated sarcastic rhythm within Shot 09.
+4. Try a longer silent opening hold within Shot 14, borrowing only from its existing pre-line pause rather than changing the dialogue.

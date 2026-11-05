@@ -1,0 +1,589 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A source-linked production walkthrough of two retro-anime episodes, from script iteration through reference design and generation."><title>Building the script through iteration · Malfoid</title><meta name="theme-color" content="#0b0d10"><link rel="icon" type="image/png" href="brand/logo.png"><link rel="stylesheet" href="style.css"><script src="site.js" defer></script></head><body><a class="skip-link" href="#walkthrough-content">Skip to content</a><header><div class="masthead"><a class="brand" href="index.html" aria-label="Morderkai Studio — walkthrough overview"><img class="brand-logo" src="brand/logo.png" width="36" height="36" alt=""><span class="brand-name"><span class="brand-title">MORDERKAI <em>STUDIO</em></span><span class="brand-by">By smoermeow</span></span></a><div class="notebook-meta"><span class="notebook-label">Production notebooks</span><span class="draft">Production walkthrough</span></div></div><nav aria-label="Main navigation"><a href="index.html">Overview</a><a href="character-design.html">Images</a><a href="script-development.html" aria-current="page">Scripting</a><a href="prompting.html">Prompting</a><a href="assets.html">References</a><a href="episode-1.html">Episode 1</a><a href="episode-2.html">Episode 2</a><a href="skills.html">Skills</a><a href="prompt-archive.html">Archive</a></nav></header><main id="walkthrough-content"><p class="eyebrow">Generation walkthrough</p><h1>Building the script through iteration</h1><p class="lede">How I developed the scripts through iteration, followed by the source-script archive.</p><aside class="note">My original walkthrough is preserved in <a href="texts/script-development-original.md" >the supplied Markdown</a>. The two script placeholders are presented here as explicit source-version links. The dedicated storyboard skill was not used to author these example scripts.</aside><article class="prose"><h1>Building an Anime Short With ChatGPT Through Iteration</h1>
+<p>This is not actually my normal scripting workflow.</p>
+<p>Normally, I use an agent with dedicated skills and knowledge that already guide it toward some of the things I want visually and structurally.</p>
+<p>For these videos, I did something much less organized.</p>
+<p>I basically winged the script development inside a normal ChatGPT conversation.</p>
+<p>Episode 1 ended up working surprisingly well, and looking back at the conversation, I think there are parts of that process that could be useful to other people.</p>
+<p>Not because there was one great prompt.</p>
+<p>There wasn't.</p>
+<p>The useful part was the iteration.</p>
+<p>I brought the story, characters, visual ideas and preferences. ChatGPT helped structure and develop that material. I kept reacting to what it produced, changing direction when something felt wrong and gradually making the script more specific.</p>
+<p>This is a walkthrough of that process.</p>
+<hr />
+<h2>TL;DR — for the lazy ones</h2>
+<p>I gave ChatGPT the story and rough visual direction, then developed the script through iteration rather than one giant prompt.</p>
+<p>The biggest change came when the first camera sequence felt too conventional. We flipped it from:</p>
+<p><strong>full geography → closer shots</strong></p>
+<p>to:</p>
+<p><strong>close fragments → gradual reveal → full geography</strong></p>
+<p>From there I kept pushing toward the visual language I wanted: <strong>foreshortening, stronger anime perspectives, low/high angles, canted shots, POVs, ground-level views and less generic shot/reverse-shot coverage.</strong></p>
+<p>I reused my normal shot format:</p>
+<p><strong>Duration / Camera / Action / Dialogue / SFX / Lighting / VFX</strong></p>
+<p>and we added:</p>
+<p><strong>Global visual style / Voice anchors / Global lighting / Plot summary</strong></p>
+<p>The useful part was not one perfect prompt. It was reacting when something felt off and continuing to direct the AI until the sequence matched the vibe I wanted.</p>
+<hr />
+<h1>Full Walkthrough</h1>
+<h2>1. I started with the Episode 1 idea</h2>
+<p>I already had the actual premise and characters.</p>
+<p>I brought that material into the conversation and used ChatGPT to help turn it into a scene.</p>
+<p>The important distinction here is that ChatGPT was not being asked to invent the project for me.</p>
+<p>I was giving it the material and then using the conversation to develop it.</p>
+<p>There was also no carefully designed workflow at this point.</p>
+<p>I was just working through the idea in the chat.</p>
+<hr />
+<h2>2. We started turning the story into a visual sequence</h2>
+<p>Once we had the scene to work with, we started figuring out how it should actually be shown.</p>
+<p>The first direction was fairly conventional.</p>
+<p>We started by establishing the larger geography and then moving progressively closer.</p>
+<p>Basically:</p>
+<p><strong>full geography → closer shots</strong></p>
+<p>There was nothing technically broken about that.</p>
+<p>It just did not feel like what I wanted.</p>
+<p>That is important, because I was not following some predefined rule that said the sequence had to be structured differently.</p>
+<p>The vibe was off.</p>
+<p>So we talked about it and tried another direction.</p>
+<hr />
+<h2>3. We reversed the opening</h2>
+<p>Instead of establishing everything first, we turned the sequence around.</p>
+<p>We began much closer and revealed the situation piece by piece.</p>
+<p>The resulting opening moved through things like:</p>
+<p><strong>Voldemort's feet</strong></p>
+<p>→ <strong>Harry on the ground</strong></p>
+<p>→ <strong>Malfoid and the surrounding Death Eaters</strong></p>
+<p>→ <strong>Voldemort</strong></p>
+<p>→ <strong>the wider overhead geography</strong></p>
+<p>The finished Episode 1 script still shows that progression: a low-angle close shot of Voldemort's boots, a tight shot of Harry, a shot across Malfoid and the watching ring, another closer Voldemort/Harry exchange, and then the canted overhead wide revealing the complete situation.</p>
+<p>That change gave the opening a very different feeling.</p>
+<p>Instead of explaining everything immediately, the viewer gets fragments and gradually understands the situation.</p>
+<p>But this was not something I had mapped out as a formal technique beforehand.</p>
+<p>The original sequence did not feel right, we discussed another direction, changed it, and the new version worked better.</p>
+<hr />
+<h2>4. I kept feeding more of the visual feel into the conversation</h2>
+<p>This was a normal ChatGPT conversation, not one of my dedicated skills.</p>
+<p>That meant the model did not start with a knowledge base already telling it what I mean when I want a certain visual style.</p>
+<p>So as we worked, I kept adding more of that direction myself.</p>
+<p>Things like:</p>
+<ul>
+<li>foreshortening</li>
+<li>stronger anime perspectives</li>
+<li>unusual camera placement</li>
+<li>low angles</li>
+<li>high angles</li>
+<li>canted perspectives</li>
+<li>POV</li>
+<li>ground-level shots</li>
+<li>more aggressive three-quarter views</li>
+<li>less generic coverage</li>
+</ul>
+<p>The finished Episode 1 sequence ended up with a pretty wide range of perspectives: low-angle close shots, tight three-quarter shots, a canted overhead wide, rear three-quarter views, Harry's grounded OTS and POV angles, ground-level framing, high-angle reveals, extreme close-ups and lateral compositions.</p>
+<p>That diversity was not all present from the first attempt.</p>
+<p>The visual language accumulated while I kept directing the conversation toward the kind of feel I wanted.</p>
+<hr />
+<h2>5. In a way, the conversation was building the missing skill context</h2>
+<p>This is one of the more interesting things looking back at it.</p>
+<p>In my normal setup, I have skills where some of this kind of information can already exist in the knowledge base.</p>
+<p>Here it did not.</p>
+<p>So the more I talked about things like foreshortening, perspective and the feel I wanted, the more creative context the conversation had to work with.</p>
+<p>I was effectively supplying that guidance as we went.</p>
+<p>That may be part of why Episode 1 improved through the iteration.</p>
+<p>I am not saying that this is technically the same thing as building a skill.</p>
+<p>It isn't.</p>
+<p>But from my side of the conversation, I was gradually giving ChatGPT more information about what I wanted it to aim for.</p>
+<hr />
+<h2>6. I was directing the sequence by feel as much as by technical decisions</h2>
+<p>Some corrections were specific.</p>
+<p>Other times I did not have a precise technical diagnosis.</p>
+<p>Something just felt wrong.</p>
+<p>That was still enough to continue working.</p>
+<p>Instead of needing to know:</p>
+<blockquote>
+<p>The problem is specifically the camera elevation in Shot 4.</p>
+</blockquote>
+<p>I could say that the sequence was not doing what I hoped it would do, we could discuss another direction, and then change it.</p>
+<p>The opening is the clearest example of that.</p>
+<p>I did not start with a rule saying:</p>
+<blockquote>
+<p>Never establish the geography first.</p>
+</blockquote>
+<p>We tried it.</p>
+<p>I did not like the result.</p>
+<p>We changed it.</p>
+<p>That is much closer to how the actual process worked than pretending I was applying a fixed filmmaking framework from the beginning.</p>
+<hr />
+<h2>7. I used the same shot format I already use in my prompts</h2>
+<p>Once we were building the actual shot script, I reused a format I already use for generation prompts.</p>
+<p>That format was:</p>
+<pre><code class="language-text">## SHOT XX
+
+**Duration:**
+
+**Camera:**
+
+**Action:**
+
+**Dialogue:**
+
+**SFX:**
+
+**Lighting:**
+
+**VFX:**
+</code></pre>
+<p>This was not a format ChatGPT invented for me.</p>
+<p>I already worked with those fields and copied the structure into the script.</p>
+<h3>Duration</h3>
+<p>How long the shot should run.</p>
+<h3>Camera</h3>
+<p>The actual shot setup and perspective.</p>
+<h3>Action</h3>
+<p>What happens physically inside the shot.</p>
+<h3>Dialogue</h3>
+<p>The dialogue happening during the shot.</p>
+<h3>SFX</h3>
+<p>The sound information.</p>
+<h3>Lighting</h3>
+<p>The lighting for that particular shot.</p>
+<h3>VFX</h3>
+<p>Any visual effects needed for the shot.</p>
+<p>The useful thing about this was that the script we were developing was already structurally close to the way I would later prompt individual generations.</p>
+<hr />
+<h2>8. We added a global layer around that shot format</h2>
+<p>As we worked, we also ended up with information that sat above the individual shots:</p>
+<pre><code class="language-text"># Global visual style
+
+# Voice anchors
+
+# Global lighting
+
+# Plot summary
+</code></pre>
+<p>These gave us somewhere to keep things that needed to remain consistent across the sequence instead of rebuilding them inside every shot.</p>
+<h3>Global visual style</h3>
+<p>The common visual direction.</p>
+<h3>Voice anchors</h3>
+<p>A consistent voice description for each recurring character.</p>
+<h3>Global lighting</h3>
+<p>The shared lighting conditions for the scene.</p>
+<h3>Plot summary</h3>
+<p>The overall situation the individual shots belong to.</p>
+<p>So there were effectively two levels:</p>
+<p><strong>global episode context</strong></p>
+<p>and</p>
+<p><strong>individual shot instructions</strong></p>
+<p>The shot format came from the way I already prompted.</p>
+<p>The global layer developed around it while we were building these episodes.</p>
+<hr />
+<h1>Episode 1 — Full Script</h1>
+<p><a href="archive/episode-1/scripts/episode-1-three-sequences-26-shots.md">Read my three-sequence source script</a>. This is the 26-shot source revision; rendered prompt revisions are documented separately.</p>
+<details id="episode-1-full-script"><summary>Read the complete 26-shot source script here</summary><div class="source-script"><h1>SEQUENCE 1 — THREAT / SETUP</h1>
+<p><strong>Shots 01–09 — 24.5 seconds</strong></p>
+<h2>References</h2>
+<p><strong>Male 1</strong><br />
+<code>../../../media/images/codex_male_1_redesign_sheet_v1.png</code></p>
+<p><strong>Male 2</strong><br />
+<code>../../../media/images/krea_male_2_description_redesign_v1.png</code></p>
+<p><strong>Female 1</strong><br />
+<code>../../../media/images/krea_female_1_description_redesign_v1.png</code></p>
+<p><strong>Malfoid</strong><br />
+<code>../../../media/images/krea_malfoid_description_redesign_v1.png</code></p>
+<p><strong>Evil Lord</strong><br />
+<code>../../../media/images/krea_evil_lord_description_redesign_v1.png</code></p>
+<p><strong>Death Eaters / Wizards</strong><br />
+<code>../../../media/images/codex_death_eaters_sheet_v1.png</code></p>
+<p><strong>Courtyard establishing</strong><br />
+<code>../../../media/images/krea_courtyard_establishing_v1.png</code></p>
+<p><strong>Courtyard ground-level</strong><br />
+<code>../../../media/images/krea_courtyard_ground_v1.png</code></p>
+<p><strong>Courtyard overhead</strong><br />
+<code>../../../media/images/krea_courtyard_overhead_v1.png</code></p>
+<h2>Global visual style</h2>
+<p>Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes, selective perspective exaggeration, and strong anime impact frames only at key moments.</p>
+<h2>Voice anchors</h2>
+<p><strong>Evil Lord:</strong> Low male voice, smooth and controlled, aristocratic and precise, restrained rather than gravelly, with a cold resonant presence and deliberate pacing.</p>
+<p><strong>Male 1:</strong> Young male voice, clear and natural, slightly roughened by exhaustion, emotionally direct, with a grounded mid-range tone and restrained intensity.</p>
+<p><strong>Malfoid:</strong> Young female voice, cool and composed, smooth and slightly low-pitched, precise articulation, understated confidence, with a dry, lightly teasing edge rather than softness.</p>
+<h2>Global lighting</h2>
+<p>Cold blue moonlight dominates the ruined castle courtyard, broken by weak orange fires and drifting embers. Hard shadows and rim light create strong silhouettes through the smoke.</p>
+<hr />
+<h2 id="script-shot-01">SHOT 01</h2>
+<p><strong>Duration:</strong> 2.0s</p>
+<p><strong>Camera:</strong> Low-angle close shot, tracking backward on the Evil Lord’s boots and lower robes as he walks across broken stone.</p>
+<p><strong>Action:</strong> The Evil Lord advances slowly and deliberately.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Heavy footsteps, distant fire, robe movement.</p>
+<p><strong>Lighting:</strong> Cold moonlight edges his robes while orange firelight flickers across the ground.</p>
+<p><strong>VFX:</strong> Dust lifts with each step; embers drift through frame.</p>
+<hr />
+<h2 id="script-shot-02">SHOT 02</h2>
+<p><strong>Duration:</strong> 2.0s</p>
+<p><strong>Camera:</strong> Tight close-up, three-quarter front on Male 1; static.</p>
+<p><strong>Action:</strong> Male 1 is on the ground, partly propped on one arm, bruised and breathing hard. He looks upward past camera-left.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Male 1’s strained breathing beneath approaching footsteps.</p>
+<p><strong>Lighting:</strong> Cool moonlight catches his eyes and glasses.</p>
+<p><strong>VFX:</strong> Subtle line boil and drifting ash.</p>
+<hr />
+<h2 id="script-shot-03">SHOT 03</h2>
+<p><strong>Duration:</strong> 2.5s</p>
+<p><strong>Camera:</strong> Medium-close eye-level shot, slowly panning across a section of the surrounding Death Eaters with Malfoid among them.</p>
+<p><strong>Action:</strong> The Death Eaters stand watching. Malfoid stands with them, calm and unreadable.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Wind, robes shifting, faint leather creaks.</p>
+<p><strong>Lighting:</strong> Firelight intermittently catches masks and faces against colder moonlit silhouettes.</p>
+<p><strong>VFX:</strong> Thin smoke drifts between foreground and background figures.</p>
+<hr />
+<h2 id="script-shot-04">SHOT 04</h2>
+<p><strong>Duration:</strong> 2.5s</p>
+<p><strong>Camera:</strong> Slight low-angle medium shot on the Evil Lord; static.</p>
+<p><strong>Action:</strong> The Evil Lord stops and looks downward past camera-right. A thin contemptuous smile forms.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>EVIL LORD: voice (quiet, elegant contempt; almost conversational, with precise measured diction):</strong> 「見ろ、この有様を。」</p>
+<p><strong>SFX:</strong> His final footstep settles into silence.</p>
+<p><strong>Lighting:</strong> Hard moonlight rims his head and shoulders while faint firelight shapes his face.</p>
+<p><strong>VFX:</strong> Smoke drifts behind his silhouette.</p>
+<hr />
+<h2 id="script-shot-05">SHOT 05</h2>
+<p><strong>Duration:</strong> 2.5s</p>
+<p><strong>Camera:</strong> Tight close-up, three-quarter front on Male 1; static.</p>
+<p><strong>Action:</strong> Male 1 keeps his eyes raised past camera-left. His fingers tighten around his wand.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>EVIL LORD: voice (smooth and reflective, unhurried, as though Male 1’s failure is already settled):</strong> 「ここまで辿り着くために……」</p>
+<p><strong>SFX:</strong> Male 1’s breathing and distant fire.</p>
+<p><strong>Lighting:</strong> A narrow reflection runs across one lens of Male 1’s glasses.</p>
+<p><strong>VFX:</strong> Minimal held animation focused on his eyes.</p>
+<hr />
+<h2 id="script-shot-06">SHOT 06</h2>
+<p><strong>Duration:</strong> 3.5s</p>
+<p><strong>Camera:</strong> Tilted overhead wide shot, slowly pushing in on Male 1, the Evil Lord, Male 2, Female 1, and the surrounding ring of Death Eaters with Malfoid among them.</p>
+<p><strong>Action:</strong> Male 1 is on the ground near the centre of the ring. The Evil Lord stands over him while Male 2 and Female 1 remain down nearby.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>EVIL LORD: voice (measured and theatrical, allowing the phrase to carry outward across the courtyard):</strong> 「どれほどの者を巻き込み――」</p>
+<p><strong>SFX:</strong> Wind moves across the courtyard beneath his voice.</p>
+<p><strong>Lighting:</strong> Moonlight defines the battlefield while scattered fires create warm pockets around the ring.</p>
+<p><strong>VFX:</strong> Layered smoke crosses the courtyard at different depths.</p>
+<hr />
+<h2 id="script-shot-07">SHOT 07</h2>
+<p><strong>Duration:</strong> 3.5s</p>
+<p><strong>Camera:</strong> Medium rear three-quarter shot on the Evil Lord; slow pan with him as he turns toward the surrounding Death Eaters.</p>
+<p><strong>Action:</strong> The Evil Lord theatrically turns his back on Male 1 and opens his stance toward his followers. Malfoid remains visible among them.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>EVIL LORD: voice (grand and performative, lingering slightly on “犠牲” with ceremonial disdain):</strong> 「どれほどの犠牲を積み重ねたことか。」</p>
+<p><strong>SFX:</strong> His robes sweep across the stone.</p>
+<p><strong>Lighting:</strong> Moonlight edges the Evil Lord’s back while broken firelight flickers across the followers facing him.</p>
+<p><strong>VFX:</strong> Smoke curls around his turning silhouette.</p>
+<hr />
+<h2 id="script-shot-08">SHOT 08</h2>
+<p><strong>Duration:</strong> 2.5s</p>
+<p><strong>Camera:</strong> Slight low-angle medium shot on the Evil Lord; slow arc as he turns back toward Male 1.</p>
+<p><strong>Action:</strong> The Evil Lord completes the turn and lowers his gaze past camera-right again.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>EVIL LORD: voice (quieter and colder, slowing slightly as the theatrical warmth drains away):</strong> 「それでもなお――」</p>
+<p><strong>SFX:</strong> His robes settle.</p>
+<p><strong>Lighting:</strong> His face moves from mixed firelight back into colder moonlight.</p>
+<p><strong>VFX:</strong> Background smoke softens behind him.</p>
+<hr />
+<h2 id="script-shot-09">SHOT 09</h2>
+<p><strong>Duration:</strong> 3.5s</p>
+<p><strong>Camera:</strong> Over-the-shoulder medium shot from behind Male 1; rack focus from Male 1 in the foreground to the Evil Lord in the midground.</p>
+<p><strong>Action:</strong> The Evil Lord stands facing Male 1, wand raised, completely focused on him. Male 1 remains on the ground in the foreground, watching as the Evil Lord delivers the end of his speech.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>EVIL LORD: voice (slow, sinister certainty; controlled and deliberate, with the final words landing like a verdict):</strong> 「結局、お前の行き着く先は……最初から、ここ以外になかった。」</p>
+<p><strong>SFX:</strong> Low wind and faint cloth movement.</p>
+<p><strong>Lighting:</strong> The Evil Lord is darker in the midground while cold moonlight edges his silhouette.</p>
+<p><strong>VFX:</strong> Background motion reduces into a held tension beat.</p>
+<h1>SEQUENCE 2 — REVERSAL / MALFOID TAKES CONTROL</h1>
+<p><strong>Shots 10–18 — 26.5 seconds</strong></p>
+<h2>References</h2>
+<p><strong>Male 1</strong><br />
+<code>../../../media/images/codex_male_1_redesign_sheet_v1.png</code></p>
+<p><strong>Male 2</strong><br />
+<code>../../../media/images/krea_male_2_description_redesign_v1.png</code></p>
+<p><strong>Female 1</strong><br />
+<code>../../../media/images/krea_female_1_description_redesign_v1.png</code></p>
+<p><strong>Malfoid</strong><br />
+<code>../../../media/images/krea_malfoid_description_redesign_v1.png</code></p>
+<p><strong>Evil Lord</strong><br />
+<code>../../../media/images/krea_evil_lord_description_redesign_v1.png</code></p>
+<p><strong>Death Eaters / Wizards</strong><br />
+<code>../../../media/images/codex_death_eaters_sheet_v1.png</code></p>
+<p><strong>Courtyard ground-level</strong><br />
+<code>../../../media/images/krea_courtyard_ground_v1.png</code></p>
+<p><strong>Courtyard overhead</strong><br />
+<code>../../../media/images/krea_courtyard_overhead_v1.png</code></p>
+<h2>Global visual style</h2>
+<p>Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes, selective perspective exaggeration, and strong anime impact frames only at key moments.</p>
+<h2>Voice anchors</h2>
+<p><strong>Evil Lord:</strong> Low male voice, smooth and controlled, aristocratic and precise, restrained rather than gravelly, with a cold resonant presence and deliberate pacing.</p>
+<p><strong>Male 1:</strong> Young male voice, clear and natural, slightly roughened by exhaustion, emotionally direct, with a grounded mid-range tone and restrained intensity.</p>
+<p><strong>Malfoid:</strong> Young female voice, cool and composed, smooth and slightly low-pitched, precise articulation, understated confidence, with a dry, lightly teasing edge rather than softness.</p>
+<h2>Global lighting</h2>
+<p>Cold blue moonlight dominates the ruined castle courtyard, broken by weak orange fires and drifting embers. Hard shadows and rim light create strong silhouettes through the smoke.</p>
+<hr />
+<h2 id="script-shot-10">SHOT 10</h2>
+<p><strong>Duration:</strong> 4.5s</p>
+<p><strong>Camera:</strong> Tight frontal medium close-up on the Evil Lord from Male 1’s eyeline; static.</p>
+<p><strong>Action:</strong> The Evil Lord begins the killing curse. On “Avada—”, Malfoid suddenly blitzes into frame directly behind him in a teleport-like anime burst, already holding her wand to his temple; the Evil Lord freezes, realizes who is behind him, and Malfoid immediately fires.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>EVIL LORD: voice (suddenly forceful and lethal, all previous restraint snapping into the attack):</strong> 「アバダ――」<br />
+<strong>EVIL LORD: voice (very quiet, breath caught slightly, disbelief entering the voice):</strong> 「……ドラコ。」<br />
+<strong>MALFOID: voice (calm and absolute, level volume, no hesitation or anger):</strong> 「アバダ・ケダブラ。」</p>
+<p><strong>SFX:</strong> Sharp blitz impact, wand tap against skin, point-blank curse discharge.</p>
+<p><strong>Lighting:</strong> Cold moonlight on the Evil Lord; Malfoid snaps into a hard silver rim behind him before the frame floods green.</p>
+<p><strong>VFX:</strong> High-speed smear/blitz entry, brief held frame on the reveal, then green impact flash and shadow inversion.</p>
+<hr />
+<h2 id="script-shot-11">SHOT 11</h2>
+<p><strong>Duration:</strong> 2.0s</p>
+<p><strong>Camera:</strong> Ground-level medium shot from Male 1’s side; static.</p>
+<p><strong>Action:</strong> The Evil Lord’s wand slips from his hand and he collapses heavily. Malfoid remains standing behind him.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> CLACK. THUD.</p>
+<p><strong>Lighting:</strong> Green afterglow fades back into cold moonlight.</p>
+<p><strong>VFX:</strong> Small impact shake and dust kick.</p>
+<hr />
+<h2 id="script-shot-12">SHOT 12</h2>
+<p><strong>Duration:</strong> 3.0s</p>
+<p><strong>Camera:</strong> High-angle wide shot, slowly pulling back over the courtyard.</p>
+<p><strong>Action:</strong> The Evil Lord is down beside Male 1. Every Death Eater who had surrounded them is now down across the courtyard while Malfoid remains standing.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Wind returns into the silence.</p>
+<p><strong>Lighting:</strong> Moonlight opens the entire battlefield while scattered fires continue to flicker.</p>
+<p><strong>VFX:</strong> Smoke clears in layers, gradually exposing the changed battlefield.</p>
+<hr />
+<h2 id="script-shot-13">SHOT 13</h2>
+<p><strong>Duration:</strong> 2.0s</p>
+<p><strong>Camera:</strong> Tight close-up, three-quarter front on Male 1; static.</p>
+<p><strong>Action:</strong> Male 1 looks screen-left, then slowly scans toward screen-right. His expression shifts from shock to deeper confusion.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Male 1’s breathing.</p>
+<p><strong>Lighting:</strong> Cold moonlight catches both eyes behind his glasses.</p>
+<p><strong>VFX:</strong> Minimal held animation.</p>
+<hr />
+<h2 id="script-shot-14">SHOT 14</h2>
+<p><strong>Duration:</strong> 3.0s</p>
+<p><strong>Camera:</strong> Low-angle Male 1 POV, medium-full shot on Malfoid with the Evil Lord’s body crossing the lower foreground.</p>
+<p><strong>Action:</strong> Malfoid lowers her wand, steps over the Evil Lord, and walks directly toward camera.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Slow measured footsteps.</p>
+<p><strong>Lighting:</strong> She moves through alternating moonlight and fire spill.</p>
+<p><strong>VFX:</strong> Smoke parallax separates her from the background.</p>
+<hr />
+<h2 id="script-shot-15">SHOT 15</h2>
+<p><strong>Duration:</strong> 3.0s</p>
+<p><strong>Camera:</strong> Over-the-shoulder medium shot from behind Male 1, his wand enlarged in the near foreground and Malfoid approaching beyond it.</p>
+<p><strong>Action:</strong> Male 1 raises the wand slightly. Malfoid notices it, does not slow, and stops directly in front of him before crouching.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Footsteps stop; fabric folds as she crouches.</p>
+<p><strong>Lighting:</strong> Cool rim light outlines Malfoid while Male 1 remains darker in the foreground.</p>
+<p><strong>VFX:</strong> Background detail softens as she comes closer.</p>
+<hr />
+<h2 id="script-shot-16">SHOT 16</h2>
+<p><strong>Duration:</strong> 3.0s</p>
+<p><strong>Camera:</strong> Tight side-profile two-shot at eye level; static on Male 1 and crouching Malfoid.</p>
+<p><strong>Action:</strong> Malfoid takes Male 1 beneath the chin and turns his face slightly toward her. She studies the cut on his cheek, then wipes the blood from the corner of his mouth with her thumb.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Male 1 takes a short breath.</p>
+<p><strong>Lighting:</strong> Moonlight falls across Male 1’s face as she turns him.</p>
+<p><strong>VFX:</strong> Background simplifies into dark painted shapes.</p>
+<hr />
+<h2 id="script-shot-17">SHOT 17</h2>
+<p><strong>Duration:</strong> 3.5s</p>
+<p><strong>Camera:</strong> Over-the-shoulder close-up from behind Malfoid on Male 1’s face; slow push-in.</p>
+<p><strong>Action:</strong> Male 1 watches her closely, still unable to read her. His mouth opens as he finally tries to speak.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>MALE 1: voice (quiet and bewildered, weakened by exhaustion; the unfinished question slips out before he can compose himself):</strong> 「どうして――」</p>
+<p><strong>SFX:</strong> His voice breaks the silence.</p>
+<p><strong>Lighting:</strong> A narrow moonlit reflection crosses his glasses without hiding his eyes.</p>
+<p><strong>VFX:</strong> Background falls progressively darker during the push.</p>
+<hr />
+<h2 id="script-shot-18">SHOT 18</h2>
+<p><strong>Duration:</strong> 2.5s</p>
+<p><strong>Camera:</strong> Tight side-profile two-shot; slow push-in on Male 1 and Malfoid.</p>
+<p><strong>Action:</strong> Malfoid leans toward Male 1 until their faces nearly touch, then deliberately moves past his mouth toward his ear. Male 1 freezes.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>MALFOID: voice (low and close, dry and lightly amused; confident teasing without tenderness):</strong> 「相変わらず質問が多いのね、ポッター。」</p>
+<p><strong>SFX:</strong> Her voice sits almost alone in the mix.</p>
+<p><strong>Lighting:</strong> A thin silver rim traces both profiles.</p>
+<p><strong>VFX:</strong> Background reduces to near-black with restrained eye highlights.</p>
+<h1>SEQUENCE 3 — FAREWELL</h1>
+<p><strong>Shots 19–26 — 20.5 seconds</strong></p>
+<h2>References</h2>
+<p><strong>Male 1</strong><br />
+<code>../../../media/images/codex_male_1_redesign_sheet_v1.png</code></p>
+<p><strong>Malfoid</strong><br />
+<code>../../../media/images/krea_malfoid_description_redesign_v1.png</code></p>
+<p><strong>Courtyard establishing</strong><br />
+<code>../../../media/images/krea_courtyard_establishing_v1.png</code></p>
+<p><strong>Courtyard ground-level</strong><br />
+<code>../../../media/images/krea_courtyard_ground_v1.png</code></p>
+<h2>Global visual style</h2>
+<p>Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes, selective perspective exaggeration, and strong anime impact frames only at key moments.</p>
+<h2>Voice anchors</h2>
+<p><strong>Male 1:</strong> Young male voice, clear and natural, slightly roughened by exhaustion, emotionally direct, with a grounded mid-range tone and restrained intensity.</p>
+<p><strong>Malfoid:</strong> Young female voice, cool and composed, smooth and slightly low-pitched, precise articulation, understated confidence, with a dry, lightly teasing edge rather than softness.</p>
+<h2>Global lighting</h2>
+<p>Cold blue moonlight dominates the ruined castle courtyard, broken by weak orange fires and drifting embers. Hard shadows and rim light create strong silhouettes through the smoke.</p>
+<hr />
+<h2 id="script-shot-19">SHOT 19</h2>
+<p><strong>Duration:</strong> 3.0s</p>
+<p><strong>Camera:</strong> Medium side-profile shot on Male 1 and Malfoid; static.</p>
+<p><strong>Action:</strong> Malfoid rises beside Male 1, turns toward her departure route, and takes one step away.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Fabric movement and one departing footstep.</p>
+<p><strong>Lighting:</strong> Malfoid moves into stronger moonlight while Male 1 remains lower in shadow.</p>
+<p><strong>VFX:</strong> Embers drift through the space between them.</p>
+<hr />
+<h2 id="script-shot-20">SHOT 20</h2>
+<p><strong>Duration:</strong> 2.5s</p>
+<p><strong>Camera:</strong> Wide side-profile shot; static on Male 1 at screen-left and Malfoid at screen-right.</p>
+<p><strong>Action:</strong> Male 1 reaches out with his free left hand and catches Malfoid’s right wrist. His wand remains in his right hand; hers remains in her right hand.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>MALE 1: voice (sudden and instinctive, sharper than his weakened voice until now):</strong> 「待て！」</p>
+<p><strong>SFX:</strong> Her step stops with a sharp catch of fabric at the wrist.</p>
+<p><strong>Lighting:</strong> Male 1 and Malfoid occupy separate pools of cold moonlight across the darker courtyard.</p>
+<p><strong>VFX:</strong> Embers hang through the negative space between them.</p>
+<hr />
+<h2 id="script-shot-21">SHOT 21</h2>
+<p><strong>Duration:</strong> 2.0s</p>
+<p><strong>Camera:</strong> Rear three-quarter medium close-up on Malfoid from Male 1’s side; static.</p>
+<p><strong>Action:</strong> Malfoid turns her head back over her shoulder toward Male 1 with a small, knowing smile.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Low wind and distant fire.</p>
+<p><strong>Lighting:</strong> Moonlight traces the edge of her white hair and cheek.</p>
+<p><strong>VFX:</strong> Restrained anime eye highlight.</p>
+<hr />
+<h2 id="script-shot-22">SHOT 22</h2>
+<p><strong>Duration:</strong> 2.5s</p>
+<p><strong>Camera:</strong> Low lateral medium shot showing Male 1 below and Malfoid standing above him; static.</p>
+<p><strong>Action:</strong> Male 1’s left hand remains around Malfoid’s right wrist. Malfoid calmly uses her left thumb and forefinger to lift one of his fingers away while the others remain wrapped around her wrist; both still hold their wands in their right hands.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Soft fabric friction.</p>
+<p><strong>Lighting:</strong> Malfoid is more strongly moonlit while Male 1 remains lower in shadow.</p>
+<p><strong>VFX:</strong> Minimal movement emphasis around the hands.</p>
+<hr />
+<h2 id="script-shot-23">SHOT 23</h2>
+<p><strong>Duration:</strong> 2.0s</p>
+<p><strong>Camera:</strong> Extreme low-angle close-up from Male 1’s ground-level viewpoint on Malfoid looking back over her shoulder.</p>
+<p><strong>Action:</strong> Malfoid looks down at Male 1, composed and lightly amused, making no attempt to explain herself.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Quiet wind.</p>
+<p><strong>Lighting:</strong> Cold moonlight edges her white hair and face against the dark sky.</p>
+<p><strong>VFX:</strong> Thin smoke drifts behind her.</p>
+<hr />
+<h2 id="script-shot-24">SHOT 24</h2>
+<p><strong>Duration:</strong> 2.5s</p>
+<p><strong>Camera:</strong> Extreme close-up on Male 1’s left hand and Malfoid’s right wrist; static.</p>
+<p><strong>Action:</strong> Only Male 1’s final finger remains in contact. Malfoid’s left thumb and forefinger calmly lift it away, completing the release.</p>
+<p><strong>Dialogue:</strong><br />
+<strong>MALFOID: voice (light and self-assured, faintly amused; effortless rather than affectionate):</strong> 「ちゃんとついてきなさい、ポッター。」</p>
+<p><strong>SFX:</strong> His final finger slips free against the fabric.</p>
+<p><strong>Lighting:</strong> Cool moonlight defines their hands, forearms, and Malfoid’s wand grip.</p>
+<p><strong>VFX:</strong> Precise held anime detail on the final release.</p>
+<hr />
+<h2 id="script-shot-25">SHOT 25</h2>
+<p><strong>Duration:</strong> 2.0s</p>
+<p><strong>Camera:</strong> Low-angle close-up on Malfoid along her departure direction; static.</p>
+<p><strong>Action:</strong> Her wrist is free. Malfoid turns away from Male 1 and leaves without looking back again.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Her first departing footstep.</p>
+<p><strong>Lighting:</strong> Moonlight catches her hair and jawline while the path ahead disappears into smoke.</p>
+<p><strong>VFX:</strong> Embers and thin mist frame her departure.</p>
+<hr />
+<h2 id="script-shot-26">SHOT 26</h2>
+<p><strong>Duration:</strong> 4.0s</p>
+<p><strong>Camera:</strong> Lateral long shot across the courtyard with Male 1’s profile in the near foreground and Malfoid’s departure route extending into the distant background; static.</p>
+<p><strong>Action:</strong> Malfoid is already gone. Male 1 remains on the ground with his wand lowered, staring toward the empty moonlit smoke where she disappeared, unresolved and bewildered.</p>
+<p><strong>Dialogue:</strong> —</p>
+<p><strong>SFX:</strong> Only wind and distant fire remain.</p>
+<p><strong>Lighting:</strong> A small catchlight remains in Male 1’s eyes while pale moonlight diffuses through the empty route beyond him.</p>
+<p><strong>VFX:</strong> Layered smoke slowly obscures the distance before fade to black.</p>
+</div></details>
+<hr />
+<h2>9. Episode 1 then became the reference for Episode 2</h2>
+<p>When we moved on to Episode 2, we first went back to what we had made in Episode 1.</p>
+<p>That mattered because Episode 1 now contained examples of the camera language and shot variety we had developed.</p>
+<p>The finished Episode 1 script had things like:</p>
+<ul>
+<li>low-angle close shots</li>
+<li>tight three-quarter framing</li>
+<li>eye-level shots where they actually made sense</li>
+<li>canted overhead wides</li>
+<li>rear three-quarter shots</li>
+<li>grounded Harry POVs</li>
+<li>over-the-shoulder compositions</li>
+<li>high-angle reveals</li>
+<li>low lateral frames</li>
+<li>extreme low-angle POVs</li>
+<li>extreme close-ups</li>
+<li>long lateral shots</li>
+</ul>
+<p>So we had something concrete to refer back to rather than just saying:</p>
+<blockquote>
+<p>Make Episode 2 cinematic.</p>
+</blockquote>
+<hr />
+<h2>10. Episode 2 also needed a different kind of storytelling</h2>
+<p>Episode 2 was much more dialogue-driven.</p>
+<p>One of the central ideas was that Harry is ranting while Malfoid is thinking over him.</p>
+<p>Harry does not conveniently stop speaking every time we hear her thoughts.</p>
+<p>His argument continues.</p>
+<p>Malfoid becomes increasingly distracted by him, and her inner dialogue starts taking focus while Harry's voice becomes less important to her.</p>
+<p>That also meant the SFX field had to do more than list environmental sounds.</p>
+<p>It needed to describe the changing audio perspective:</p>
+<ul>
+<li>Harry speaking normally</li>
+<li>Malfoid's thoughts entering</li>
+<li>Harry receding in the mix</li>
+<li>her internal voice taking focus</li>
+<li>Harry returning to full presence when she snaps back to reality</li>
+</ul>
+<p>So the same shot structure could also carry more complicated sound direction.</p>
+<hr />
+<h2>11. Episode 2 did not go nearly as well</h2>
+<p>Episode 1 came together surprisingly well through the improvised back-and-forth.</p>
+<p>Episode 2 became much more of a struggle.</p>
+<p>I do not know exactly why.</p>
+<p>By that point the conversation had accumulated a lot of information and revisions, so context may have played a part, but that is only a possibility.</p>
+<p>What actually happened is easier to describe.</p>
+<p>We started losing things that had already been established.</p>
+<p>For example:</p>
+<ul>
+<li>Harry's rant was supposed to continue underneath Malfoid's thoughts, but the dialogue got broken into separate shots.</li>
+<li>At one point the script said that Harry “continues” speaking without actually writing what he was saying.</li>
+<li>The audio treatment did not initially explain properly what should happen to Harry's voice when Malfoid's inner dialogue becomes the focus.</li>
+<li>The camera work became much more static than the Episode 1 reference.</li>
+<li>A long buildup toward Foideldore was supposed to work over Harry and Malfoid continuing to argue, but the dialogue that gave the shot its purpose was no longer actually present in the shot.</li>
+<li>Fixing individual problems sometimes introduced new problems elsewhere.</li>
+</ul>
+<p>That made the iteration much less productive than it had been during Episode 1.</p>
+<hr />
+<h2>12. That also highlighted the difference between this and using a dedicated skill</h2>
+<p>With one of my normal skills, more of the visual and structural direction can already exist before the conversation begins.</p>
+<p>Here I had to keep establishing that direction manually.</p>
+<p>That worked surprisingly well for Episode 1.</p>
+<p>It also meant that a lot of important information eventually lived inside one very long conversation.</p>
+<p>Whether that is specifically why Episode 2 became harder, I do not know.</p>
+<p>But it is one clear difference between this experiment and my normal workflow.</p>
+<hr />
+<h1>Episode 2 — Full Script</h1>
+<p><a href="archive/episode-2/scripts/11_episode_02_v4.md">Read the Episode 2 V4 narrative source</a>. Earlier and later source-script revisions remain available in the archive; a higher revision number does not imply approval.</p>
+<hr />
+<h1>What I take from it</h1>
+<p>This was not a carefully planned prompting system.</p>
+<p>I did not start with a perfect template for directing ChatGPT.</p>
+<p>I had an idea, started developing it in the chat, reacted to what I got back and kept pushing it toward the visual language I wanted.</p>
+<p>Sometimes that meant very concrete direction.</p>
+<p>Sometimes it was simply:</p>
+<p><strong>this doesn't feel right.</strong></p>
+<p>Then we explored another version.</p>
+<p>The biggest example was the opening:</p>
+<p><strong>full geography → closer shots</strong></p>
+<p>became:</p>
+<p><strong>close fragments → gradual reveal → full geography</strong></p>
+<p>At the same time I kept feeding more of the visual language I wanted into the conversation — especially things like foreshortening and stronger anime perspectives.</p>
+<p>The shot format I already used for generation gave us a practical structure to put all of that into.</p>
+<p>And over time, the conversation itself accumulated enough context that Episode 1 developed a pretty distinct visual language.</p>
+<p>That is the part of the experiment I think is useful.</p>
+<p>Not a magic prompt.</p>
+<p>Not a formal workflow I secretly followed.</p>
+<p>Just <strong>giving the AI material, reacting to what it gives back, adding more of your own taste and direction, and iterating until the sequence starts doing what you wanted it to do.</strong></p></article><section><h2>Source-script history</h2><ul class="download-list"><li><a href="archive/episode-1/scripts/01_script.txt" >script.txt</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-1/scripts/02_storyboard.md" >storyboard.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/03_episode_02.md" >episode_02.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/04_episode_02_v2.md" >episode_02_v2.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/05_episode_02_v2_section_01.md" >episode_02_v2_section_01.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/06_episode_02_v2_section_02.md" >episode_02_v2_section_02.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/07_episode_02_v2_section_03.md" >episode_02_v2_section_03.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/08_episode_02_v3.md" >episode_02_v3.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/09_episode_02_v3_section_02.md" >episode_02_v3_section_02.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/10_episode_02_v3_section_03.md" >episode_02_v3_section_03.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/11_episode_02_v4.md" >episode_02_v4.md</a> <span class="small">V4 later narrative source used in prompt work</span></li><li><a href="archive/episode-2/scripts/12_episode_02_v4_section_02.md" >episode_02_v4_section_02.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/13_episode_02_v4_section_03.md" >episode_02_v4_section_03.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/14_episode_02_v5.md" >episode_02_v5.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-2/scripts/15_episode_02_v5_section_02.md" >episode_02_v5_section_02.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-1/scripts/16_script.txt" >script.txt</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-1/scripts/17_storyboard.md" >storyboard.md</a> <span class="small">Source revision; filename alone does not establish approval.</span></li><li><a href="archive/episode-1/scripts/episode-1-three-sequences-26-shots.md" >My three-sequence script · 26 shots</a> <span class="small">Distinct user-supplied source revision: shots 01–09 / 10–18 / 19–26. Not identical to every rendered revision.</span></li></ul></section><p><a href="script-to-production.html" class="button">Next: from script to production →</a></p></main><footer><a class="brand" href="index.html" aria-label="Morderkai Studio — walkthrough overview"><img class="brand-logo" src="brand/logo.png" width="36" height="36" alt=""><span class="brand-name"><span class="brand-title">MORDERKAI <em>STUDIO</em></span><span class="brand-by">By smoermeow</span></span></a><div class="footer-copy">Created by smoermeow / MORDERKAI. Exact generation text and native media are preserved; portable annotations and skill adaptations are labelled. <a href="provenance.html" >Sources &amp; scope</a> · <a href="recreate.html" >Follow the example</a> · <a href="make-your-own.html" >Make your own</a></div></footer></body></html>

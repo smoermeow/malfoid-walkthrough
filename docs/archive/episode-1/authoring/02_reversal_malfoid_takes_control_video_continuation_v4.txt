@@ -1,0 +1,163 @@
+[PROMPT START]
+Continue from @video1. Begin at 00.0 with a new hard cut to Shot 10, immediately after the final shot of @video1 ends. Continue the scene’s chronology without replaying any reference footage, dialogue or action. Do not hold, extend, dissolve from or reproduce the reference video’s final camera composition.
+
+[TITLE]
+Reversal / Malfoid Takes Control
+
+[REFERENCES]
+@video1: Completed preceding courtyard sequence. Use its ending as the continuity anchor for character appearance, injuries, wardrobe, positions, wand ownership, lighting, anime rendering and established voices. Preserve that scene state while cutting immediately to Shot 10’s specified frontal camera. The reference footage is not part of this clip’s 30.0-second timeline.
+@image1: Male 1.
+@image2: Male 2.
+@image3: Female 1.
+@image4: Malfoid.
+@image5: Evil Lord.
+@image6: Wizards — six other masked followers; Male 3 is a separate character.
+@image7: Courtyard ground-level.
+@image8: Courtyard overhead.
+@image9: Male 3 — Malfoid’s father; hood-on appearance only.
+
+Character references define identity, clothing, colors, and equipment, not staging. Do not reproduce Male 1's repeated turnaround figures, the Wizards' side-by-side costume lineup, or the upright full-body display poses and pale backgrounds of the other references. Environment references define the ruined courtyard's architecture and materials; the shot sequence defines camera placement and action. For @image9, use only the right-hand hood-on, silver-masked appearance. Do not reproduce the paired full-body sheet, the unmasked face or the hood-off appearance.
+
+[STYLE]
+Retro anime, bold linework, Shirow meets Frieren. Mature proportions, detailed hand-drawn environments, restrained facial acting, graphic silhouettes, selective perspective exaggeration. Strong impact frames only for the blitz and curse.
+
+[VISUAL FEEL]
+A sharp rupture in held tension, followed by increasingly intimate stillness. Heavy cloth, green afterimage, drifting dust, dark painted backgrounds.
+
+[DURATION]
+30.0 seconds.
+
+[CHARACTERS]
+MALE 1:
+Base: Young man matching @image1.
+Features: Tousled black hair, green eyes, dark rounded-rectangular glasses. Dirt-marked black robe with burgundy lining, off-white shirt, loosened burgundy tie, charcoal sweater and trousers, brown lace-up shoes.
+State in this scene: Bruised and exhausted, cheek cut and blood at the mouth corner. On the ground, partly supported on his left arm; brown wooden wand in his right hand.
+Motion anchor: Never stands. His wand rises only slightly when Malfoid approaches. He stays physically guarded, then freezes at her closeness.
+Voice: Young male, clear and natural, exhaustion slightly roughening a grounded mid-range tone; emotionally direct, restrained intensity.
+
+MALFOID:
+Base: Young woman matching @image4.
+Features: Long straight platinum-white hair, pale gray-blue eyes. Black forest-green-lined robe, ivory shirt, green-and-silver striped tie, charcoal V-neck sweater, pleated skirt, dark tights and black loafers.
+State in this scene: Initially among the surrounding followers, Male 3 directly behind her with one hand on each shoulder; composed, uninjured, brown wand in her right hand.
+Physics / personality / detail: Explosive entry followed by measured steps, precise hands and an unreadable face.
+Motion anchor: Her wand remains in her right hand. She uses her free left hand for Male 1's chin and mouth. No kiss.
+Voice: Young female, cool and composed, smooth and slightly low-pitched; precise articulation, understated confidence, dry lightly teasing edge rather than softness.
+
+MALE 3 — MALFOID’S FATHER:
+Base: Tall, lean male matching the hood-on appearance in @image9.
+Features: Raised black hood; elongated full-face silver mask with narrow black eye openings, central nose ridge and symmetrical engraved ornament. Pale silver-blond hair falls beside the mask. Long black robe with broad sleeves, dark diamond-patterned front trim, small silver chest fittings and a weathered ragged hem; dark high-collared shirt, fitted black waistcoat, black trousers and tall black boots. Bare pale hands; no gloves.
+State in this scene: Within the surrounding ring at the opening, directly behind Malfoid with one hand on each of her shoulders. When the battlefield is revealed in Shot 12, he is down and motionless among the six other masked Wizards.
+Motion anchor: Does not accompany Malfoid’s blitz. Shoulder contact does not persist after she moves away. His takedown is not shown; hood and full-face silver mask remain on.
+
+EVIL LORD:
+Base: Slender bald male matching @image5.
+Features: Pale gray-green skin, hollow angular face, slit-nostril nose, narrow red eyes, bony fingers. Matte dark charcoal-olive robe, dark boots, pale tan wand in his right hand.
+State in this scene: Standing over grounded Male 1 with wand raised toward him.
+Voice: Low male, smooth and controlled, aristocratic and precise, cold resonant presence; forceful attack followed by a quiet break of disbelief.
+
+MALE 2:
+Base: Young man matching @image2.
+Features: Ginger hair, pale freckled face, burgundy-lined dark robe, pale shirt, dark-red tie, charcoal sweater, worn trousers and black lace-up shoes.
+Motion anchor: Remains down nearby throughout; no intervention.
+
+FEMALE 1:
+Base: Young woman matching @image3.
+Features: Voluminous chestnut hair, brown eyes, scratched cheeks, burgundy-lined black robe, white shirt, burgundy tie, gray-purple sweater vest, dark pleated skirt, tights and black lace-up shoes.
+Motion anchor: Remains down nearby throughout; no intervention.
+
+WIZARDS:
+Base: Exactly six other masked followers using six distinct costume variants from @image6; Male 3 is additional and uses his own reference.
+Features: Varied dark hooded robes in charcoal, blue-gray, green, olive, plum and teal; decorated ivory-gray masks, dark gloves, boots, belts and selected metal bracers.
+State in this scene: Standing in an enclosing ring at the opening. All are down and motionless when the battlefield is revealed in Shot 12.
+Motion anchor: Their takedown is not shown. No added battle or explanatory attack.
+
+[SETTING]
+RUINED CASTLE COURTYARD:
+Base: Architecture and paving grounded in @image7 and @image8.
+Features: Broken Gothic arcades, jagged roofless walls, cracked blue-gray slabs, central paving damage, perimeter rubble and weak side fires. Layered smoke obscures parts of the ring.
+Blocking: Male 1 is grounded near the centre. The Evil Lord faces him at close range. Male 2 and Female 1 lie nearby. Malfoid begins within the followers, Male 3 behind her with one hand on each shoulder. She appears directly behind the Evil Lord, then approaches Male 1 across his fallen body.
+Lighting: Cold blue moonlight, weak orange fires, hard shadows and silver rims; the curse briefly replaces these with green.
+
+[SHOT SEQUENCE]
+00.0–07.5 — SHOT 10:
+Camera: Static tight frontal medium close-up on the Evil Lord from Male 1's eyeline.
+Action: The Evil Lord begins the killing curse. On “アバダ――”, Malfoid blitzes into frame directly behind him in a teleport-like anime burst, already holding her right-hand wand to his temple. Her face is readable beyond his shoulder. He freezes, recognizes her, and quietly speaks. She delivers her incantation without hesitation and fires immediately at its completion.
+Lighting: Cold moonlight on the Evil Lord; hard silver rim on Malfoid's arrival, then the frame floods green.
+Dialogue: EVIL LORD; 「アバダ――」
+Delivery: Suddenly forceful and lethal, all previous restraint snapping into the attack; interrupted before completing the curse.
+Dialogue: EVIL LORD; 「……ドラコ。」
+Delivery: Very quiet, breath caught slightly, disbelief entering his voice.
+Dialogue: MALFOID; 「アバダ・ケダブラ。」
+Delivery: Calm and absolute, level volume, no hesitation or anger.
+VFX: High-speed smear/blitz entry, brief held reveal, then point-blank green impact flash and shadow inversion.
+SFX: Sharp blitz impact, wand tap against skin, point-blank curse discharge.
+
+07.5–09.5 — SHOT 11:
+Duration: 2.0s
+Camera: Ground-level medium shot from Male 1’s side; static.
+Action: The Evil Lord’s wand slips from his hand and he collapses heavily. Malfoid remains standing behind him.
+Dialogue: —
+SFX: CLACK. THUD.
+Lighting: Green afterglow fades back into cold moonlight.
+VFX: Small impact shake and dust kick.
+
+09.5–12.5 — SHOT 12:
+Camera: High-angle wide shot, slowly pulling back over the courtyard.
+Action: The Evil Lord is down beside Male 1. Male 3 and the other six masked Wizards who had surrounded them are now down across the courtyard while Malfoid remains the only standing figure.
+Dialogue: —
+SFX: Wind returns into the silence.
+Lighting: Moonlight opens the entire battlefield while scattered fires continue to flicker.
+VFX: Smoke clears in layers, gradually exposing the changed battlefield.
+
+12.5–14.0 — SHOT 13:
+Camera: Static tight three-quarter frontal close-up on Male 1.
+Action: Male 1 looks screen-left, then slowly scans toward screen-right. Shock shifts into deeper confusion.
+Lighting: Cold moonlight catches both eyes behind his glasses.
+VFX: Minimal held animation.
+SFX: His breathing.
+
+14.0–16.5 — SHOT 14:
+Camera: Static low-angle Male 1 POV, medium-full on Malfoid; fallen Evil Lord across the lower foreground.
+Action: Malfoid lowers her wand, steps over the Evil Lord and walks directly toward camera.
+Lighting: She crosses alternating moonlight and orange fire spill.
+VFX: Smoke parallax separates her from the background.
+SFX: Slow measured footsteps.
+
+16.5–19.0 — SHOT 15:
+Camera: Static over-the-shoulder medium shot behind Male 1, his wand enlarged in the near foreground.
+Action: Male 1 raises his right-hand wand slightly. Malfoid notices without slowing, stops directly in front of him and crouches.
+Lighting: Cool rim light outlines her; Male 1 remains darker in the foreground.
+VFX: Background detail softens as she comes closer.
+SFX: Footsteps stop; fabric folds as she crouches.
+
+19.0–22.0 — SHOT 16:
+Camera: Static tight side-profile two-shot at their eye level; Male 1 frame-left, Malfoid frame-right.
+Action: Keeping her wand lowered in her right hand, Malfoid places her left hand beneath Male 1's chin and turns his face slightly toward her. She studies his cheek cut, then wipes the blood from the corner of his mouth with her left thumb.
+Lighting: Moonlight falls across his face as she turns it.
+VFX: Background simplifies into dark painted shapes.
+SFX: Male 1 takes a short breath.
+
+22.0–24.5 — SHOT 17:
+Camera: Over-the-shoulder close-up behind Malfoid on Male 1's face; slow push-in.
+Action: Male 1 watches her closely, unable to read her. His mouth opens as he finally tries to speak.
+Lighting: A narrow moonlit reflection crosses his glasses without hiding his eyes.
+Dialogue: MALE 1; 「どうして――」
+Delivery: Quiet and bewildered, weakened by exhaustion; the unfinished question slips out before he composes himself.
+VFX: Background falls progressively darker.
+SFX: His voice breaks the silence.
+
+24.5–30.0 — SHOT 18:
+Camera: Tight side-profile two-shot; slow push-in.
+Action: Malfoid leans toward Male 1 until their faces nearly touch, then deliberately moves past his mouth toward his ear. Male 1 freezes. She speaks close to his ear; their lips never touch.
+Lighting: A thin silver rim traces both profiles.
+Dialogue: MALFOID; 「相変わらず質問が多いのね、ポッター。」
+Delivery: Low and close, dry and lightly amused; confident teasing without tenderness.
+VFX: Background reduces to near-black, with restrained eye highlights.
+SFX: Her voice sits almost alone in the mix.
+
+[PRODUCTION NOTES]
+Audio design: NO MUSIC, no score, no musical stings. Exact Japanese dialogue only. Physical blitz, wand contact, discharge, clack, thud, footsteps, fabric, breathing, wind and distant fire. Reduce ambience around the final exchange without introducing a musical tone.
+Continuity: Preserve Male 1's bruises and cheek cut. The mouth-corner blood is visibly wiped in Shot 16 and must not return afterward. Both protagonists retain their wands in their right hands. Preserve Male 1 frame-left and Malfoid frame-right across the intimate profile shots.
+Critical constraint: At 00.0, hard cut directly from @video1’s ending to the specified Shot 10 camera; no repeated final shot, recap, opening hold, transition shot or repeated speech. All timestamps describe new footage after @video1 ends. Exactly seven masked Wizards surround the central group: Male 3 plus six others, not seven others. In Shot 12 all seven are down and Malfoid is the only standing figure. Male 3 retains his raised hood and full-face silver mask. Shot 11 is exactly the specified two-second ground-level collapse. No alternative fall, disintegration or additional action. The Evil Lord never completes his curse. The followers' defeat is revealed, not explained. No kiss, tenderness, added combat or extra dialogue. Reference display poses never replace staging.
+Animation style: Stable camera during the blitz. Impact frames are confined to the entry and discharge; subsequent performance uses restrained cel-anime acting.
+Avoid: Jitter, bent or distorted limbs, malformed hands, temporal flicker, identity drift, chaotic composition, inconsistent features, duplicated wands, hand swapping, reference-image display poses and subtitles.

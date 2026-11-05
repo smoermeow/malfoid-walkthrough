@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A source-linked production walkthrough of two retro-anime episodes, from script iteration through reference design and generation."><title>From script to production · Malfoid</title><meta name="theme-color" content="#0b0d10"><link rel="icon" type="image/png" href="brand/logo.png"><link rel="stylesheet" href="style.css"><script src="site.js" defer></script></head><body><a class="skip-link" href="#walkthrough-content">Skip to content</a><header><div class="masthead"><a class="brand" href="index.html" aria-label="Morderkai Studio — walkthrough overview"><img class="brand-logo" src="brand/logo.png" width="36" height="36" alt=""><span class="brand-name"><span class="brand-title">MORDERKAI <em>STUDIO</em></span><span class="brand-by">By smoermeow</span></span></a><div class="notebook-meta"><span class="notebook-label">Production notebooks</span><span class="draft">Production walkthrough</span></div></div><nav aria-label="Main navigation"><a href="index.html">Overview</a><a href="character-design.html">Images</a><a href="script-development.html">Scripting</a><a href="prompting.html">Prompting</a><a href="assets.html">References</a><a href="episode-1.html">Episode 1</a><a href="episode-2.html">Episode 2</a><a href="skills.html">Skills</a><a href="prompt-archive.html">Archive</a></nav></header><main id="walkthrough-content"><p class="eyebrow">Generation walkthrough</p><h1>From script to production</h1><article class="prose"><h1>From Script to Production</h1>
+<p>At this point, the actual script was basically there.</p>
+<p>The next problem was different:</p>
+<p><strong>How do I turn this into something I can actually use for generation?</strong></p>
+<p>The full script was too large and contained a lot of information that only mattered to certain shots, so the next step was to connect the script to the actual visual references and break it into manageable production sections.</p>
+<hr />
+<h2>13. Attach the real character and environment references</h2>
+<p>I already had the character and environment images I wanted to use.</p>
+<p>So instead of leaving the script with generic names, we mapped the actual references onto it.</p>
+<p>For example:</p>
+<ul>
+<li>Harry → Male 1</li>
+<li>Ron → Male 2</li>
+<li>Hermione → Female 1</li>
+<li>Malfoid → Malfoid</li>
+<li>Voldemort → Evil Lord</li>
+<li>Malfoid's father → Male 3</li>
+<li>Death Eaters → Wizards</li>
+<li>courtyard establishing reference</li>
+<li>courtyard ground-level reference</li>
+<li>courtyard overhead reference</li>
+</ul>
+<p>The script could then refer directly to the images the generation model was supposed to use.</p>
+<p>This is also where continuity becomes much easier to inspect, because every character in the shot now has an actual reference attached to them.</p>
+<hr />
+<h2>14. Split the full script into smaller production sections</h2>
+<p>Rather than trying to use the entire episode as one massive generation prompt, we broke it into sections.</p>
+<p>For Episode 1, that became:</p>
+<p><strong>Shots 1–9</strong></p>
+<p><strong>Shots 10–18</strong></p>
+<p><strong>Shots 19–26</strong></p>
+<p>Each section could carry the relevant references and shot instructions without dragging the entire episode into every prompt.</p>
+<p>The story itself was already finished.</p>
+<p>At this stage we were mainly packaging it for production.</p>
+<hr />
+<h2>15. Use the reference pass to catch continuity problems</h2>
+<p>Once the real references were attached, some problems became easier to see.</p>
+<p>A concrete example was Male 3.</p>
+<p>He was supposed to stand directly behind Malfoid in the early Death Eater group, with his hands on her shoulders.</p>
+<p>At one point he had disappeared from that setup.</p>
+<p>So we corrected the production version and restored him there.</p>
+<p>Later, when the defeated Death Eaters are revealed, he also needed to be present among them.</p>
+<p>This was no longer really a story rewrite.</p>
+<p>It was a <strong>continuity and reference pass</strong>:</p>
+<ul>
+<li>Is everyone who should be in the shot actually there?</li>
+<li>Are the correct references being used?</li>
+<li>Does the later shot still match what was established earlier?</li>
+<li>Has a character accidentally disappeared between versions?</li>
+</ul>
+<p>That became the bridge between the finished script and the actual image/video generation process.</p>
+<hr />
+<h2>16. The workflow had now changed</h2>
+<p>Up to this point, the process had been mostly about:</p>
+<p><strong>story → scene → shots → camera → dialogue → blocking</strong></p>
+<p>Now it became:</p>
+<p><strong>finished script → references → production sections → continuity check → generation</strong></p>
+<p>That distinction matters.</p>
+<p>The creative scene development was mostly done.</p>
+<p>The next job was making sure the script could survive contact with the actual generation pipeline.</p>
+<hr />
+<h1>Next: Generating the Shots</h1>
+<p>From here, the walkthrough can move into how the individual shot prompts were actually used with the image/video tools and how the generated results fed back into the production process.</p></article><aside class="note">The supplied three-sequence script and the later generation prompts are separate versions. Their exact timing and shot changes remain visible rather than being rewritten to appear identical.</aside><section><h2>Continue into generation</h2><p><a href="episode-1.html" >Episode 1 recipes</a> · <a href="episode-2.html" >Episode 2 recipes</a> · <a href="skills.html" >Complete skill packages</a></p></section></main><footer><a class="brand" href="index.html" aria-label="Morderkai Studio — walkthrough overview"><img class="brand-logo" src="brand/logo.png" width="36" height="36" alt=""><span class="brand-name"><span class="brand-title">MORDERKAI <em>STUDIO</em></span><span class="brand-by">By smoermeow</span></span></a><div class="footer-copy">Created by smoermeow / MORDERKAI. Exact generation text and native media are preserved; portable annotations and skill adaptations are labelled. <a href="provenance.html" >Sources &amp; scope</a> · <a href="recreate.html" >Follow the example</a> · <a href="make-your-own.html" >Make your own</a></div></footer></body></html>
